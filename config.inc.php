@@ -27,7 +27,7 @@ $config['blazegraph-namespace']		= 'pid';
 
 $config['sparql_endpoint'] 	= '';
 
-if ($config['namespace'] != '')
+if ($config['blazegraph-namespace'] != '')
 {
 	$config['sparql_endpoint']	= $config['blazegraph-url'] . '/blazegraph/namespace/' . $config['blazegraph-namespace'] . '/sparql'; 
 }
