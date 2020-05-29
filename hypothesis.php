@@ -3,6 +3,9 @@
 require_once (dirname(__FILE__) . '/config.inc.php');
 require_once (dirname(__FILE__) . '/vendor/autoload.php');
 
+require_once (dirname(__FILE__) . '/context.php');
+
+
 $hypothesis_api_url = 'https://api.hypothes.is/api';
 
 
@@ -64,8 +67,9 @@ function hypothesis_post($url, $data)
 
 
 //----------------------------------------------------------------------------------------
-function hypothesis_get_annotation($id)
+function hypothesis_get_annotation($id, $cache = false)
 {
+	global $config;
 	global $hypothesis_api_url;
 	
 	$obj = null;
@@ -76,6 +80,11 @@ function hypothesis_get_annotation($id)
 	if ($json != '')
 	{
 		$obj = json_decode($json);
+		
+		if ($cache)
+		{
+			file_put_contents($config['cache'] . '/' . $id . '.json', $json);
+		}
 	}
 	
 	return $obj;
@@ -133,6 +142,95 @@ function hypothesis_search_uri($uri)
 function hypothesis_search_doi($doi)
 {
 	return hypothesis_search_uri('doi:' . $doi);
+
+}
+
+//----------------------------------------------------------------------------------------
+// Convert hypothes.is annotaton object to RDF
+function hypothesis_annotation_to_rdf($obj, $format='jsonld')
+{
+	global $context;
+
+	// generate triples as array of strings
+	
+	$bnode_counter = 1;
+	
+	$subject_id = '<https://hypothes.is/a/' . $obj->id . '>';
+	
+	$triples[] = $subject_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> . ';
+	
+	foreach($obj->target as $target)
+	{	
+		$target_id = '_:b' . $bnode_counter++;		
+		$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#hasTarget> ' . 	$target_id . ' . ';	
+		
+		// source
+		$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSource> <' . 	$target->source . '> . ';
+		
+		// target and selectors		
+		foreach ($target->selector as $selector)
+		{
+			$selector_id = '_:b' . $bnode_counter++;
+			
+			$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSelector> ' . $selector_id  . ' . ';
+			
+			$triples[] = $selector_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#' . $selector->type . '> . ';
+
+			foreach ($selector as $k => $v)
+			{
+				switch ($k)
+				{
+					case 'end':
+					case 'exact':
+					case 'prefix':
+					case 'start':
+					case 'suffix':
+						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#' . $k . '> "'. addcslashes($v, "\"\n\r") . '" . ';
+						break;		
+						
+					case 'startContainer':
+						$xpath_id =  '_:b' . $bnode_counter++;
+						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasStartSelector> ' . $xpath_id . ' . ';
+						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
+						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
+						break;
+											
+					case 'endContainer':
+						$xpath_id =  '_:b' . $bnode_counter++;
+						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasEndSelector> ' . $xpath_id . ' . ';
+						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
+						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
+						break;
+				
+					default:
+						break;
+				}			
+			}
+		}
+	}
+
+	// print_r($triples);
+	
+	$nt = join("\n", $triples) . "\n\n";	
+	
+	if ($format == 'jsonld')
+	{
+		$doc = jsonld_from_rdf($nt, array('format' => 'application/nquads'));
+		
+		$frame = new stdclass;
+		$frame->{'@context'} = $context;
+		$frame->{'@type'} = 'http://www.w3.org/ns/oa#Annotation';		
+	
+		$framed = jsonld_frame($doc, $frame);
+	
+		$rdf = json_encode($framed, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);	
+	}
+	else
+	{
+		$rdf = $nt;
+	}
+
+	return $rdf;
 
 }
 
@@ -296,182 +394,5 @@ class Annotation
 }
 
 
-// tests
-
-// get an annotation
-
-if (0)
-{
-	$annotation_id = 'M7ilUoPoEeqkjdOD4PJfug';
-	$annotation_id = 'D2siym0TEemaKhMnvTjv0w';
-
-	$obj = hypothesis_get_annotation($annotation_id);
-
-	print_r($obj);
-}
-
-// create an annotation
-if (0)
-{
-	// Make annotation on PDF
-	
-	$uri = 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD5983CC30B0A9192BD08CF62BBAAC6C/S0960428620000013a.pdf/new_species_of_eriocaulon_eriocaulaceae_from_the_southern_western_ghats_of_kerala_india.pdf';
-	$a = new Annotation($uri);
-	
-	$a->add_permissions("acct:rdmpage@hypothes.is");
-
-	// DOI
-	$a->set_doi("10.1017/S0960428620000013");
-	
-	// DOI as identifier
-	$a->add_identifier("doi:10.1017/S0960428620000013");
-	
-	// SciHub
-	$a->add_identifier("https://sci-hub.tw/10.1017/S0960428620000013");
-	
-	$a->set_pdf_url($uri);
-
-	
-	// surrounding text
-	$a->add_text_quote(
-		'Idukki District, Kerala',
-		'collected during field trips in ',
-		'. Specimens were pickled in 4% f'
-	);	
-	
-	// position in text stream from PDF
-	$a->add_text_position(3662, 3685);
-
-	print_r($a->data);
-	
-	//echo json_encode($a->data);
-	
-	$result = hypothesis_create_annotation($a->data);
-	print_r($result);
-	
-
-}
-
-
-// search for annotation
-if (0)
-{
-	$doi = "10.1017/S0960428620000013";
-	
-	$obj = hypothesis_search_doi($doi);
-
-//	print_r($obj);
-	
-	echo json_encode($obj, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-
-}
-
-if (1)
-{
-	$annotation_id = 'M7ilUoPoEeqkjdOD4PJfug';
-	$annotation_id = 'D2siym0TEemaKhMnvTjv0w';
-	$annotation_id = 'BJKGEIPbEeqUhY9L5jQFJA';
-	
-	$annotation_id = 'YEez2qEAEeqgNWc0aIiyEg';
-	
-
-	$obj = hypothesis_get_annotation($annotation_id);
-
-	print_r($obj);
-	
-	$bnode_counter = 1;
-	
-	$subject_id = '<https://hypothes.is/a/' . $obj->id . '>';
-	
-	$triples[] = $subject_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> . ';
-	
-	foreach($obj->target as $target)
-	{	
-		$target_id = '_:b' . $bnode_counter++;		
-		$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#hasTarget> ' . 	$target_id . ' . ';	
-		
-		// source
-		$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSource> <' . 	$target->source . '> . ';
-		
-		// selectors
-		
-		foreach ($target->selector as $selector)
-		{
-			$selector_id = '_:b' . $bnode_counter++;
-			
-			$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSelector> ' . $selector_id  . ' . ';
-			
-			$triples[] = $selector_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#' . $selector->type . '> . ';
-
-			foreach ($selector as $k => $v)
-			{
-				switch ($k)
-				{
-					case 'end':
-					case 'exact':
-					case 'prefix':
-					case 'start':
-					case 'suffix':
-						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#' . $k . '> "'. addcslashes($v, "\"\n\r") . '" . ';
-						break;		
-						
-					case 'startContainer':
-						$xpath_id =  '_:b' . $bnode_counter++;
-						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasStartSelector> ' . $xpath_id . ' . ';
-						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
-						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
-						break;
-											
-					case 'endContainer':
-						$xpath_id =  '_:b' . $bnode_counter++;
-						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasEndSelector> ' . $xpath_id . ' . ';
-						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
-						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
-						break;
-				
-					default:
-						break;
-				}
-			
-			}
-			
-		
-		}
-	}
-
-
-	
-	print_r($triples);
-	
-	$t = join("\n", $triples) . "\n\n";	
-	
-	echo $t;
-	
-		$doc = jsonld_from_rdf($t, array('format' => 'application/nquads'));
-
-		// Context 
-		$context = new stdclass;
-		$context->{'@vocab'} 	= "http://www.w3.org/ns/oa#";
-		$context->rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-		
-		$frame = new stdclass;
-		$frame->{'@context'} = $context;
-		$frame->{'@type'} = 'http://www.w3.org/ns/oa#Annotation';
-		
-	
-		$framed = jsonld_frame($doc, $frame);
-
-		echo json_encode($framed, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-
-		echo "\n";
-		
-	
-	
-	
-	
-	
-}
-
 
 ?>
-

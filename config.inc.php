@@ -17,6 +17,8 @@ if (file_exists(dirname(__FILE__) . '/env.php'))
 	include 'env.php';
 }
 
+$config['cache']					= dirname(__FILE__) . '/cache';
+
 $config['hypothesis-api-key'] 		= getenv('HYPOTHESIS_API_TOKEN');
 
 $config['triplestore'] 				= 'blazegraph-digitalocean';
@@ -33,9 +35,5 @@ else
 {
 	$config['sparql_endpoint']	= $config['blazegraph-url'] . '/blazegraph/sparql'; 
 }
-
-print_r($config);
-
-
 
 ?>
