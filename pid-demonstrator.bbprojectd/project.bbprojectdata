@@ -11,8 +11,10 @@
 		<string>0F8F787A-1C60-4C0B-ACEB-84C633E7A305</string>
 		<string>1D7177F8-948A-4FD4-B745-1A72B19FB59A</string>
 		<string>72E65FB4-7FFF-4A44-A272-A1FA08B24C98</string>
+		<string>F285594F-AD4E-4EDF-B2C4-3F92DC812E21</string>
 		<string>EDE96906-5765-4BF0-AE0A-9F6F933C7CE5</string>
 		<string>2AB20B64-18BB-49EE-AF3B-281B3B83931A</string>
+		<string>8889FA25-9E2D-49F2-AC47-E6566D15CAE4</string>
 		<string>F70FF1FB-65C8-42AF-895B-42D1796E2C0B</string>
 	</array>
 	<key>ProjectItems</key>
@@ -311,6 +313,54 @@
 			<key>UserOverrideItemName</key>
 			<true/>
 		</dict>
+		<key>8889FA25-9E2D-49F2-AC47-E6566D15CAE4</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va+gCAAAAAAQQMAAAAI0oUos3Ios858r0NRTwq1d2
+				twfaDqjuSysZUcrc5oHe5AEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
+				AAEBAABTaXRlcwAAABAAAAABAQAAcGlkLWRlbW9uc3Ry
+				YXRvcgkAAAABAQAAdGVzdC5odG1sAAAAFAAAAAEGAAAQ
+				AAAAIAAAADAAAABAAAAAWAAAAAgAAAAEAwAAEGcCAAAA
+				AAAIAAAABAMAAIV0DQAAAAAACAAAAAQDAAAEVkwAAAAA
+				AAgAAAAEAwAAVwPpAwMAAAAIAAAABAMAABKM6QMDAAAA
+				FAAAAAEGAACIAAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAA
+				BAAAQcI+jK9r+i4YAAAAAQIAAAEAAAAAAAAADwAAAAAA
+				AAAAAAAAAAAAAAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMA
+				APUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNp
+				bnRvc2ggSEQIAAAABAMAAADgBANpAAAACAAAAAAEAABB
+				vt1dYgAAACQAAAABAQAAMjVFNDI4NkQtNzEyQy0zODk5
+				LUI0M0YtNUQzRjZBOEJEMTIxGAAAAAECAACBAAAAAQAA
+				AO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAA
+				AQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAGwAAAAA
+				AAAABRAAANgAAAAAAAAAEBAAAAQBAAAAAAAAQBAAAPQA
+				AAAAAAAAAiAAANABAAAAAAAABSAAAEABAAAAAAAAECAA
+				AFABAAAAAAAAESAAAIQBAAAAAAAAEiAAAGQBAAAAAAAA
+				EyAAAHQBAAAAAAAAICAAALABAAAAAAAAMCAAANwBAAAA
+				AAAAAcAAACQBAAAAAAAAEcAAACAAAAAAAAAAEsAAADQB
+				AAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/rpage/Sites/pid-demonstrator/test.html</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./test.html</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>test.html</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+			<key>UserOverrideItemName</key>
+			<true/>
+		</dict>
 		<key>A8F31A65-33AA-42FE-AD9E-E152C52311CA</key>
 		<dict>
 			<key>ItemData</key>
@@ -404,6 +454,54 @@
 			<string>README.md</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
+			<key>UserOverrideItemName</key>
+			<true/>
+		</dict>
+		<key>F285594F-AD4E-4EDF-B2C4-3F92DC812E21</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va+ACAAAAAAQQMAAAAAmNfmzMT+vi87FFOg2A4JG/
+				c0AHr9Fhfq1XmWARrEDN3AEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
+				AAEBAABTaXRlcwAAABAAAAABAQAAcGlkLWRlbW9uc3Ry
+				YXRvcgIAAAABAQAAanMAABQAAAABBgAAEAAAACAAAAAw
+				AAAAQAAAAFgAAAAIAAAABAMAABBnAgAAAAAACAAAAAQD
+				AACFdA0AAAAAAAgAAAAEAwAABFZMAAAAAAAIAAAABAMA
+				AFcD6QMDAAAACAAAAAQDAAACjOkDAwAAABQAAAABBgAA
+				gAAAAJAAAACgAAAAsAAAAMAAAAAIAAAAAAQAAEHCQMq/
+				J/khGAAAAAECAAACAAAAAAAAAA8AAAAAAAAAAAAAAAAA
+				AAAIAAAABAMAAAMAAAAAAAAABAAAAAMDAAD1AQAACAAA
+				AAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhE
+				CAAAAAQDAAAA4AQDaQAAAAgAAAAABAAAQb7dXWIAAAAk
+				AAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1CNDNGLTVE
+				M0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+				AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA
+				/v///wEAAAAAAAAAEAAAAAQQAABkAAAAAAAAAAUQAADQ
+				AAAAAAAAABAQAAD8AAAAAAAAAEAQAADsAAAAAAAAAAIg
+				AADIAQAAAAAAAAUgAAA4AQAAAAAAABAgAABIAQAAAAAA
+				ABEgAAB8AQAAAAAAABIgAABcAQAAAAAAABMgAABsAQAA
+				AAAAACAgAACoAQAAAAAAADAgAADUAQAAAAAAAAHAAAAc
+				AQAAAAAAABHAAAAgAAAAAAAAABLAAAAsAQAAAAAAABDQ
+				AAAEAAAAAAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/rpage/Sites/pid-demonstrator/js/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./js</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>js</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
 			<key>UserOverrideItemName</key>
 			<true/>
 		</dict>

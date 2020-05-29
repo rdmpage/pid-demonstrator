@@ -7,7 +7,21 @@ Persistent identifiers demonstrator for [Towards a National Collection - Heritag
 
 ### Multiple representations
 
-Annotations can be attached to multiple representations of the same thing, and hypothes.is doesn’t always record the DOI orf a paper. Therefore we will need to call a service to convert a URL to an identifier.
+Annotations can be attached to multiple representations of the same thing, and hypothes.is doesn’t always record the DOI of a paper. Therefore we will need to call a service to convert a URL to an identifier.
+
+### Convert text to PID
+
+Selected text need to be parsed and converted to an identifier, need service such as one that converts specimen code to a PID.
+
+### Add annotations to triple store
+
+### Fetch annotations from annotation feed
+
+Hypothes.is feed is 
+
+```https://hypothes.is/stream.rss?user=<username>```
+
+
 
 
 ## Recommendations for PID providers
