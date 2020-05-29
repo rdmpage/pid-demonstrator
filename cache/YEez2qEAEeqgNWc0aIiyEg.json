@@ -1,1 +1,48 @@
-{"id": "YEez2qEAEeqgNWc0aIiyEg", "created": "2020-05-28T16:29:17.085074+00:00", "updated": "2020-05-28T16:29:17.085074+00:00", "user": "acct:rdmpage@hypothes.is", "uri": "https://phytokeys.pensoft.net/article_preview.php?id=21753", "text": "K000037101", "tags": [], "group": "__world__", "permissions": {"read": ["group:__world__"], "admin": ["acct:rdmpage@hypothes.is"], "update": ["acct:rdmpage@hypothes.is"], "delete": ["acct:rdmpage@hypothes.is"]}, "target": [{"source": "https://phytokeys.pensoft.net/article_preview.php?id=21753", "selector": [{"type": "RangeSelector", "endOffset": 117, "startOffset": 107, "endContainer": "/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/p[1]", "startContainer": "/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/p[1]"}, {"end": 5130, "type": "TextPositionSelector", "start": 5120}, {"type": "TextQuoteSelector", "exact": "K000037101", "prefix": "6, Kingdon-Ward 7341 (holotype, ", "suffix": "!; isotype, K000037102!).\n      "}]}], "document": {"title": ["Rediscovery and amended descriptions of Begonia kingdon-wardii (Begoniaceae) from North Myanmar"]}, "links": {"html": "https://hypothes.is/a/YEez2qEAEeqgNWc0aIiyEg", "incontext": "https://hyp.is/YEez2qEAEeqgNWc0aIiyEg/phytokeys.pensoft.net/article_preview.php?id=21753", "json": "https://hypothes.is/api/annotations/YEez2qEAEeqgNWc0aIiyEg"}, "flagged": false, "hidden": false, "user_info": {"display_name": null}}
+{
+  "id": "YEez2qEAEeqgNWc0aIiyEg",
+  "created": "2020-05-28T16:29:17.085074+00:00",
+  "updated": "2020-05-28T16:29:17.085074+00:00",
+  "user": "acct:rdmpage@hypothes.is",
+  "uri": "https://phytokeys.pensoft.net/article_preview.php?id=21753",
+  "text": "K000037101",
+  "tags": [],
+  "group": "__world__",
+  "permissions": {
+    "read": ["group:__world__"],
+    "admin": ["acct:rdmpage@hypothes.is"],
+    "update": ["acct:rdmpage@hypothes.is"],
+    "delete": ["acct:rdmpage@hypothes.is"]
+  },
+  "target": [{
+    "source": "https://phytokeys.pensoft.net/article_preview.php?id=21753",
+    "selector": [{
+      "type": "RangeSelector",
+      "endOffset": 117,
+      "startOffset": 107,
+      "endContainer": "/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/p[1]",
+      "startContainer": "/div[2]/div[9]/div[1]/div[1]/div[2]/div[1]/p[1]"
+    }, {
+      "end": 5130,
+      "type": "TextPositionSelector",
+      "start": 5120
+    }, {
+      "type": "TextQuoteSelector",
+      "exact": "K000037101",
+      "prefix": "6, Kingdon-Ward 7341 (holotype, ",
+      "suffix": "!; isotype, K000037102!).\n      "
+    }]
+  }],
+  "document": {
+    "title": ["Rediscovery and amended descriptions of Begonia kingdon-wardii (Begoniaceae) from North Myanmar"]
+  },
+  "links": {
+    "html": "https://hypothes.is/a/YEez2qEAEeqgNWc0aIiyEg",
+    "incontext": "https://hyp.is/YEez2qEAEeqgNWc0aIiyEg/phytokeys.pensoft.net/article_preview.php?id=21753",
+    "json": "https://hypothes.is/api/annotations/YEez2qEAEeqgNWc0aIiyEg"
+  },
+  "flagged": false,
+  "hidden": false,
+  "user_info": {
+    "display_name": null
+  }
+}
