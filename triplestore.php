@@ -8,6 +8,71 @@ require_once (dirname(__FILE__) . '/vendor/autoload.php');
 
 // SPARQL API wrapper
 
+//----------------------------------------------------------------------------------------
+// get
+function sparql_get($url, $format = 'application/ld+json')
+{
+	
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   	
+	curl_setopt($ch, CURLOPT_HTTPHEADER, 
+		array(
+			"Accept: " . $format 
+			)
+		);
+
+	$response = curl_exec($ch);
+	if($response == FALSE) 
+	{
+		$errorText = curl_error($ch);
+		curl_close($ch);
+		die($errorText);
+	}
+	
+	$info = curl_getinfo($ch);
+	$http_code = $info['http_code'];
+	
+	curl_close($ch);
+	
+	return $response;
+}
+
+//----------------------------------------------------------------------------------------
+// post
+function sparql_post($url, $format = 'application/ld+json', $data =  null)
+{
+	
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);  
+	curl_setopt($ch, CURLOPT_HTTPHEADER, 
+		array(
+			"Accept: " . $format
+			)
+		);
+		
+
+	$response = curl_exec($ch);
+	if($response == FALSE) 
+	{
+		$errorText = curl_error($ch);
+		curl_close($ch);
+		die($errorText);
+	}
+	
+	$info = curl_getinfo($ch);
+	$http_code = $info['http_code'];
+		
+	curl_close($ch);
+	
+	return $response;
+}
+
 
 //----------------------------------------------------------------------------------------
 // Upload a file of triples
@@ -57,33 +122,8 @@ function sparql_describe($sparql_endpoint, $uri, $format='application/ld+json')
 		
 	// Query is string
 	$data = 'query=' . urlencode('DESCRIBE <' . $uri . '>');
-
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_POST, 1);
-	curl_setopt($ch, CURLOPT_HEADER, 0);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
-	curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: " . $format));
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-
-	$response = curl_exec($ch);
-	if($response == FALSE) 
-	{
-		$errorText = curl_error($ch);
-		curl_close($ch);
-		die($errorText);
-	}
 	
-	$info = curl_getinfo($ch);
-	$http_code = $info['http_code'];
-	
-	if ($http_code != 200)
-	{
-		echo $response;	
-		die ("Triple store returned $http_code\n");
-	}
-	
-	curl_close($ch);
+	$response = sparql_get($url, $format);
 	
 	// Fuseki returns nicely formatted JSON-LD, Blazegraph returns array of horrible JSON-LD
 	// as first element of an array
@@ -190,32 +230,9 @@ WHERE {
 
 	$data = 'query=' . urlencode($query);
 	
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_POST, 1);
-	curl_setopt($ch, CURLOPT_HEADER, 0);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
-	curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: " . $format));
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+	$response = sparql_post($url, $format, $data);
+	
 
-	$response = curl_exec($ch);
-	if($response == FALSE) 
-	{
-		$errorText = curl_error($ch);
-		curl_close($ch);
-		die($errorText);
-	}
-	
-	$info = curl_getinfo($ch);
-	$http_code = $info['http_code'];
-	
-	if ($http_code != 200)
-	{
-		echo $response;	
-		die ("Triple store returned $http_code\n");
-	}
-	
-	curl_close($ch);
 	
 	
 	// Fuseki returns nicely formatted JSON-LD, Blazegraph returns array of horrible JSON-LD
@@ -271,33 +288,65 @@ function sparql_query($sparql_endpoint, $query, $format='application/json')
 {
 	$url = $sparql_endpoint . '?query=' . urlencode($query);
 	
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_HEADER, 0);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
-	curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: " . $format));
-
-	$response = curl_exec($ch);
-	if($response == FALSE) 
-	{
-		$errorText = curl_error($ch);
-		curl_close($ch);
-		die($errorText);
-	}
-	
-	$info = curl_getinfo($ch);
-	$http_code = $info['http_code'];
-	
-	if ($http_code != 200)
-	{
-		echo $response;	
-		die ("Triple store returned $http_code\n");
-	}
-	
-	curl_close($ch);
+	$response = sparql_get($url, $format);
 
 	return $response;
 }
+
+//----------------------------------------------------------------------------------------
+// CONSTRUCT a stream, by default return as JSON-LD
+function sparql_construct_stream($sparql_endpoint, $query, $format='application/ld+json')
+{
+	if (1)
+	{
+		$response = sparql_get(
+			$sparql_endpoint . '?query=' . urlencode($query), 
+			$format,
+			'query=' . $query
+		);
+	}
+	else
+	{
+		$response = sparql_post(
+			$sparql_endpoint, 
+			$format,
+			'query=' . $query
+		);
+	}
+		
+	$obj = json_decode($response);
+	if (is_array($obj))
+	{
+		$doc = $obj;
+		
+		//echo '<pre>' . print_r($obj) . '<pre>';
+		
+		
+		$context = (object)array(
+			'@vocab' => 'http://schema.org/'
+		);
+		
+		// dataFeedElement is always an array
+		$dataFeedElement = new stdclass;
+		$dataFeedElement->{'@id'} = "dataFeedElement";
+		$dataFeedElement->{'@container'} = "@set";
+		
+		$context->{'dataFeedElement'} = $dataFeedElement;	
+	
+		$frame = (object)array(
+			'@context' => $context,
+			'@type' => 'http://schema.org/DataFeed'
+		);
+			
+		$data = jsonld_frame($doc, $frame);
+			
+		$response = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);		
+	}
+	
+
+	return $response;
+}
+
 
 
 
