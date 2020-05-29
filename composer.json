@@ -1,0 +1,13 @@
+{
+    "name": "rpage/pid-demonstrator",
+    "require": {
+        "digitalbazaar/json-ld": "^0.4.7",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Roderic Page",
+            "email": "rdmpage@gmail.com"
+        }
+    ]
+}
