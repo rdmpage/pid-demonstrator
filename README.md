@@ -2,6 +2,15 @@
 
 Persistent identifiers demonstrator for [Towards a National Collection - HeritagePIDs](https://tanc-ahrc.github.io/HeritagePIDs/).
 
+## Configuration
+
+When developing locally, put “secrets” in env.php (which is not in the Github repo). When running on Heroku (or elsewhere) add secret values as environmental parameters:
+
+Key | Value
+-- | --
+HYPOTHESIS_API_TOKEN | 6879-06f…
+BLAZEGRAPH_URL | http://167…
+
 
 ## Tasks
 
