@@ -4,7 +4,8 @@
 <dict>
 	<key>HierarchyData</key>
 	<array>
-		<string>A8F31A65-33AA-42FE-AD9E-E152C52311CA</string>
+		<string>630DC1BE-220F-4D98-AE51-4F750C258748</string>
+		<string>52FECB9B-0A23-4396-A2E9-554A99AECF3F</string>
 		<string>977D22B6-A2D1-45FE-9639-371603D03369</string>
 		<string>2487D43A-9751-464D-8C1E-82E326E170CF</string>
 		<string>5E9A8ED7-6282-4571-81CD-B762B3C50713</string>
@@ -213,6 +214,54 @@
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
+		<key>52FECB9B-0A23-4396-A2E9-554A99AECF3F</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va+QCAAAAAAQQMAAAAAUF99OOCZuazbPkpqGKZAZB
+				nTH+0IXtNaPO5kWh+gUF4AEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
+				AAEBAABTaXRlcwAAABAAAAABAQAAcGlkLWRlbW9uc3Ry
+				YXRvcgUAAAABAQAAY2FjaGUAAAAUAAAAAQYAABAAAAAg
+				AAAAMAAAAEAAAABYAAAACAAAAAQDAAAQZwIAAAAAAAgA
+				AAAEAwAAhXQNAAAAAAAIAAAABAMAAARWTAAAAAAACAAA
+				AAQDAABXA+kDAwAAAAgAAAAEAwAANRXpAwMAAAAUAAAA
+				AQYAAIQAAACUAAAApAAAALQAAADEAAAACAAAAAAEAABB
+				wkCtkmQg9hgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAA
+				AAAAAAAACAAAAAQDAAADAAAAAAAAAAQAAAADAwAA9QEA
+				AAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9z
+				aCBIRAgAAAAEAwAAAOAEA2kAAAAIAAAAAAQAAEG+3V1i
+				AAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4OTktQjQz
+				Ri01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMA
+				AAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAA
+				zAAAAP7///8BAAAAAAAAABAAAAAEEAAAaAAAAAAAAAAF
+				EAAA1AAAAAAAAAAQEAAAAAEAAAAAAABAEAAA8AAAAAAA
+				AAACIAAAzAEAAAAAAAAFIAAAPAEAAAAAAAAQIAAATAEA
+				AAAAAAARIAAAgAEAAAAAAAASIAAAYAEAAAAAAAATIAAA
+				cAEAAAAAAAAgIAAArAEAAAAAAAAwIAAA2AEAAAAAAAAB
+				wAAAIAEAAAAAAAARwAAAIAAAAAAAAAASwAAAMAEAAAAA
+				AAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/rpage/Sites/pid-demonstrator/cache/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./cache</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>cache</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+			<key>UserOverrideItemName</key>
+			<true/>
+		</dict>
 		<key>5E9A8ED7-6282-4571-81CD-B762B3C50713</key>
 		<dict>
 			<key>ItemData</key>
@@ -258,6 +307,54 @@
 			</dict>
 			<key>ItemName</key>
 			<string>config.inc.php</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+			<key>UserOverrideItemName</key>
+			<true/>
+		</dict>
+		<key>630DC1BE-220F-4D98-AE51-4F750C258748</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va+gCAAAAAAQQMAAAAKUI1QHVOW52EjuZzGWuLBZr
+				y5fX1Q7PU6O5TUqsAi+X5AEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
+				AAEBAABTaXRlcwAAABAAAAABAQAAcGlkLWRlbW9uc3Ry
+				YXRvcgoAAAABAQAALmdpdGlnbm9yZQAAFAAAAAEGAAAQ
+				AAAAIAAAADAAAABAAAAAWAAAAAgAAAAEAwAAEGcCAAAA
+				AAAIAAAABAMAAIV0DQAAAAAACAAAAAQDAAAEVkwAAAAA
+				AAgAAAAEAwAAVwPpAwMAAAAIAAAABAMAALUE6QMDAAAA
+				FAAAAAEGAACIAAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAA
+				BAAAQcJAqWTcGKsYAAAAAQIAAAEAAAAAAAAADwAAAAAA
+				AAAAAAAAAAAAAAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMA
+				APUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNp
+				bnRvc2ggSEQIAAAABAMAAADgBANpAAAACAAAAAAEAABB
+				vt1dYgAAACQAAAABAQAAMjVFNDI4NkQtNzEyQy0zODk5
+				LUI0M0YtNUQzRjZBOEJEMTIxGAAAAAECAACBAAAAAQAA
+				AO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAA
+				AQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAGwAAAAA
+				AAAABRAAANgAAAAAAAAAEBAAAAQBAAAAAAAAQBAAAPQA
+				AAAAAAAAAiAAANABAAAAAAAABSAAAEABAAAAAAAAECAA
+				AFABAAAAAAAAESAAAIQBAAAAAAAAEiAAAGQBAAAAAAAA
+				EyAAAHQBAAAAAAAAICAAALABAAAAAAAAMCAAANwBAAAA
+				AAAAAcAAACQBAAAAAAAAEcAAACAAAAAAAAAAEsAAADQB
+				AAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/rpage/Sites/pid-demonstrator/.gitignore</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./.gitignore</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>.gitignore</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 			<key>UserOverrideItemName</key>
@@ -508,54 +605,6 @@
 			<string>canonical.php</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
-			<key>UserOverrideItemName</key>
-			<true/>
-		</dict>
-		<key>A8F31A65-33AA-42FE-AD9E-E152C52311CA</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>BookmarkData</key>
-				<data>
-				Ym9va+QCAAAAAAQQMAAAAAUF99OOCZuazbPkpqGKZAZB
-				nTH+0IXtNaPO5kWh+gUF4AEAAAQAAAADAwAAAAgAKAUA
-				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
-				AAEBAABTaXRlcwAAABAAAAABAQAAcGlkLWRlbW9uc3Ry
-				YXRvcgUAAAABAQAAY2FjaGUAAAAUAAAAAQYAABAAAAAg
-				AAAAMAAAAEAAAABYAAAACAAAAAQDAAAQZwIAAAAAAAgA
-				AAAEAwAAhXQNAAAAAAAIAAAABAMAAARWTAAAAAAACAAA
-				AAQDAABXA+kDAwAAAAgAAAAEAwAANRXpAwMAAAAUAAAA
-				AQYAAIQAAACUAAAApAAAALQAAADEAAAACAAAAAAEAABB
-				wkCtkmQg9hgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAA
-				AAAAAAAACAAAAAQDAAADAAAAAAAAAAQAAAADAwAA9QEA
-				AAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9z
-				aCBIRAgAAAAEAwAAAOAEA2kAAAAIAAAAAAQAAEG+3V1i
-				AAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4OTktQjQz
-				Ri01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMA
-				AAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAA
-				zAAAAP7///8BAAAAAAAAABAAAAAEEAAAaAAAAAAAAAAF
-				EAAA1AAAAAAAAAAQEAAAAAEAAAAAAABAEAAA8AAAAAAA
-				AAACIAAAzAEAAAAAAAAFIAAAPAEAAAAAAAAQIAAATAEA
-				AAAAAAARIAAAgAEAAAAAAAASIAAAYAEAAAAAAAATIAAA
-				cAEAAAAAAAAgIAAArAEAAAAAAAAwIAAA2AEAAAAAAAAB
-				wAAAIAEAAAAAAAARwAAAIAAAAAAAAAASwAAAMAEAAAAA
-				AAAQ0AAABAAAAAAAAAA=
-				</data>
-				<key>FileURL</key>
-				<string>file:///Users/rpage/Sites/pid-demonstrator/cache/</string>
-				<key>HasSecurityScope</key>
-				<true/>
-				<key>RelativePath</key>
-				<string>./cache</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>cache</string>
-			<key>ItemType</key>
-			<string>FolderReference</string>
 			<key>UserOverrideItemName</key>
 			<true/>
 		</dict>
