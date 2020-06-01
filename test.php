@@ -8,15 +8,20 @@ require_once (dirname(__FILE__) . '/triplestore.php');
 
 
 
-if (0)
+if (1)
 {
 	$annotation_id = 'YEez2qEAEeqgNWc0aIiyEg';
+	$annotation_id = '9-LDiKP4EeqvhlsZn_ZpMQ';
 	
 	// get annotation from hypothes.is
 	$obj = hypothesis_get_annotation($annotation_id);
+	
+	print_r($obj);
 
 	// convert to RDF
 	$rdf = hypothesis_annotation_to_rdf($obj);
+	
+	echo $rdf;
 }
 
 
@@ -32,7 +37,7 @@ if (0)
 
 }
 
-if (1)
+if (0)
 {
 	// annotations for entity as data feed
 	

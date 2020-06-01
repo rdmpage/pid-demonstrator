@@ -4,11 +4,13 @@
 
 // http://stackoverflow.com/questions/5281007/bookmarklets-which-creates-an-overlay-on-page
 
-  // Create a script tag to load citation.js
-  script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/citation-js';
-  script.onload = rdmp_init;
-  document.body.appendChild(script);
+var observer = null;
+
+// Create a script tag to load citation.js
+script = document.createElement('script');
+script.src = 'https://cdn.jsdelivr.net/npm/citation-js';
+script.onload = rdmp_init;
+document.body.appendChild(script);
 
 
 function rdmp_init() {
@@ -57,7 +59,7 @@ function releasetheKraken() {
       width: '300px',
       height: '100vh',
       padding: '20px',
-      backgroundColor: 'orange',
+      backgroundColor:  "#FFFFCC",
       color: 'black',
       'text-align': 'left',
       'font-size': '12px',
@@ -117,6 +119,15 @@ function releasetheKraken() {
         }
       }
     }
+    
+    // BHL
+    if (metas[i].getAttribute("name") == "DC.identifier.URI") {
+      var m = metas[i].getAttribute("content").match(/https?:\/\/(?:www.)?biodiversitylibrary.org\/item\/(\d+)/);
+      if (m) {
+		  guid.namespace = 'bhl';
+		  guid.identifier = m[1];
+	  }
+    }    
 
     // Facebook meta tags
     if (!guid.namespace) {
@@ -130,27 +141,73 @@ function releasetheKraken() {
       }
     }
 
-    // Last resort use URL...
-    // var pattern = /gbif.org\/occurrence\/(\d+)/;	
-    // var m  = pattern.exec(window.location.href);
 
 
   }
+  
+  // No GUID from meta tags, try other rules
+  if (!guid.namespace) {
+  	
+  	// RBGE
+  	var elements = document.querySelectorAll('[alt="Stable URI"]');
+	for (i = 0; i < elements.length; i++) {  
+		guid.namespace = 'uri';
+      	guid.identifier = elements[i].getAttribute("href");			
 
-  // Now we have an identifier, what can we do with it?
+	}  	
+  
+  
+  }
+  
+  
+  // Still no GUID, use page URL
+  if (!guid.namespace) {
+    // Last resort use URL...
+    // var pattern = /gbif.org\/occurrence\/(\d+)/;	
+    // var m  = pattern.exec(window.location.href);
+  }  
+
+  // Now we (might) have an identifier, what can we do with it?
 
   // 1. display entity
   // 2. List of linked entities (data feed)
 
   if (guid.namespace) {
     switch (guid.namespace) {
+    
+      case 'bhl':     
+      		e.html(e.html() + JSON.stringify(guid));
+      		
+      		var html = '<div id="bhl_page"></a>';
+      		e.html(e.html() + '<br />' + html);   
+      
+			var currentpageURL = document.querySelector('[id=currentpageURL]');   
+			
+			document.getElementById('bhl_page').innerHTML = currentpageURL;
+			
+			// https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
+			observer = new MutationObserver(function(mutations) {
+			  mutations.forEach(function(mutation) {
+				if (mutation.type == "attributes") {
+				  var currentpageURL = document.querySelector('[id=currentpageURL]');   
+				  document.getElementById('bhl_page').innerHTML = currentpageURL;
+				  console.log("attributes changed")
+				}
+			  });
+			});
+
+			observer.observe(currentpageURL, {
+			  attributes: true //configure it to listen to attribute changes
+			});      
+      
+      	  break;
 
       case 'doi':
         // e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
 
         $.ajax({
           type: "GET",
-          url: 'https://api.crossref.org/v1/works/' +
+          url: '//api.crossref.org/v1/works/' +
             encodeURIComponent(guid.identifier),
           success: function(data) {
 
@@ -174,7 +231,7 @@ function releasetheKraken() {
         break;
 
       case 'occurrence':
-        $.getJSON('https://api.gbif.org/v1/occurrence/' + guid.identifier + '?callback=?',
+        $.getJSON('//api.gbif.org/v1/occurrence/' + guid.identifier + '?callback=?',
           function(data) {
             if (data.key == guid.identifier) {
               var html = '<div style="text-align:left;">';
@@ -236,6 +293,7 @@ function releasetheKraken() {
 
 }
 
+//----------------------------------------------------------------------------------------
 /* Can't use jquery at this point because it might not have been loaded yet */
 // https://stackoverflow.com/a/17494943/9684
 
@@ -268,3 +326,5 @@ function findPosY(obj) {
     curtop += obj.y;
   return curtop;
 }
+
+

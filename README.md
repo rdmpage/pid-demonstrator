@@ -21,7 +21,9 @@ Hypothes.is feed is
 
 ```https://hypothes.is/stream.rss?user=<username>```
 
+### Fetch annotations related to content
 
+Need to be able to fetch annotations using source and body identifiers. For example, given a paper that is the ```source``` for one or more annotations, what are those annotations? Given specimen that is the body of an annotation, what papers refer to that specimen?
 
 
 ## Recommendations for PID providers
@@ -31,5 +33,9 @@ These recommendations are w.r.t. to making projects like this doable.
 ### Make identifier discoverable within web page for item
 
 The web page for an entity should include the persistent identifier in a machine readable way. For example, academic publishers typically include the DOI for an article in a ```meta``` tag.
+
+### Use consistent data descriptions
+
+e.g. do museums serving RDF all use same approach?
 
 
