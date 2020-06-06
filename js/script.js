@@ -120,6 +120,12 @@ function releasetheKraken() {
       }
     }
     
+    // OJS (e.g. EJT)    
+    if (metas[i].getAttribute("name") == "DC.Identifier.DOI") {
+      guid.namespace = 'doi';
+      guid.identifier = metas[i].getAttribute("content");
+    }
+    
     // BHL
     if (metas[i].getAttribute("name") == "DC.identifier.URI") {
       var m = metas[i].getAttribute("content").match(/https?:\/\/(?:www.)?biodiversitylibrary.org\/item\/(\d+)/);
@@ -146,6 +152,21 @@ function releasetheKraken() {
   }
   
   // No GUID from meta tags, try other rules
+  if (!guid.namespace) {
+  	
+  	// canonical link
+  	
+  	// <link rel="canonical" href="https://www.jstor.org/stable/24532712">
+  	var elements = document.querySelectorAll('link[rel="canonical"]');
+	for (i = 0; i < elements.length; i++) {  
+		guid.namespace = 'uri';
+      	guid.identifier = elements[i].getAttribute("href");			
+	}  	
+   
+  } 
+  
+  
+  // Still nothing, let's get more specific
   if (!guid.namespace) {
   	
   	// RBGE
@@ -176,6 +197,10 @@ function releasetheKraken() {
     switch (guid.namespace) {
     
       case 'bhl':     
+      		// BHL pages can change as user browses content, so we use a MutationObserver
+      		// to track current PageID, so that we could then display annotations relevant
+      		// to the page being displayed.
+      		
       		e.html(e.html() + JSON.stringify(guid));
       		
       		var html = '<div id="bhl_page"></a>';
@@ -205,6 +230,7 @@ function releasetheKraken() {
       case 'doi':
         // e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
 
+		// display formatted citation (helps validate that we've got the DOI)
         $.ajax({
           type: "GET",
           url: '//api.crossref.org/v1/works/' +
@@ -227,6 +253,9 @@ function releasetheKraken() {
 
           }
         });
+        
+        // annotations?
+        
 
         break;
 
