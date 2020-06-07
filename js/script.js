@@ -139,11 +139,21 @@ function releasetheKraken() {
     if (!guid.namespace) {
       if (metas[i].getAttribute("property") == "og:url") {
         var url = metas[i].getAttribute("content");
+        
+        // GBIF
         if (url.match(/gbif.org\/occurrence/)) {
           guid.namespace = 'occurrence';
           guid.identifier = url;
           guid.identifier = guid.identifier.replace(/https?:\/\/(www\.)?gbif.org\/occurrence\//, '');
         }
+        
+        // ALA
+         if (url.match(/bie.ala.org.au\/species\/urn:lsid/)) {
+          guid.namespace = 'ala';
+          guid.identifier = url;
+          guid.identifier = guid.identifier.replace(/https?:\/\/bie.ala.org.au\/species\//, '');
+        }              
+        
       }
     }
 
