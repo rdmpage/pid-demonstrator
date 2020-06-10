@@ -6,27 +6,34 @@
 
 var observer = null;
 
-// Create a script tag to load citation.js
-script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/npm/citation-js';
-script.onload = rdmp_init;
-document.body.appendChild(script);
+var use_citationjs = false;
 
+if (use_citationjs) {
 
-function rdmp_init() {
-//--------------------------------------------------------------------------------------------------
-// http://code.tutsplus.com/tutorials/create-bookmarklets-the-right-way--net-18154
-// Test for presence of jQuery, if not, add it
-if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too
-  // Create a script tag to load the bookmarklet
+  // Create a script tag to load citation.js
   script = document.createElement('script');
-  script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js';
-  script.onload = releasetheKraken;
+  script.src = 'https://cdn.jsdelivr.net/npm/citation-js';
+  script.onload = rdmp_init;
   document.body.appendChild(script);
 }
 else {
-  releasetheKraken();
+  rdmp_init();
 }
+
+function rdmp_init() {
+  //--------------------------------------------------------------------------------------------------
+  // http://code.tutsplus.com/tutorials/create-bookmarklets-the-right-way--net-18154
+  // Test for presence of jQuery, if not, add it
+  if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too
+    // Create a script tag to load the bookmarklet
+    script = document.createElement('script');
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js';
+    script.onload = releasetheKraken;
+    document.body.appendChild(script);
+  }
+  else {
+    releasetheKraken();
+  }
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -40,7 +47,9 @@ function releasetheKraken() {
   // Yes, I'm being childish. Place your code here 
   //alert('kraken');
 
-  const Cite = require('citation-js');
+  if (use_citationjs) {
+    const Cite = require('citation-js');
+  }
 
   var e = null;
   if (!$('#rdmpannotate').length) {
@@ -59,7 +68,7 @@ function releasetheKraken() {
       width: '300px',
       height: '100vh',
       padding: '20px',
-      backgroundColor:  "#FFFFCC",
+      backgroundColor: "#FFFFCC",
       color: 'black',
       'text-align': 'left',
       'font-size': '12px',
@@ -119,84 +128,80 @@ function releasetheKraken() {
         }
       }
     }
-    
+
     // OJS (e.g. EJT)    
     if (metas[i].getAttribute("name") == "DC.Identifier.DOI") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
     }
-    
+
     // BHL
     if (metas[i].getAttribute("name") == "DC.identifier.URI") {
       var m = metas[i].getAttribute("content").match(/https?:\/\/(?:www.)?biodiversitylibrary.org\/item\/(\d+)/);
       if (m) {
-		  guid.namespace = 'bhl';
-		  guid.identifier = m[1];
-	  }
-    }    
+        guid.namespace = 'bhl';
+        guid.identifier = m[1];
+      }
+    }
 
     // Facebook meta tags
     if (!guid.namespace) {
       if (metas[i].getAttribute("property") == "og:url") {
         var url = metas[i].getAttribute("content");
-        
+
         // GBIF
         if (url.match(/gbif.org\/occurrence/)) {
           guid.namespace = 'occurrence';
           guid.identifier = url;
           guid.identifier = guid.identifier.replace(/https?:\/\/(www\.)?gbif.org\/occurrence\//, '');
         }
-        
+
         // ALA
-         if (url.match(/bie.ala.org.au\/species\/urn:lsid/)) {
+        if (url.match(/bie.ala.org.au\/species\/urn:lsid/)) {
           guid.namespace = 'ala';
           guid.identifier = url;
           guid.identifier = guid.identifier.replace(/https?:\/\/bie.ala.org.au\/species\//, '');
-        }              
-        
+        }
+
       }
     }
 
-
-
   }
-  
+
   // No GUID from meta tags, try other rules
   if (!guid.namespace) {
-  	
-  	// canonical link
-  	
-  	// <link rel="canonical" href="https://www.jstor.org/stable/24532712">
-  	var elements = document.querySelectorAll('link[rel="canonical"]');
-	for (i = 0; i < elements.length; i++) {  
-		guid.namespace = 'uri';
-      	guid.identifier = elements[i].getAttribute("href");			
-	}  	
-   
-  } 
-  
-  
+
+    // canonical link
+
+    // <link rel="canonical" href="https://www.jstor.org/stable/24532712">
+    var elements = document.querySelectorAll('link[rel="canonical"]');
+    for (i = 0; i < elements.length; i++) {
+      guid.namespace = 'uri';
+      guid.identifier = elements[i].getAttribute("href");
+    }
+
+  }
+
   // Still nothing, let's get more specific
   if (!guid.namespace) {
-  	
-  	// RBGE
-  	var elements = document.querySelectorAll('[alt="Stable URI"]');
-	for (i = 0; i < elements.length; i++) {  
-		guid.namespace = 'uri';
-      	guid.identifier = elements[i].getAttribute("href");			
 
-	}  	
-  
-  
+    // RBGE
+    var elements = document.querySelectorAll('[alt="Stable URI"]');
+    for (i = 0; i < elements.length; i++) {
+      guid.namespace = 'uri';
+      guid.identifier = elements[i].getAttribute("href");
+
+    }
+
   }
-  
-  
+
+
   // Still no GUID, use page URL
   if (!guid.namespace) {
     // Last resort use URL...
     // var pattern = /gbif.org\/occurrence\/(\d+)/;	
     // var m  = pattern.exec(window.location.href);
-  }  
+  }
 
   // Now we (might) have an identifier, what can we do with it?
 
@@ -205,42 +210,42 @@ function releasetheKraken() {
 
   if (guid.namespace) {
     switch (guid.namespace) {
-    
-      case 'bhl':     
-      		// BHL pages can change as user browses content, so we use a MutationObserver
-      		// to track current PageID, so that we could then display annotations relevant
-      		// to the page being displayed.
-      		
-      		e.html(e.html() + JSON.stringify(guid));
-      		
-      		var html = '<div id="bhl_page"></a>';
-      		e.html(e.html() + '<br />' + html);   
-      
-			var currentpageURL = document.querySelector('[id=currentpageURL]');   
-			
-			document.getElementById('bhl_page').innerHTML = currentpageURL;
-			
-			// https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
-			observer = new MutationObserver(function(mutations) {
-			  mutations.forEach(function(mutation) {
-				if (mutation.type == "attributes") {
-				  var currentpageURL = document.querySelector('[id=currentpageURL]');   
-				  document.getElementById('bhl_page').innerHTML = currentpageURL;
-				  console.log("attributes changed")
-				}
-			  });
-			});
 
-			observer.observe(currentpageURL, {
-			  attributes: true //configure it to listen to attribute changes
-			});      
-      
-      	  break;
+      case 'bhl':
+        // BHL pages can change as user browses content, so we use a MutationObserver
+        // to track current PageID, so that we could then display annotations relevant
+        // to the page being displayed.
+
+        e.html(e.html() + JSON.stringify(guid));
+
+        var html = '<div id="bhl_page"></a>';
+        e.html(e.html() + '<br />' + html);
+
+        var currentpageURL = document.querySelector('[id=currentpageURL]');
+
+        document.getElementById('bhl_page').innerHTML = currentpageURL;
+
+        // https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
+        observer = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type == "attributes") {
+              var currentpageURL = document.querySelector('[id=currentpageURL]');
+              document.getElementById('bhl_page').innerHTML = currentpageURL;
+              console.log("attributes changed")
+            }
+          });
+        });
+
+        observer.observe(currentpageURL, {
+          attributes: true //configure it to listen to attribute changes
+        });
+
+        break;
 
       case 'doi':
         // e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
 
-		// display formatted citation (helps validate that we've got the DOI)
+        // display formatted citation (helps validate that we've got the DOI)
         $.ajax({
           type: "GET",
           url: '//api.crossref.org/v1/works/' +
@@ -251,21 +256,23 @@ function releasetheKraken() {
             html += data;
             html += '</div>';
 
-            // e.html(e.html() + JSON.stringify(data));
+            if (use_citationjs) {
+              var formatter = new Cite(data.message);
 
-            var formatter = new Cite(data.message);
-
-            e.html(e.html() + formatter.format('bibliography', {
-              format: 'html',
-              template: 'apa',
-              lang: 'en'
-            }));
+              e.html(e.html() + formatter.format('bibliography', {
+                format: 'html',
+                template: 'apa',
+                lang: 'en'
+              }));
+            }
+            else {
+              e.html(e.html() + JSON.stringify(data));
+            }
 
           }
         });
-        
+
         // annotations?
-        
 
         break;
 
@@ -292,8 +299,6 @@ function releasetheKraken() {
             }
           });
         break;
-
-
 
       default:
         e.html(e.html() + JSON.stringify(guid));
@@ -365,5 +370,3 @@ function findPosY(obj) {
     curtop += obj.y;
   return curtop;
 }
-
-
