@@ -182,7 +182,7 @@ function releasetheKraken() {
 
   }
 
-  // Still nothing, let's get more specific
+  // Still nothing, let's get more specific (and dive into the HTML)
   if (!guid.namespace) {
 
     // RBGE
@@ -192,8 +192,25 @@ function releasetheKraken() {
       guid.identifier = elements[i].getAttribute("href");
 
     }
+ 
 
   }
+  
+  if (!guid.namespace) {
+
+    // IPNI
+    var elements = document.querySelectorAll('dl dd');
+    for (i = 0; i < elements.length; i++) {
+      var text = elements[i].textContent;
+      if (text.match(/urn:lsid/)) {
+      	guid.namespace = 'ipni';
+      	guid.identifier = text;
+      }
+
+    }
+ 
+
+  }  
 
 
   // Still no GUID, use page URL
