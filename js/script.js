@@ -208,9 +208,25 @@ function releasetheKraken() {
       }
 
     }
- 
 
   }  
+  
+  if (!guid.namespace) {
+
+    // GenBank
+    var elements = document.querySelectorAll('p[class="itemid"]');
+    for (i = 0; i < elements.length; i++) {
+      var text = elements[i].textContent;
+      var m = text.match(/GenBank:\s+([A-Z]+\d+)(\.\d+)$/);
+      if (m) {
+      	guid.namespace = 'genbank';
+      	guid.identifier = m[1];
+      }
+
+    }
+
+  }    
+
 
 
   // Still no GUID, use page URL
