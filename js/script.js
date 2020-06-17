@@ -53,9 +53,9 @@ function releasetheKraken() {
 
   var e = null;
   if (!$('#rdmpannotate').length) {
-
-    // create the element:
-    var e = $('<div id="rdmpannotate"></div>');
+  
+     // create the element:
+    e = $('<div id="rdmpannotate"></div>');
 
     // append it to the body:
     $('body').append(e);
@@ -79,7 +79,7 @@ function releasetheKraken() {
     });
 
     $('#rdmpannotate').data("top", $('#rdmpannotate').offset().top);
-  }
+   }
   else {
     e = $('#rdmpannotate');
   }
@@ -181,6 +181,23 @@ function releasetheKraken() {
     }
 
   }
+  
+  // 	<link rel="alternate" type="text/n3" href="https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3">
+  if (!guid.namespace) {
+
+    // canonical link
+
+    var elements = document.querySelectorAll('link[rel="alternate"]');
+    for (i = 0; i < elements.length; i++) {
+    	if (elements[i].getAttribute('type') == 'text/n3') {
+	      guid.namespace = 'uri';
+    	  guid.identifier = elements[i].getAttribute("href");
+    	  guid.identifier = guid.identifier.replace(/\.n3/, '');
+    	}
+    }
+
+  }
+
 
   // Still nothing, let's get more specific (and dive into the HTML)
   if (!guid.namespace) {
