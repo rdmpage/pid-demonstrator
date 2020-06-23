@@ -42,7 +42,7 @@
         <dwc:recordNumber>Cat. no. 2574</dwc:recordNumber>
         <dwc:locationRemarks>Sylhet</dwc:locationRemarks>
         <dwc:occurrenceRemarks>Sillet F. DeS.; Laurus obtusifolia Roxb.; EICH number: 2574 A</dwc:occurrenceRemarks>
-    </rdf:Description>
+    <!-- </rdf:Description> -->
     <!-- Image associated with the specimen -->
     <dc:relation>
         <rdf:Description rdf:about="http://www.kew.org/herbcatimg/686057.jpg">
@@ -55,4 +55,5 @@
         </rdf:Description>
     </dc:relation>
     <dwc:associatedMedia rdf:resource="http://www.kew.org/herbcatimg/686057.jpg"/>
+     </rdf:Description>
 </rdf:RDF>
