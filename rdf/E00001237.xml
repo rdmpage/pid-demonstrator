@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+		
+    xmlns:dwcc="http://rs.tdwg.org/dwc/curatorial/"
+        
+    xmlns:dc="http://purl.org/dc/terms/"
+        
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+		
+    xmlns:owl ="http://www.w3.org/2002/07/owl#"
+		
+    xmlns:dwciri="http://rs.tdwg.org/dwc/iri/"
+		>
+    <!--This is metadata about this metadata document-->
+    <rdf:Description
+        rdf:about="https://data.rbge.org.uk:443/service/rdf/herb.php?guid=http://data.rbge.org.uk/herb/E00001237">
+        <dc:creator>Simple PHP RDF Script</dc:creator>
+        <dc:created>2020-06-22T16:25:00+00:00</dc:created>
+        <dc:hasVersion rdf:resource="https://data.rbge.org.uk/search/herbarium?cfg=fulldetails.cfg&amp;specimen_num=E00001237" />
+        <dc:hasVersion rdf:resource="http://plants.jstor.org/specimen/e00001237" />
+    </rdf:Description>
+    <!--This is metadata about this specimen-->
+    <rdf:Description rdf:about="https://data.rbge.org.uk/herb/E00001237">
+        <owl:sameAs rdf:resource="http://data.rbge.org.uk/herb/E00001237"/>
+        <!-- Assertions made in simple Dublin Core -->
+        <dc:publisher rdf:resource="http://www.rbge.org.uk" />
+        <dc:title>Forrest, George #14094 Rhododendron aganniphum Balf.f. &amp; Kingdon-Ward var. aganniphum </dc:title>
+        <dc:description>A herbarium specimen of Rhododendron aganniphum Balf.f. &amp; Kingdon-Ward var. aganniphum  collected by Forrest, George #14094 </dc:description>
+        <dc:creator>Forrest, George</dc:creator>
+        <dc:created>June 1917</dc:created>
+        <!-- Assertions based on Darwin Core -->
+        <dwc:sampleID>http://data.rbge.org.uk/herb/E00001237</dwc:sampleID>
+        <dc:modified>2009-12-09 00:00:00</dc:modified>
+        <dwc:basisOfRecord>Specimen</dwc:basisOfRecord>
+        <dc:type>Specimen</dc:type>
+        <dwc:institutionCode>http://biocol.org/urn:lsid:biocol.org:col:15670</dwc:institutionCode>
+        <dwc:collectionCode>E</dwc:collectionCode>
+        <dwc:catalogNumber>E00001237</dwc:catalogNumber>
+        <dwc:scientificName>Rhododendron aganniphum Balf.f. &amp; Kingdon-Ward var. aganniphum </dwc:scientificName>
+        <dwc:family>Ericaceae</dwc:family>
+        <dwc:genus>Rhododendron</dwc:genus>
+        <dwc:specificEpithet>aganniphum</dwc:specificEpithet>
+        <dwc:higherGeography>Inner China, Korea and Taiwan</dwc:higherGeography>
+        <dwc:country>CN</dwc:country>
+        <dwc:countryCode>CN</dwc:countryCode>
+        <dwc:stateProvince>Yunnan, NE</dwc:stateProvince>
+        <dwc:locality>Mountains north of Atuntze</dwc:locality>
+        <dwc:minimumElevationInMeters>4267</dwc:minimumElevationInMeters>
+        <dwc:maximumElevationInMeters>4267</dwc:maximumElevationInMeters>
+        <dwc:earliestDateCollected>June 1917</dwc:earliestDateCollected>
+        <dwciri:recordedBy rdf:resource="http://www.wikidata.org/entity/Q204566" />
+        <dwc:recordedBy>Forrest, George</dwc:recordedBy>
+        <dwc:recordNumber>14094</dwc:recordNumber>
+        <!-- Images associated with the specimen -->
+        <dc:relation>
+            <rdf:Description  rdf:about="https://data.rbge.org.uk/images/82707" >
+                <dc:identifier rdf:resource="https://data.rbge.org.uk/images/82707" />
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image" />
+                <dc:subject rdf:resource="https://data.rbge.org.uk/herb/E00001237" />
+                <dc:format>image/jpeg</dc:format>
+                <dc:description xml:lang="en">Image of herbarium specimen</dc:description>
+                <dc:created>2009-12-09T16:52:13Z</dc:created>
+                <dc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+            </rdf:Description>
+        </dc:relation>
+        <dwc:associatedMedia rdf:resource="https://data.rbge.org.uk/images/82707" />
+        <!-- IIIF resources associated with the specimen -->
+        <dc:relation>
+            <rdf:Description  rdf:about="https://iiif.rbge.org.uk/herb/iiif/E00001237/manifest" >
+                <dc:identifier rdf:resource="https://iiif.rbge.org.uk/herb/iiif/E00001237/manifest" />
+                <dc:type rdf:resource="http://iiif.io/api/presentation/3#Manifest" />
+                <dc:subject rdf:resource="https://data.rbge.org.uk/herb/E00001237" />
+                <dc:format>application/ld+json</dc:format>
+                <dc:description xml:lang="en">A IIIF resource for this specimen.</dc:description>
+                <dc:created>2009-12-09T16:52:13Z</dc:created>
+                <dc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+            </rdf:Description>
+        </dc:relation>
+    </rdf:Description>
+</rdf:RDF>    

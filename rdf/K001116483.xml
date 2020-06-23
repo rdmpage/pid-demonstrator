@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/" 
+    xmlns:dwcc="http://rs.tdwg.org/dwc/curatorial/" 
+    xmlns:dc="http://purl.org/dc/terms/" 
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+    xmlns:owl="http://www.w3.org/2002/07/owl#" 
+    xmlns:dwciri="http://rs.tdwg.org/dwc/iri/">
+    <!--This is metadata about this metadata document-->
+    <rdf:Description rdf:about="http://specimens.kew.org/herbarium/K001116483">
+        <dc:creator>RBG Kew Science</dc:creator>
+        <dc:created>2020-06-23 09:28:12+0100</dc:created>
+        <dc:hasVersion rdf:resource="http://apps.kew.org/herbcat/detailsQuery.do?barcode=K001116483"/>
+    </rdf:Description>
+    <!--This is metadata about this specimen-->
+    <rdf:Description rdf:about="http://specimens.kew.org/herbarium/K001116483">
+        <rdf:type rdf:resource="http://rs.tdwg.org/dwc/terms/PreservedSpecimen"/>
+        <owl:sameAs rdf:resource="http://specimens.kew.org/herbarium/K001116483"/>
+        <!-- Assertions in Dublin Core legacy -->
+        <dc:license>https://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:publisher rdf:resource="https://www.kew.org"/>
+        <dc:type>PhysicalObject</dc:type>
+        <dc:identifier>K001116483</dc:identifier>
+        <dc:title>Laurus obtusifolia Wall.De Silva, F.Cat. no. 2574</dc:title>
+        <dc:description>A herbarium specimen of Laurus obtusifolia Wall. collected by De Silva, F. #Cat. no. 2574</dc:description>
+        <dc:creator>De Silva, F.</dc:creator>
+        <!-- Assertions based on Darwin Core -->
+        <dwc:institutionCode>http://biocol.org/urn:lsid:biocol.org:col:15867</dwc:institutionCode>
+        <dwc:collectionCode>K</dwc:collectionCode>
+        <dwc:catalogueNumber>K001116483</dwc:catalogueNumber>
+        <dwciri:inCollection rdf:resource="http://biocol.org/urn:lsid:biocol.org:col:15867"/>
+        <dwc:sampleID>http://specimens.kew.org/herbarium/K001116483</dwc:sampleID>
+        <dwc:basisOfRecord>PreservedSpecimen</dwc:basisOfRecord>
+        <dwc:scientificName>Laurus obtusifolia Wall.</dwc:scientificName>
+        <dwc:family>Lauraceae</dwc:family>
+        <dwc:genus>Laurus</dwc:genus>
+        <dwc:specificEpithet>obtusifolia</dwc:specificEpithet>
+        <dwc:recordedBy>De Silva, F.</dwc:recordedBy>
+        <dwc:recordNumber>Cat. no. 2574</dwc:recordNumber>
+        <dwc:locationRemarks>Sylhet</dwc:locationRemarks>
+        <dwc:occurrenceRemarks>Sillet F. DeS.; Laurus obtusifolia Roxb.; EICH number: 2574 A</dwc:occurrenceRemarks>
+    </rdf:Description>
+    <!-- Image associated with the specimen -->
+    <dc:relation>
+        <rdf:Description rdf:about="http://www.kew.org/herbcatimg/686057.jpg">
+            <dc:identifier rdf:resource="http://www.kew.org/herbcatimg/686057.jpg"/>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+            <dc:subject rdf:resource="http://specimens.kew.org/herbarium/K001116483"/>
+            <dc:format>image/jpeg</dc:format>
+            <dc:description xml:lang="en">Image of herbarium specimen</dc:description>
+            <dc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        </rdf:Description>
+    </dc:relation>
+    <dwc:associatedMedia rdf:resource="http://www.kew.org/herbcatimg/686057.jpg"/>
+</rdf:RDF>

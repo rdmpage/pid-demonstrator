@@ -1,0 +1,77 @@
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.ttl> dc:created "2020-06-22T17:13:45.612999"^^xsd:dateTime ;
+    dc:creator "Natural History Museum, London" ;
+    dc:subject <https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50> .
+
+<https://www.nhm.ac.uk/services/media-store/asset/57d3a4275b00b46f8dc9993331b18ed732bf25aa/contents/preview> a foaf:Image ;
+    cc:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dc:Format "image/jpeg" ;
+    dc:RightsStatement "The Trustees of the Natural History Museum, London" ;
+    dc:title "BM000871635" ;
+    foaf:depicts <https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50> ;
+    foaf:thumbnail <https://www.nhm.ac.uk/services/media-store/asset/57d3a4275b00b46f8dc9993331b18ed732bf25aa/contents/thumbnail> .
+
+<https://www.nhm.ac.uk/services/media-store/asset/cafa7a935cb5c705a6999f60ff66f82cc034573e/contents/preview> a foaf:Image ;
+    cc:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dc:Format "image/jpeg" ;
+    dc:RightsStatement "The Trustees of the Natural History Museum, London" ;
+    dc:title "BM000871635" ;
+    foaf:depicts <https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50> ;
+    foaf:thumbnail <https://www.nhm.ac.uk/services/media-store/asset/cafa7a935cb5c705a6999f60ff66f82cc034573e/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50> dc:created "2007-09-27T07:09:25"^^xsd:dateTime ;
+    dc:identifier "31a84c68-6295-4e5b-aa0a-5c2844f1fb50" ;
+    dc:publisher <https://nhm.ac.uk> ;
+    dc:title "Brachythecium implicatum (Hornsch.) A.Jaeger" ;
+    dc:type "Specimen" ;
+    aiiso:Department "Botany" ;
+    aiiso:Division "Bryophytes" ;
+    void:inDataset <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> ;
+    dwc:associatedMedia "https://www.nhm.ac.uk/services/media-store/asset/cafa7a935cb5c705a6999f60ff66f82cc034573e/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/57d3a4275b00b46f8dc9993331b18ed732bf25aa/contents/preview" ;
+    dwc:basisOfRecord "Specimen" ;
+    dwc:catalogNumber "BM000871635" ;
+    dwc:collectionCode "BOT" ;
+    dwc:continent "Africa" ;
+    dwc:country "South Africa" ;
+    dwc:countryCode "ZA" ;
+    dwc:decimalLatitude "-28.998530" ;
+    dwc:decimalLongitude "25.092539" ;
+    dwc:dynamicProperties "{\"determinationFiledAs\": [\"Yes\", \"No\"], \"collectionKind\": \"Sheet\", \"gbifIssue\": [\"GEODETIC_DATUM_ASSUMED_WGS84\", \"RECORDED_DATE_INVALID\"], \"associatedMediaCount\": 2, \"project\": \"GPI Georeferencing\", \"determinationNames\": [\"Brachythecium implicatum (Hornsch.) A.Jaeger\", \"Brachythecium afrosalebrosum M\\u00fcll.Hal.\"], \"subDepartment\": \"Bryophytes\", \"gbifID\": \"1056125017\"}" ;
+    dwc:family "Brachytheciaceae" ;
+    dwc:fieldNumber "385" ;
+    dwc:genus "Brachythecium" ;
+    dwc:georeferenceProtocol "Google Earth" ;
+    dwc:higherClassification "Bryophyta; Brachytheciaceae" ;
+    dwc:higherGeography "Africa; South Africa" ;
+    dwc:institutionCode "NHMUK" ;
+    dwc:modified "2017-08-21T10:56:26"^^xsd:dateTime ;
+    dwc:occurrenceID "31a84c68-6295-4e5b-aa0a-5c2844f1fb50" ;
+    dwc:otherCatalogNumbers "NHMUK:ecatalogue:4522916" ;
+    dwc:phylum "Bryophyta" ;
+    dwc:previousIdentifications "Brachythecium afrosalebrosum Müll.Hal." ;
+    dwc:recordNumber "385" ;
+    dwc:recordedBy "Anton Rehmann" ;
+    dwc:scientificName "Brachythecium implicatum (Hornsch.) A.Jaeger" ;
+    dwc:scientificNameAuthorship "(Hornsch.) A.Jaeger" ;
+    dwc:specificEpithet "implicatum" ;
+    dwc:typeStatus "Type" ;
+    dwc:verbatimLatitude "28 59 54.71 S" ;
+    dwc:verbatimLongitude "025 05 33.14 E" ;
+    dwc:year "1875 - 1877" ;
+    owl:sameAs <https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50/1592784000000>,
+        <https://www.gbif.org/occurrence/1056125017> ;
+    owl:versionInfo 1592784000000 ;
+    foaf:depiction <https://www.nhm.ac.uk/services/media-store/asset/57d3a4275b00b46f8dc9993331b18ed732bf25aa/contents/preview>,
+        <https://www.nhm.ac.uk/services/media-store/asset/cafa7a935cb5c705a6999f60ff66f82cc034573e/contents/preview> .
+
