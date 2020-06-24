@@ -162,7 +162,14 @@ function releasetheKraken() {
           guid.identifier = url;
           guid.identifier = guid.identifier.replace(/https?:\/\/bie.ala.org.au\/species\//, '');
         }
-
+        
+        // NHMUK
+        if (url.match(/data.nhm.ac.uk\/object/)) {
+          guid.namespace = 'nhmuk';
+          guid.identifier = url;
+          guid.identifier = guid.identifier.replace(/https?:\/\/data.nhm.ac.uk\/object\//, '');
+        }
+  
       }
     }
 
