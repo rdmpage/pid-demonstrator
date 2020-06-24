@@ -182,6 +182,7 @@ function releasetheKraken() {
 
   }
   
+  /*
   // 	<link rel="alternate" type="text/n3" href="https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3">
   if (!guid.namespace) {
 
@@ -197,7 +198,7 @@ function releasetheKraken() {
     }
 
   }
-
+ */
 
   // Still nothing, let's get more specific (and dive into the HTML)
   if (!guid.namespace) {
