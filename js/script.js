@@ -70,7 +70,7 @@ function releasetheKraken() {
       width: '300px',
       height: '100vh',
       padding: '20px',
-      backgroundColor: "#FFFFCC",
+      /* backgroundColor: "#FFFFCC", */
       color: 'black',
       'text-align': 'left',
       'font-size': '12px',
@@ -396,9 +396,9 @@ function releasetheKraken() {
 						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
 						
 						if (dataFeedElement[i].target['schema:creator']) {
-							html += '<ul>';
+							html += '<ul style="list-style-type:none;">';
 							for (var j in dataFeedElement[i].target['schema:creator']) {
-								html += '<li>';
+								html += '<li style="line-height:16px;">';
 								
 								var has_orcid = false;
 								
@@ -408,6 +408,7 @@ function releasetheKraken() {
 								if (has_orcid) {
 									html += '<a href="' + dataFeedElement[i].target['schema:creator'][j].id + '">';
 									html += '<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png">';
+									html += '&nbsp;';
 								}
 								
 								html += dataFeedElement[i].target['schema:creator'][j].name;
