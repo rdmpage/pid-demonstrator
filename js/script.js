@@ -71,6 +71,7 @@ function releasetheKraken() {
       height: '100vh',
       padding: '20px',
       /* backgroundColor: "#FFFFCC", */
+      backgroundColor: "white",
       color: 'black',
       'text-align': 'left',
       'font-size': '12px',
