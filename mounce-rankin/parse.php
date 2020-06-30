@@ -57,7 +57,7 @@ while (!feof($file_handle))
 				}
 			}
 		
-			print_r($obj);	
+			// print_r($obj);	
 			
 			// convert to annotation
 			
@@ -67,23 +67,30 @@ while (!feof($file_handle))
 				
 				$annotation->{'@context'} = $context ;
 
-				$annotation->{'@id'} = "http://x.y#" . $row_count;
+				$annotation->{'@id'} = "https://github.com/rdmpage/pid-demonstrator/blob/master/mounce-rankin/subset.csv" . "#" . $row_count;
 				$annotation->{'@type'} = 'Annotation';
 			
+				// Body is the specimen
 				$annotation->body = $obj->{'NHM Data Portal Link'};
+
+				// NHM has switched from specimen  to object
+				$annotation->body = str_replace('/specimen/', '/object/', $annotation->body);
+
+				// NHM is now HTTPS
+				$annotation->body = str_replace('http', 'https', $annotation->body);
 			
+			
+				// Target is the article
 				$doi = $obj->{'Article DOI Link'};
+				
+				// Update DOI s to HTTPS
 				$doi = preg_replace('/https?:\/\/(dx\.)?doi.org\//', '', $doi);
 			
 				$annotation->target = new stdclass;
 				$annotation->target->canonical = 'https://doi.org/' . $doi;
 				
 				
-				print_r($annotation);
-				
-				$expanded = jsonld_expand($annotation);
-				
-				print_r($expanded);
+				//print_r($annotation);
 				
 				$normalized = jsonld_normalize($annotation, array('algorithm' => 'URDNA2015', 'format' => 'application/nquads'));
 				
