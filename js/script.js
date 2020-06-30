@@ -339,20 +339,22 @@ function releasetheKraken() {
           url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://doi.org/' +
             encodeURIComponent(guid.identifier),
           success: function(data) {
-                 e.html(e.html() + JSON.stringify(data));
-                /*
-          		if (data['@graph'].length != 0) {
+                // e.html(e.html() + JSON.stringify(data));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
 		  
 					var html = '<ul>';
-					for (var i in data['@graph'].dataFeedElement) {
+					for (var i in dataFeedElement) {
 						html += '<li>';
-						html += '<a href="' + data['@graph'].dataFeedElement[i].body.id + '">' + data['@graph'].dataFeedElement[i].body.name + '</a>';
+						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
 						html += '</li>';
 					}
 					html += '</ul>';
-				   e.html(e.html() + html);
+				    e.html(e.html() + html);
                
-               }*/
+               }
  
           }
         });        
