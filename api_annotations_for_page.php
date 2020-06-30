@@ -62,6 +62,9 @@ CONSTRUCT
 	# display
 	?body schema:name ?body_name .
 	?target schema:name ?target_name .
+	?target schema:creator ?creator .
+	?creator schema:name ?creator_name .
+	
 }
 WHERE 
 {
@@ -142,6 +145,13 @@ WHERE
 	
 	OPTIONAL {
 		?canonical schema:name ?target_name .
+		
+		OPTIONAL {
+			?canonical schema:creator ?creator .
+  			?creator schema:givenName ?givenName .
+  			?creator schema:familyName ?familyName .
+  			BIND(CONCAT(?givenName, " ", ?familyName) AS ?creator_name)
+  		}
 	} 	
 	
 }

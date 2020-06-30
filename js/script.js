@@ -8,6 +8,8 @@ var observer = null;
 
 var use_citationjs = false;
 
+var debug = false;
+
 if (use_citationjs) {
 
   // Create a script tag to load citation.js
@@ -306,7 +308,9 @@ function releasetheKraken() {
         break;
 
       case 'doi':
-        e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
+      	if (debug) {
+	       e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
+	    }
 
         // display formatted citation (helps validate that we've got the DOI)
         /*
@@ -367,7 +371,9 @@ function releasetheKraken() {
         break;
         
       case 'nhmuk':
-        e.html(e.html() + JSON.stringify(guid));
+    	if (debug) {
+	        e.html(e.html() + JSON.stringify(guid));
+	    }
 
         // annotations?
         
@@ -388,6 +394,22 @@ function releasetheKraken() {
 //						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
 //						html += ' ';
 						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
+						
+						if (dataFeedElement[i].target['schema:creator']) {
+							html += '<ul>';
+							for (var j in dataFeedElement[i].target['schema:creator']) {
+								html += '<li>';
+								
+								
+								html += dataFeedElement[i].target['schema:creator'][j].name;
+								html += '</li>';
+							}
+							html += '</ul>';
+						}
+						
+						
+						https://orcid.org/sites/default/files/images/orcid_16x16.png
+						
 						html += '</li>';
 					}
 					html += '</ul>';
