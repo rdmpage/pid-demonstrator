@@ -400,8 +400,22 @@ function releasetheKraken() {
 							for (var j in dataFeedElement[i].target['schema:creator']) {
 								html += '<li>';
 								
+								var has_orcid = false;
+								
+								if (dataFeedElement[i].target['schema:creator'][j].id.match(/orcid.org/)) {
+									has_orcid = true;
+								}
+								if (has_orcid) {
+									html += '<a href="' + dataFeedElement[i].target['schema:creator'][j].id + '">';
+									html += '<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png">';
+								}
 								
 								html += dataFeedElement[i].target['schema:creator'][j].name;
+								
+								if (has_orcid) {
+									html += '</a>';
+								}
+								
 								html += '</li>';
 							}
 							html += '</ul>';
