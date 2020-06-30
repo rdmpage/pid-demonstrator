@@ -301,9 +301,10 @@ function releasetheKraken() {
         break;
 
       case 'doi':
-        // e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
+        e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
 
         // display formatted citation (helps validate that we've got the DOI)
+        /*
         $.ajax({
           type: "GET",
           url: '//api.crossref.org/v1/works/' +
@@ -329,6 +330,7 @@ function releasetheKraken() {
 
           }
         });
+        */
 
         // annotations?
 
