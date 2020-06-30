@@ -16,6 +16,7 @@ else
 	$context->dcterms 	= "http://purl.org/dc/terms/";
 	$context->rdf     	= "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	$context->xsd		= "http://www.w3.org/2001/XMLSchema#";
+	
 
 	// so things are easy to work with in clients we rewrite @id and @type
 
@@ -85,7 +86,6 @@ else
 	$context->identifying->{'@type'} = '@id';
 	$context->identifying->{'@id'} = 'http://www.w3.org/ns/oa#identifying';
 
-
 	// simple terms 
 
 	$context->exact  = 'oa:exact';
@@ -95,11 +95,9 @@ else
 	$context->start  = 'oa:start';
 	$context->end    = 'oa:end';
 
-
 	$context->TextualBody    = 'oa:TextualBody';
 
 	$context->value  = 'rdf:value';
-
 
 	// other vocabs
 	$context->creator = new stdclass;
@@ -113,6 +111,10 @@ else
 	$context->modified = new stdclass;
 	$context->modified->{'@type'} = 'xsd:dateTime';
 	$context->modified->{'@id'} = 'dcterms:modified';
+	
+	// domain specific
+	$context->dwc		= "http://rs.tdwg.org/dwc/terms/";
+
 }
 
     
