@@ -333,6 +333,17 @@ function releasetheKraken() {
         */
 
         // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://doi.org/' +
+            encodeURIComponent(guid.identifier),
+          success: function(data) {
+
+               e.html(e.html() + JSON.stringify(data));
+ 
+          }
+        });        
 
         break;
 
