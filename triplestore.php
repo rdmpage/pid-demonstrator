@@ -1,10 +1,12 @@
 <?php
 
 error_reporting(E_ALL);
-//error_reporting(0); // there is an unexplained error in json-ld php
+error_reporting(0); // there is an unexplained error in json-ld php
 
 require_once (dirname(__FILE__) . '/config.inc.php');
 require_once (dirname(__FILE__) . '/vendor/autoload.php');
+
+require_once (dirname(__FILE__) . '/context.php');
 
 // SPARQL API wrapper
 
@@ -73,6 +75,51 @@ function sparql_post($url, $format = 'application/ld+json', $data =  null)
 	return $response;
 }
 
+//----------------------------------------------------------------------------------------
+function upload_from_string($sparql_endpoint, $triples, $graph_key_name = 'context-uri', $graph_uri = '')
+{
+	$url = $sparql_endpoint;
+	
+	if ($graph_uri == '')
+	{
+	}
+	else
+	{
+		$url .= '?' . $graph_key_name . '=' . $graph_uri;
+	}
+	
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $triples);  
+	curl_setopt($ch, CURLOPT_HTTPHEADER, 
+		array(
+			"Content-Type: text/rdf+n3"
+			)
+		);
+		
+
+	$response = curl_exec($ch);
+	if($response == FALSE) 
+	{
+		$errorText = curl_error($ch);
+		curl_close($ch);
+		die($errorText);
+	}
+	
+	$info = curl_getinfo($ch);
+	$http_code = $info['http_code'];
+	
+	//echo $url . "\n";
+	//print_r($info);
+		
+	curl_close($ch);
+	
+	echo $response;
+
+}
 
 //----------------------------------------------------------------------------------------
 // Upload a file of triples
@@ -172,8 +219,13 @@ PREFIX oa: <http://www.w3.org/ns/oa#>
 CONSTRUCT {
    ?thing ?p ?o .
    
+  	 ?thing oa:hasBody ?body .
+  	 ?body a ?body_type .
+	 ?body rdf:value ?body_value .   
+   
     ?thing oa:hasTarget ?target .
     ?target oa:hasSource ?source .
+    ?target oa:canonical ?canonical .
     ?target oa:hasSelector ?selector .
      ?selector a ?selectortype .
      
@@ -197,9 +249,23 @@ WHERE {
   VALUES ?thing { <' . $uri . '> }
    ?thing ?p ?o .
    
+   OPTIONAL {
+  	 ?thing oa:hasBody ?body .
+  	 OPTIONAL {
+  	 	?body a ?body_type .
+  	 }
+  	 OPTIONAL {
+  	 	?body rdf:value ?body_value .
+  	 }
+  	}    
+   
    ?thing oa:hasTarget ?target .
    ?target oa:hasSelector ?selector .
    ?target oa:hasSource ?source .
+   
+   OPTIONAL {
+  	 ?target oa:canonical ?canonical .
+  	}   
    
    ?selector a ?selectortype .
    
@@ -297,6 +363,8 @@ function sparql_query($sparql_endpoint, $query, $format='application/json')
 // CONSTRUCT a stream, by default return as JSON-LD
 function sparql_construct_stream($sparql_endpoint, $query, $format='application/ld+json')
 {
+	global $context;
+	
 	if (1)
 	{
 		$response = sparql_get(
@@ -319,23 +387,25 @@ function sparql_construct_stream($sparql_endpoint, $query, $format='application/
 	{
 		$doc = $obj;
 		
-		//echo '<pre>' . print_r($obj) . '<pre>';
-		
-		
-		$context = (object)array(
-			'@vocab' => 'http://schema.org/'
-		);
+		// schema
+		$context->schema = "http://schema.org/";
+
 		
 		// dataFeedElement is always an array
 		$dataFeedElement = new stdclass;
-		$dataFeedElement->{'@id'} = "dataFeedElement";
+		$dataFeedElement->{'@id'} = "schema:dataFeedElement";
 		$dataFeedElement->{'@container'} = "@set";
 		
 		$context->{'dataFeedElement'} = $dataFeedElement;	
+		
+		$context->DataFeed = "schema:dataFeedElement";
+		$context->DataFeedItem = "schema:DataFeedItem";
+		$context->name = "schema:name";
+		
 	
 		$frame = (object)array(
 			'@context' => $context,
-			'@type' => 'http://schema.org/DataFeed'
+			'@type' => 'schema:DataFeed'
 		);
 			
 		$data = jsonld_frame($doc, $frame);
