@@ -339,6 +339,8 @@ function releasetheKraken() {
           url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://doi.org/' +
             encodeURIComponent(guid.identifier),
           success: function(data) {
+                 e.html(e.html() + JSON.stringify(data));
+                /*
           		if (data['@graph'].length != 0) {
 		  
 					var html = '<ul>';
@@ -350,7 +352,7 @@ function releasetheKraken() {
 					html += '</ul>';
 				   e.html(e.html() + html);
                
-               }
+               }*/
  
           }
         });        
