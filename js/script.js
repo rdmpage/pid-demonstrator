@@ -349,6 +349,8 @@ function releasetheKraken() {
 					for (var i in dataFeedElement) {
 						html += '<li>';
 						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
+						html += ' ';
+						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
 						html += '</li>';
 					}
 					html += '</ul>';
@@ -360,6 +362,40 @@ function releasetheKraken() {
         });        
 
         break;
+        
+      case 'nhmuk':
+        e.html(e.html() + JSON.stringify(guid));
+
+        // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://data.nhm.ac.uk/object/' +
+            encodeURIComponent(guid.identifier),
+          success: function(data) {
+                // e.html(e.html() + JSON.stringify(data));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
+						html += ' ';
+						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });        
+
+        break;        
 
       case 'occurrence':
         $.getJSON('//api.gbif.org/v1/occurrence/' + guid.identifier + '?callback=?',
