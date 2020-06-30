@@ -92,16 +92,21 @@ function get_canonical_identifiers($url)
 
 
 
-$url = 'https://phytokeys.pensoft.net/article_preview.php?id=21753';
+// test
+if (0)
+{
+	$url = 'https://phytokeys.pensoft.net/article_preview.php?id=21753';
 
-$url = 'https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/405';
-$url = 'https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/405/856';
+	$url = 'https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/405';
+	$url = 'https://europeanjournaloftaxonomy.eu/index.php/ejt/article/download/405/856';
+	
+	$url = 'https://www.cambridge.org/core/journals/edinburgh-journal-of-botany/article/new-species-of-eriocaulon-eriocaulaceae-from-the-southern-western-ghats-of-kerala-india/AD5983CC30B0A9192BD08CF62BBAAC6C/core-reader';
 
 
-$identifiers = get_canonical_identifiers($url);
+	$identifiers = get_canonical_identifiers($url);
 
-print_r($identifiers);
-
+	print_r($identifiers);
+}
 
 
 

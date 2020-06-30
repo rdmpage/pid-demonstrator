@@ -4,6 +4,7 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 require_once (dirname(__FILE__) . '/vendor/autoload.php');
 
 require_once (dirname(__FILE__) . '/context.php');
+require_once (dirname(__FILE__) . '/canonical.php');
 
 
 $hypothesis_api_url = 'https://api.hypothes.is/api';
@@ -153,24 +154,128 @@ function hypothesis_annotation_to_rdf($obj, $format='jsonld')
 
 	// generate triples as array of strings
 	
+	$use_bnodes = false;
 	$bnode_counter = 1;
 	
-	$subject_id = '<https://hypothes.is/a/' . $obj->id . '>';
+	$base_id = 'https://hypothes.is/a/' . $obj->id;
+	
+	$subject_id = '<' . $base_id . '>';
 	
 	$triples[] = $subject_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> . ';
 	
+	
+	// creator
+	$creator_id = '';
+	if (isset($obj->user))
+	{
+		// https://hypothes.is/users/rdmpage
+		if (preg_match('/acct:(?<user>.*)@hypothes.is/', $obj->user, $m))
+		{
+			$creator_id = 'https://hypothes.is/users/' . $m['user'];
+		}
+	}
+	
+	if ($creator_id != '')
+	{
+		$triples[] = $subject_id . ' <http://purl.org/dc/terms/creator> <' . $creator_id . '> . ';		
+	}
+	
+	// dates
+	$triples[] = $subject_id . ' <http://purl.org/dc/terms/created> "' . $obj->created . '"^^<http://www.w3.org/2001/XMLSchema#dateTime> . ';		
+	$triples[] = $subject_id . ' <http://purl.org/dc/terms/modified> "' . $obj->updated. '"^^<http://www.w3.org/2001/XMLSchema#dateTime> . ';		
+	
+	
+	// body
+	
+	// Assumption is that user will have entered some text in the annotation
+	// We test whether the text is a URI or not, if it is a URI we use that
+	// as the body @id, and also set the motivation for the annotation
+	
+	if (isset($obj->text) && trim($obj->text) != '')
+	{
+		$matched = false;
+		
+		if (!$matched)
+		{
+			// Is it a URI?
+			if (preg_match('/\s*^(?<uri>(https?|urn).*)\s*$/i', $obj->text, $m))
+			{
+				$body_id = $m['uri'];
+				$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#hasBody> <' . $body_id . '> . ';	
+				
+				// If we have a URI then we are identifying the target
+				$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#motivatedBy> <http://www.w3.org/ns/oa#identifying> . ';	
+				
+				$matched = true;
+			}
+		}
+
+		if (!$matched)
+		{
+			// Text, at some point try to interpret
+						
+			// Just text
+			if ($use_bnodes)
+			{
+				$body_id = '_:b' . $bnode_counter++;			
+			}
+			else
+			{
+				$body_id = '<' . $base_id . '#' . $bnode_counter++ . '>';	
+			}
+			$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#hasBody> ' . $body_id . ' . ';				
+
+			$triples[] = $body_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#TextualBody> . ';
+			$triples[] = $body_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($obj->text, '"') . '" . ';
+			
+			// For now we don't know the motivation
+			
+			$matched = true;
+		}
+		
+	}
+	
+	// target (thing we are annotating)
 	foreach($obj->target as $target)
 	{	
-		$target_id = '_:b' . $bnode_counter++;		
+		if ($use_bnodes)
+		{
+			$target_id = '_:b' . $bnode_counter++;		
+		}
+		else
+		{
+			$target_id = '<' . $base_id . '#' . $bnode_counter++ . '>';			
+		}
 		$triples[] = $subject_id . ' <http://www.w3.org/ns/oa#hasTarget> ' . 	$target_id . ' . ';	
-		
+				
 		// source
 		$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSource> <' . 	$target->source . '> . ';
+		
+		// canonical identifier
+		$canonical_identifier = '';
+		$identifiers = get_canonical_identifiers($target->source);
+		
+		
+		if (isset($identifiers['doi']))
+		{
+			$canonical_identifier = 'https://doi.org/' . $identifiers['doi'];
+		}
+		if ($canonical_identifier != '')
+		{
+			$triples[] = $target_id . ' <http://www.w3.org/ns/oa#canonical> <' . $canonical_identifier . '> . ';		
+		}
 		
 		// target and selectors		
 		foreach ($target->selector as $selector)
 		{
-			$selector_id = '_:b' . $bnode_counter++;
+			if ($use_bnodes)
+			{
+				$selector_id = '_:b' . $bnode_counter++;
+			}
+			else
+			{
+				$selector_id = '<' . $base_id . '#' . $bnode_counter++ . '>';						
+			}
 			
 			$triples[] = $target_id . ' <http://www.w3.org/ns/oa#hasSelector> ' . $selector_id  . ' . ';
 			
@@ -189,14 +294,28 @@ function hypothesis_annotation_to_rdf($obj, $format='jsonld')
 						break;		
 						
 					case 'startContainer':
-						$xpath_id =  '_:b' . $bnode_counter++;
+						if ($use_bnodes)
+						{
+							$xpath_id =  '_:b' . $bnode_counter++;
+						}
+						else
+						{
+							$xpath_id = '<' . $base_id . '#' . $bnode_counter++ . '>';						
+						}
 						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasStartSelector> ' . $xpath_id . ' . ';
 						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
 						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
 						break;
 											
 					case 'endContainer':
-						$xpath_id =  '_:b' . $bnode_counter++;
+						if ($use_bnodes)
+						{
+							$xpath_id =  '_:b' . $bnode_counter++;
+						}
+						else
+						{
+							$xpath_id = '<' . $base_id . '#' . $bnode_counter++ . '>';						
+						}
 						$triples[] = $selector_id . ' <http://www.w3.org/ns/oa#hasEndSelector> ' . $xpath_id . ' . ';
 						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#XPathSelector> . ';
 						$triples[] = $xpath_id . ' <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "'. addcslashes($v, '"') . '" . ';
@@ -211,7 +330,9 @@ function hypothesis_annotation_to_rdf($obj, $format='jsonld')
 
 	// print_r($triples);
 	
-	$nt = join("\n", $triples) . "\n\n";	
+	$nt = join("\n", $triples) . "\n\n";
+	
+	//echo $nt . "\n";	
 	
 	if ($format == 'jsonld')
 	{
