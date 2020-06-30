@@ -40,7 +40,9 @@ Selected text need to be parsed and converted to an identifier, need service suc
 
 Hypothes.is feed is 
 
-```https://hypothes.is/stream.rss?user=<username>```
+```
+https://hypothes.is/stream.rss?user=username
+```
 
 ### Fetch annotations related to content
 
@@ -54,19 +56,28 @@ In the bookmarklet I use the MutationObserver interface to track whether the Pag
 
 (What do we do with PDFs?)
 
+## Demonstration examples
+
+Could use [NHM specimens example](https://github.com/rossmounce/NHM-specimens) where we have data (that has a DOI http://dx.doi.org/10.5281/zenodo.34966). Need to represent links between specimens as annotations, think about how we give credit in annotation to source. See https://www.w3.org/TR/annotation-model/#lifecycle-information for ideas.
 
 ## Examples of PIDs and data sources
 
-Institution | Data type | PID | RDF? | URL in meta
--- | -- | -- | -- | -- 
-NHM | specimen | https://data.nhm.ac.uk/object/ + UUID | yes (extension) | no
-RBGE | specimen | http://data.rbge.org.uk/herb/ + barcode | yes (content negotiation) | no
-KEW | specimen | http://specimens.kew.org/herbarium/ + barcode |  yes (content negotiation) | no
+Institution | Data type | PID | Example | RDF | URL in meta
+ -- | -- | -- | -- | -- | --
+NHM | specimen | https://data.nhm.ac.uk/object/ + UUID | [31a84c68 - 6295 - 4e5b - aa0a - 5c2844f1fb50](https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50) | yes (extension) | ~~no~~ yes
+RBGE | specimen | http://data.rbge.org.uk/herb/ + barcode | [E00001237](https://data.rbge.org.uk/herb/E00001237) | yes (content negotiation) | no
+KEW | specimen | http://specimens.kew.org/herbarium/ + barcode |  [K001116483](http://specimens.kew.org/herbarium/K001116483)|  yes (content negotiation) **broken** | no
+
+See [Implementers](http://herbal.rbge.info/md.php?q=implementers) for list of CETAF sites.
 
 
 ### NHM
 
-NHM serves RDF in triples and turtle, e.g. https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3 and https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.ttl RDF is flat Darwin Core.
+NHM serves RDF in triples,turtle, and JSON-LD e.g. https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3 and https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.ttl RDF is flat Darwin Core. 
+
+NHM also serves JSON-LD, e.g. https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750
+
+NHM added SEO-friendly tags, see https://github.com/NaturalHistoryMuseum/ckanext-nhm/pull/476
 
 ### RBGE 
 
@@ -74,7 +85,22 @@ RBGE serves RDF (flat Darwin Core) that includes links to IIIF.
 
 ### Kew
 
-Kew serves RDF (flat Darwin Core)
+Kew serves RDF (flat Darwin Core). It is **broken**
+
+```
+<dc:relation>
+ <rdf:Description rdf:about="http://www.kew.org/herbcatimg/686057.jpg">
+ <dc:identifier rdf:resource="http://www.kew.org/herbcatimg/686057.jpg"/>
+ <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+ <dc:subject rdf:resource="http://specimens.kew.org/herbarium/K001116483"/>
+ <dc:format>image/jpeg</dc:format>
+ <dc:description xml:lang="en">Image of herbarium specimen</dc:description>
+ <dc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+ </rdf:Description>
+ </dc:relation>
+ <dwc:associatedMedia rdf:resource="http://www.kew.org/herbcatimg/686057.jpg"/>
+```
+
 
 ### National Gallery
 
@@ -92,7 +118,9 @@ https://collection.sciencemuseumgroup.org.uk/api/objects/co8084947
 - https://collection.sciencemuseumgroup.org.uk/objects/co8084947/stephensons-rocket-steam-locomotive
 
 
+## Related projects
 
+DiSSCo e.g. https://github.com/sharifX/pid-specimen-genbank
 
 ## Recommendations for PID providers
 
@@ -100,7 +128,7 @@ These recommendations are w.r.t. to making projects like this doable.
 
 ### Make identifier discoverable within web page for item
 
-The web page for an entity should include the persistent identifier in a machine readable way. For example, academic publishers typically include the DOI for an article in a ```meta``` tag.
+The web page for an entity should include the persistent identifier in a machine readable way. For example, academic publishers typically include the DOI for an article in a ```meta``` tag (see also Twitter thread https://twitter.com/rdmpage/status/1273274118293553155 )
 
 1. Include persistent identifier in HEAD of web page
 1. Use standard tag, e.g. canonical link, og:url, etc.
@@ -112,4 +140,9 @@ The web page for an entity should include the persistent identifier in a machine
 
 e.g. do museums serving RDF all use same approach?
 
+### Reaction
+
+
+
+> If I was bitter I'd launch into a rant about how come people who diddle with semantic data fail to appreciate that the things which support their particular interests have to be balanced with other priorities by people maintaining production systems on a skeleton staff ;) [@vsmithuk](https://twitter.com/vsmithuk/status/1273925393767153664)
 
