@@ -1,4 +1,4 @@
-<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T12:29:26.859017"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:45.253721"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://purl.org/dc/terms/created> "2013-03-20T11:15:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -40,4 +40,261 @@
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536/1593475200000> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056309892> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:45.824885"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/created> "2013-03-20T12:05:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/identifier> "8c5f9a32-a707-461b-a4c1-e3e74a74576c" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/title> "Gangesia agraensis" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/vocab/aiiso/schema#Division> "Parasitic Worms" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/catalogNumber> "2012.8.23.2" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/class> "Cestoda" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"kindOfObject\": \"slide\", \"barcode\": \"013005724\", \"donorName\": \"Professor Tom\\u00e1s Scholz\", \"gbifID\": \"1055859536\", \"determinationNames\": \"Gangesia agraensis\", \"subDepartment\": \"Parasitic Worms\", \"registrationCode\": \"PWEA\", \"kindOfCollection\": \"slide\", \"collectionKind\": \"slide\"}" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/fieldNumber> "IND 873A" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/genus> "Gangesia" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Platyhelminthes; Cestoda; Proteocephalidea" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India; Assam" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/individualCount> "1" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/locality> "Guwahati" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/modified> "2018-06-18T10:11:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/occurrenceID> "8c5f9a32-a707-461b-a4c1-e3e74a74576c" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/order> "Proteocephalidea" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2706409" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/phylum> "Platyhelminthes" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia agraensis" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/specificEpithet> "agraensis" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/stateProvince> "Assam" .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c/1593475200000> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055859536> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:46.356277"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/created> "2013-03-20T13:39:37"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/identifier> "6e8be646-486e-4193-ac46-e13e23c5daef" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/title> "Gangesia agraensis" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/vocab/aiiso/schema#Division> "Parasitic Worms" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/catalogNumber> "2012.8.23.3" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/class> "Cestoda" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/day> "24" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"kindOfObject\": \"Slide\", \"barcode\": \"012925151\", \"donorName\": \"Professor Tom\\u00e1s Scholz\", \"gbifID\": \"1055861974\", \"determinationNames\": \"Gangesia agraensis\", \"subDepartment\": \"Parasitic Worms\", \"registrationCode\": \"PWEA\", \"kindOfCollection\": \"Slide\"}" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/fieldNumber> "AA 86A" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/genus> "Gangesia" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Platyhelminthes; Cestoda; Proteocephalidea" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India; West Bengal" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/individualCount> "1" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/locality> "Rishra" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/modified> "2018-06-18T10:11:33"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/month> "2" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/occurrenceID> "6e8be646-486e-4193-ac46-e13e23c5daef" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/order> "Proteocephalidea" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2706465" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/phylum> "Platyhelminthes" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/recordedBy> "A Ash" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia agraensis" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/specificEpithet> "agraensis" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/stateProvince> "West Bengal" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/year> "2008" .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef/1593475200000> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055861974> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:46.849595"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/created> "2013-03-20T13:53:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/identifier> "038e765f-1a4a-4e9d-9c3e-86f13c07ab18" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/title> "Gangesia macrones" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/vocab/aiiso/schema#Division> "Parasitic Worms" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/catalogNumber> "2012.8.23.6" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/class> "Cestoda" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/day> "31" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"kindOfObject\": \"slide\", \"barcode\": \"013056716\", \"donorName\": \"Professor Tom\\u00e1s Scholz\", \"gbifID\": \"1057148055\", \"determinationNames\": \"Gangesia macrones\", \"subDepartment\": \"Parasitic Worms\", \"registrationCode\": \"PWEA\", \"kindOfCollection\": \"slide\"}" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/fieldNumber> "GAM 3" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/genus> "Gangesia" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Platyhelminthes; Cestoda; Proteocephalidea" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/individualCount> "0" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/locality> "Marharastra" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/modified> "2018-06-18T10:11:33"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/month> "1" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/occurrenceID> "038e765f-1a4a-4e9d-9c3e-86f13c07ab18" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/order> "Proteocephalidea" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2706467" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/phylum> "Platyhelminthes" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/recordedBy> "S P. Chavan" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia macrones" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/specificEpithet> "macrones" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/year> "2012" .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18/1593475200000> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1057148055> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:47.366315"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/created> "2013-03-20T14:04:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/identifier> "3d60a244-dd7f-44b6-a823-977f4f3286ab" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/title> "Gangesia macrones" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/vocab/aiiso/schema#Division> "Parasitic Worms" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/catalogNumber> "2012.8.23.7" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/class> "Cestoda" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/day> "16" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"kindOfObject\": \"slides\", \"barcode\": \"013035189\", \"donorName\": \"Professor Tom\\u00e1s Scholz\", \"gbifID\": \"1056217368\", \"determinationNames\": \"Gangesia macrones\", \"subDepartment\": \"Parasitic Worms\", \"registrationCode\": \"PWEA\", \"kindOfCollection\": \"slide\"}" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/genus> "Gangesia" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Platyhelminthes; Cestoda; Proteocephalidea" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/individualCount> "3" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/locality> "Marharastra; Yelda" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/modified> "2018-06-18T10:11:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/month> "1" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/occurrenceID> "3d60a244-dd7f-44b6-a823-977f4f3286ab" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/order> "Proteocephalidea" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2706470" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/phylum> "Platyhelminthes" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia macrones" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/specificEpithet> "macrones" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/year> "2010" .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab/1593475200000> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056217368> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:47.842595"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/created> "2014-02-11T16:17:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/identifier> "1a995d3f-d4c9-4ee3-a0a3-8301233f2e10" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/title> "Megalania prisca Owen, 1882" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/vocab/aiiso/schema#Department> "Palaeontology" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/vocab/aiiso/schema#Division> "Vertebrates" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/catalogNumber> "PV OR 39965" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/collectionCode> "PAL" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/continent> "Australia" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/country> "Australia" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/countryCode> "AU" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"chronostratigraphy\": \"Quaternary, Pleistocene\", \"catalogueDescription\": \"occipital region of skull\", \"donorName\": \"Sir D. Cooper\", \"associatedMediaCount\": 1, \"determinationNames\": \"Megalania prisca Owen, 1882\", \"subDepartment\": \"Vertebrates\", \"gbifID\": \"1055799533\"}" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries> "Pleistocene" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem> "Cenozoic" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem> "Quaternary" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/genus> "Megalania" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/higherGeography> "Australia; Australia; Queensland" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/identifiedBy> "Sir Richard Owen K.C.B., M.D., D.C.L., LL.D. P.R.S., F.L.S., V.P.Z.S." .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries> "Pleistocene" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem> "Cenozoic" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem> "Quaternary" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/modified> "2018-07-12T12:49:19"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/occurrenceID> "1a995d3f-d4c9-4ee3-a0a3-8301233f2e10" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2943059" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/scientificName> "Megalania prisca Owen, 1882" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Owen, 1882" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/specificEpithet> "prisca" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/stateProvince> "Queensland" .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10/1593475200000> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055799533> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://purl.org/dc/terms/title> "NHM-UK_P_DF118_03_05_0141" .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
+<https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T13:56:48.337124"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/created> "2013-03-20T13:45:24"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/identifier> "b59e3747-3322-4153-9277-46cd7da0adaf" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/title> "Gangesia bengalensis" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/vocab/aiiso/schema#Division> "Parasitic Worms" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/catalogNumber> "2012.8.23.4-5" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/class> "Cestoda" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/day> "27" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"kindOfObject\": \"slide\", \"barcode\": \"012925150\", \"donorName\": \"Prof Tom\\u00e1s Scholz\", \"gbifID\": \"1056601091\", \"determinationNames\": \"Gangesia bengalensis\", \"subDepartment\": \"Parasitic Worms\", \"registrationCode\": \"PWEA\", \"kindOfCollection\": \"slide\"}" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/fieldNumber> "AA133,133B" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/genus> "Gangesia" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Platyhelminthes; Cestoda; Proteocephalidea" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India; West Bengal" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/individualCount> "3" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/locality> "Rishra" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/modified> "2018-01-19T17:13:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/month> "3" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/occurrenceID> "b59e3747-3322-4153-9277-46cd7da0adaf" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/order> "Proteocephalidea" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2706466" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/phylum> "Platyhelminthes" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/recordedBy> "A Ash" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia bengalensis" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/specificEpithet> "bengalensis" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/stateProvince> "West Bengal" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/year> "2008" .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf/1593475200000> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056601091> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 

@@ -153,3 +153,1838 @@ _:c14n9 <http://schema.org/propertyID> "RINGGOLD" .
 _:c14n9 <http://schema.org/value> "93117" .
 _:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
 
+<https://doi.org/10.1007/s00436-019-06326-6> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1007/s00436-019-06326-6> <http://schema.org/identifier> _:c14n33 .
+<https://doi.org/10.1007/s00436-019-06326-6> <http://schema.org/name> "Revision of Acanthotaenia von Linstow, 1903 (Cestoda: Proteocephalidae), parasites of monitors (Varanus spp.), based on morphological and molecular data" .
+<https://doi.org/10.1007/s00436-019-06326-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/identifier> _:c14n20 .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/identifier> _:c14n22 .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/name> "A new monozoic tapeworm, Lobulovarium longiovatum n. g., n. sp (Cestoda: Caryophyllidea), from barbs Puntius spp. (Teleostei: Cyprinidae) in the Indomalayan region" .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-018-9796-y> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1007/s11230-018-9796-y> <http://schema.org/identifier> _:c14n7 .
+<https://doi.org/10.1007/s11230-018-9796-y> <http://schema.org/name> "An annotated list and molecular data on larvae of gryporhynchid tapeworms (Cestoda: Cyclophyllidea) from freshwater fishes in Africa" .
+<https://doi.org/10.1007/s11230-018-9796-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.actatropica.2015.05.017> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.actatropica.2015.05.017> <http://schema.org/identifier> _:c14n36 .
+<https://doi.org/10.1016/j.actatropica.2015.05.017> <http://schema.org/identifier> _:c14n40 .
+<https://doi.org/10.1016/j.actatropica.2015.05.017> <http://schema.org/name> "High morphological plasticity and global geographical distribution of the Pacific broad tapeworm Adenocephalus pacificus (syn. Diphyllobothrium pacificum): Molecular and morphological survey." .
+<https://doi.org/10.1016/j.actatropica.2015.05.017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2006.08.003> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2006.08.003> <http://schema.org/identifier> _:c14n28 .
+<https://doi.org/10.1016/j.ijpara.2006.08.003> <http://schema.org/identifier> _:c14n52 .
+<https://doi.org/10.1016/j.ijpara.2006.08.003> <http://schema.org/name> "Paraphyly of the Pseudophyllidea (Platyhelminthes : Cestoda): Circumscription of monophyletic clades based on phylogenetic analysis of ribosomal RNA" .
+<https://doi.org/10.1016/j.ijpara.2006.08.003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2007.08.005> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2007.08.005> <http://schema.org/identifier> _:c14n13 .
+<https://doi.org/10.1016/j.ijpara.2007.08.005> <http://schema.org/identifier> _:c14n54 .
+<https://doi.org/10.1016/j.ijpara.2007.08.005> <http://schema.org/name> "Suppression of the tapeworm order Pseudophyllidea (Platyhelminthes : Eucestoda) and the proposal of two new orders, Bothriocephalidea and Diphyllobothriidea" .
+<https://doi.org/10.1016/j.ijpara.2007.08.005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2012.01.005> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2012.01.005> <http://schema.org/identifier> _:c14n47 .
+<https://doi.org/10.1016/j.ijpara.2012.01.005> <http://schema.org/identifier> _:c14n57 .
+<https://doi.org/10.1016/j.ijpara.2012.01.005> <http://schema.org/name> "Substitution saturation and nuclear paralogs of commonly employed phylogenetic markers in the Caryophyllidea, an unusual group of non-segmented tapeworms (Platyhelminthes)" .
+<https://doi.org/10.1016/j.ijpara.2012.01.005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2015.05.006> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2015.05.006> <http://schema.org/identifier> _:c14n18 .
+<https://doi.org/10.1016/j.ijpara.2015.05.006> <http://schema.org/identifier> _:c14n27 .
+<https://doi.org/10.1016/j.ijpara.2015.05.006> <http://schema.org/name> "Molecular phylogeny of the Bothriocephalidea (Cestoda): molecular data challenge morphological classification" .
+<https://doi.org/10.1016/j.ijpara.2015.05.006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2016.03.009> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2016.03.009> <http://schema.org/identifier> _:c14n29 .
+<https://doi.org/10.1016/j.ijpara.2016.03.009> <http://schema.org/identifier> _:c14n39 .
+<https://doi.org/10.1016/j.ijpara.2016.03.009> <http://schema.org/name> "Paralogues of nuclear ribosomal genes conceal phylogenetic signals within the invasive Asian fish tapeworm lineage: evidence from next generation sequencing data." .
+<https://doi.org/10.1016/j.ijpara.2016.03.009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijpara.2017.06.004> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijpara.2017.06.004> <http://schema.org/identifier> _:c14n0 .
+<https://doi.org/10.1016/j.ijpara.2017.06.004> <http://schema.org/identifier> _:c14n16 .
+<https://doi.org/10.1016/j.ijpara.2017.06.004> <http://schema.org/name> "The catholic taste of broad tapeworms - multiple routes to human infection" .
+<https://doi.org/10.1016/j.ijpara.2017.06.004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://schema.org/identifier> _:c14n34 .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://schema.org/identifier> _:c14n5 .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://schema.org/name> "Broad tapeworms (Diphyllobothriidae), parasites of wildlife and humans: Recent progress and future challenges" .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000474905300050&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1016/j.ijppaw.2019.02.001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2013.02.001> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.parint.2013.02.001> <http://schema.org/identifier> _:c14n11 .
+<https://doi.org/10.1016/j.parint.2013.02.001> <http://schema.org/identifier> _:c14n2 .
+<https://doi.org/10.1016/j.parint.2013.02.001> <http://schema.org/name> "First identification of eggs of the Asian fish tapeworm Bothriocephalus acheilognathi (Cestoda: Bothriocephalidea) in human stool" .
+<https://doi.org/10.1016/j.parint.2013.02.001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/identifier> _:c14n38 .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/identifier> _:c14n41 .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/name> "Molecular evidence of cryptic diversity in Paracaryophyllaeus (Cestoda: Caryophyllidea), parasites of loaches (Cobitidae) in Eurasia, including description of P-vladkae n. sp." .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2016.02.004> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.parint.2016.02.004> <http://schema.org/identifier> _:c14n21 .
+<https://doi.org/10.1016/j.parint.2016.02.004> <http://schema.org/identifier> _:c14n26 .
+<https://doi.org/10.1016/j.parint.2016.02.004> <http://schema.org/name> "The mitochondrial genome and ribosomal operon of Brachycladium goliath (Digenea: Brachycladiidae) recovered from a stranded minke whale" .
+<https://doi.org/10.1016/j.parint.2016.02.004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2018.01.007> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.parint.2018.01.007> <http://schema.org/identifier> _:c14n35 .
+<https://doi.org/10.1016/j.parint.2018.01.007> <http://schema.org/identifier> _:c14n44 .
+<https://doi.org/10.1016/j.parint.2018.01.007> <http://schema.org/name> "Development of polymorphic microsatellites for the invasive Asian fish tapeworm Schyzocotyle acheilognathi" .
+<https://doi.org/10.1016/j.parint.2018.01.007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2019.04.009> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1016/j.parint.2019.04.009> <http://schema.org/identifier> _:c14n45 .
+<https://doi.org/10.1016/j.parint.2019.04.009> <http://schema.org/name> "Genetic diversity of the potentially therapeutic tapeworm Hymenolepis diminuta (Cestoda: Cyclophyllidea)" .
+<https://doi.org/10.1016/j.parint.2019.04.009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1128/jcm.00445-10> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1128/jcm.00445-10> <http://schema.org/identifier> _:c14n19 .
+<https://doi.org/10.1128/jcm.00445-10> <http://schema.org/identifier> _:c14n24 .
+<https://doi.org/10.1128/jcm.00445-10> <http://schema.org/name> "Multiplex PCR for Differential Identification of Broad Tapeworms (Cestoda: Diphyllobothrium) Infecting Humans" .
+<https://doi.org/10.1128/jcm.00445-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1139/cjz-2017-0013> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1139/cjz-2017-0013> <http://schema.org/identifier> _:c14n32 .
+<https://doi.org/10.1139/cjz-2017-0013> <http://schema.org/identifier> _:c14n6 .
+<https://doi.org/10.1139/cjz-2017-0013> <http://schema.org/name> "Does the number of genital organs matter? Case of the seal tapeworm Diphyllobothrium (syn. Diplogonoporus) tetrapterum (Cestoda: Diphyllobothriidea)" .
+<https://doi.org/10.1139/cjz-2017-0013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/s13071-015-0949-4> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1186/s13071-015-0949-4> <http://schema.org/identifier> _:c14n42 .
+<https://doi.org/10.1186/s13071-015-0949-4> <http://schema.org/identifier> _:c14n51 .
+<https://doi.org/10.1186/s13071-015-0949-4> <http://schema.org/name> "Complete mitochondrial genomes and nuclear ribosomal RNA operons of two species of Diplostomum (Platyhelminthes: Trematoda): a molecular resource for taxonomy and molecular epidemiology of important fish pathogens" .
+<https://doi.org/10.1186/s13071-015-0949-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pntd.0002535> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1371/journal.pntd.0002535> <http://schema.org/identifier> _:c14n3 .
+<https://doi.org/10.1371/journal.pntd.0002535> <http://schema.org/identifier> _:c14n37 .
+<https://doi.org/10.1371/journal.pntd.0002535> <http://schema.org/name> "Tapeworm Diphyllobothrium dendriticum (Cestoda)-Neglected or Emerging Human Parasite?" .
+<https://doi.org/10.1371/journal.pntd.0002535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n31 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n58 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/name> "Revision of Gangesia (Cestoda: Proteocephalidea) in the Indomalayan Region: Morphology, Molecules and Surface Ultrastructure" .
+<https://doi.org/10.1371/journal.pone.0046421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/identifier> _:c14n14 .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/identifier> _:c14n53 .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/name> "A synoptic review of Promonobothrium Mackiewicz, 1968 (Cestoda: Caryophyllidea), parasites of suckers (Catostomidae) in North America, with description of two new species." .
+<https://doi.org/10.14411/fp.2016.008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/identifier> _:c14n10 .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/identifier> _:c14n8 .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/name> "NEW CIRCUMSCRIPTION OF FRESHWATER FISH PARASITES MONOBOTHRIUM DIESING, 1863 AND PROMONOBOTHRIUM MACKIEWICZ, 1968 (CESTODA: CARYOPHYLLIDEA) USING MORPHOLOGICAL AND MOLECULAR EVIDENCE" .
+<https://doi.org/10.1645/14-610.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/19-89> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.1645/19-89> <http://schema.org/identifier> _:c14n12 .
+<https://doi.org/10.1645/19-89> <http://schema.org/name> "The Proteocephalus Species-Aggregate in Freshwater Centrarchid and Percid Fishes of the Nearctic Region (North America)" .
+<https://doi.org/10.1645/19-89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3201/eid2011.140996> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.3201/eid2011.140996> <http://schema.org/identifier> _:c14n30 .
+<https://doi.org/10.3201/eid2011.140996> <http://schema.org/identifier> _:c14n46 .
+<https://doi.org/10.3201/eid2011.140996> <http://schema.org/name> "Misidentification of Diphyllobothrium Species Related to Global Fish Trade, Europe" .
+<https://doi.org/10.3201/eid2011.140996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.7589/2017-01-020> <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+<https://doi.org/10.7589/2017-01-020> <http://schema.org/identifier> _:c14n23 .
+<https://doi.org/10.7589/2017-01-020> <http://schema.org/identifier> _:c14n56 .
+<https://doi.org/10.7589/2017-01-020> <http://schema.org/name> "First Report of an Adult Tapeworm (Cestoda: Diphyllobothriidea) in a Southern Sea Otter (Enhydra lutris nereis)." .
+<https://doi.org/10.7589/2017-01-020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://orcid.org/0000-0002-2636-414X> <http://schema.org/alternateName> "Honza Brabec" .
+<https://orcid.org/0000-0002-2636-414X> <http://schema.org/familyName> "Brabec" .
+<https://orcid.org/0000-0002-2636-414X> <http://schema.org/givenName> "Jan" .
+<https://orcid.org/0000-0002-2636-414X> <http://schema.org/identifier> _:c14n1 .
+<https://orcid.org/0000-0002-2636-414X> <http://schema.org/mainEntityOfPage> "https://orcid.org/0000-0002-2636-414X" .
+<https://orcid.org/0000-0002-2636-414X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:c14n0 <http://schema.org/propertyID> "doi" .
+_:c14n0 <http://schema.org/value> "10.1016/j.ijpara.2017.06.004" .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n1 <http://schema.org/propertyID> "ResearcherID" .
+_:c14n1 <http://schema.org/value> "G-8419-2014" .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n10 <http://schema.org/propertyID> "doi" .
+_:c14n10 <http://schema.org/value> "10.1645/14-610.1" .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n11 <http://schema.org/propertyID> "doi" .
+_:c14n11 <http://schema.org/value> "10.1016/j.parint.2013.02.001" .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n12 <http://schema.org/propertyID> "doi" .
+_:c14n12 <http://schema.org/value> "10.1645/19-89" .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n13 <http://schema.org/propertyID> "wosuid" .
+_:c14n13 <http://schema.org/value> "wos:000253034900004" .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n14 <http://schema.org/propertyID> "doi" .
+_:c14n14 <http://schema.org/value> "10.14411/fp.2016.008" .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n15 <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+_:c14n15 <http://schema.org/identifier> _:c14n25 .
+_:c14n15 <http://schema.org/name> "Is the human-infecting Diphyllobothrium pacificum a valid species or just a South American population of the holarctic fish broad tapeworm, D. latum?" .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n16 <http://schema.org/propertyID> "wosuid" .
+_:c14n16 <http://schema.org/value> "wos:000414816400002" .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n17 <http://schema.org/propertyID> "wosuid" .
+_:c14n17 <http://schema.org/value> "wos:000257624400005" .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n18 <http://schema.org/propertyID> "doi" .
+_:c14n18 <http://schema.org/value> "10.1016/j.ijpara.2015.05.006" .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n19 <http://schema.org/propertyID> "wosuid" .
+_:c14n19 <http://schema.org/value> "wos:000281480400010" .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n2 <http://schema.org/propertyID> "wosuid" .
+_:c14n2 <http://schema.org/value> "wos:000318752400006" .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n20 <http://schema.org/propertyID> "wosuid" .
+_:c14n20 <http://schema.org/value> "wos:000307541400001" .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n21 <http://schema.org/propertyID> "wosuid" .
+_:c14n21 <http://schema.org/value> "wos:000373865800017" .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n22 <http://schema.org/propertyID> "doi" .
+_:c14n22 <http://schema.org/value> "10.1007/s11230-012-9367-6" .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n23 <http://schema.org/propertyID> "doi" .
+_:c14n23 <http://schema.org/value> "10.7589/2017-01-020" .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n24 <http://schema.org/propertyID> "doi" .
+_:c14n24 <http://schema.org/value> "10.1128/jcm.00445-10" .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n25 <http://schema.org/propertyID> "wosuid" .
+_:c14n25 <http://schema.org/value> "wos:000239679200023" .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n26 <http://schema.org/propertyID> "doi" .
+_:c14n26 <http://schema.org/value> "10.1016/j.parint.2016.02.004" .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n27 <http://schema.org/propertyID> "wosuid" .
+_:c14n27 <http://schema.org/value> "wos:000364253200003" .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n28 <http://schema.org/propertyID> "wosuid" .
+_:c14n28 <http://schema.org/value> "wos:000242926700011" .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n29 <http://schema.org/propertyID> "doi" .
+_:c14n29 <http://schema.org/value> "10.1016/j.ijpara.2016.03.009" .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n3 <http://schema.org/propertyID> "doi" .
+_:c14n3 <http://schema.org/value> "10.1371/journal.pntd.0002535" .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n30 <http://schema.org/propertyID> "wosuid" .
+_:c14n30 <http://schema.org/value> "wos:000343966300040" .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n31 <http://schema.org/propertyID> "doi" .
+_:c14n31 <http://schema.org/value> "10.1371/journal.pone.0046421" .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n32 <http://schema.org/propertyID> "doi" .
+_:c14n32 <http://schema.org/value> "10.1139/cjz-2017-0013" .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n33 <http://schema.org/propertyID> "doi" .
+_:c14n33 <http://schema.org/value> "10.1007/s00436-019-06326-6" .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n34 <http://schema.org/propertyID> "doi" .
+_:c14n34 <http://schema.org/value> "10.1016/j.ijppaw.2019.02.001" .
+_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n35 <http://schema.org/propertyID> "doi" .
+_:c14n35 <http://schema.org/value> "10.1016/j.parint.2018.01.007" .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n36 <http://schema.org/propertyID> "wosuid" .
+_:c14n36 <http://schema.org/value> "medline:26001974" .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n37 <http://schema.org/propertyID> "wosuid" .
+_:c14n37 <http://schema.org/value> "wos:000329168100032" .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n38 <http://schema.org/propertyID> "wosuid" .
+_:c14n38 <http://schema.org/value> "wos:000343192200015" .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n39 <http://schema.org/propertyID> "wosuid" .
+_:c14n39 <http://schema.org/value> "medline:27155330" .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n4 <http://schema.org/propertyID> "wosuid" .
+_:c14n4 <http://schema.org/value> "wos:000304173600001" .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n40 <http://schema.org/propertyID> "doi" .
+_:c14n40 <http://schema.org/value> "10.1016/j.actatropica.2015.05.017" .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n41 <http://schema.org/propertyID> "doi" .
+_:c14n41 <http://schema.org/value> "10.1016/j.parint.2014.07.015" .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n42 <http://schema.org/propertyID> "wosuid" .
+_:c14n42 <http://schema.org/value> "wos:000356668000001" .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n43 <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+_:c14n43 <http://schema.org/identifier> _:c14n48 .
+_:c14n43 <http://schema.org/name> "Revision of Khawia spp. (Cestoda: Caryophyllidea), parasites of cyprinid fish, including a key to their identification and molecular phylogeny" .
+_:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n44 <http://schema.org/propertyID> "wosuid" .
+_:c14n44 <http://schema.org/value> "wos:000429395500009" .
+_:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n45 <http://schema.org/propertyID> "doi" .
+_:c14n45 <http://schema.org/value> "10.1016/j.parint.2019.04.009" .
+_:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n46 <http://schema.org/propertyID> "doi" .
+_:c14n46 <http://schema.org/value> "10.3201/eid2011.140996" .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n47 <http://schema.org/propertyID> "wosuid" .
+_:c14n47 <http://schema.org/value> "wos:000302761400006" .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n48 <http://schema.org/propertyID> "wosuid" .
+_:c14n48 <http://schema.org/value> "wos:000295863000004" .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n49 <http://schema.org/propertyID> "wosuid" .
+_:c14n49 <http://schema.org/value> "wos:000340577800007" .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n5 <http://schema.org/propertyID> "wosuid" .
+_:c14n5 <http://schema.org/value> "wos:000474905300050" .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n50 <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+_:c14n50 <http://schema.org/identifier> _:c14n4 .
+_:c14n50 <http://schema.org/name> "Bothriocephalidean tapeworms (Cestoda) of freshwater fish in Africa, including erection of Kirstenella n. gen. and description of Tetracampos martinae n. sp." .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n51 <http://schema.org/propertyID> "doi" .
+_:c14n51 <http://schema.org/value> "10.1186/s13071-015-0949-4" .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n52 <http://schema.org/propertyID> "doi" .
+_:c14n52 <http://schema.org/value> "10.1016/j.ijpara.2006.08.003" .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n53 <http://schema.org/propertyID> "wosuid" .
+_:c14n53 <http://schema.org/value> "medline:27080624" .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n54 <http://schema.org/propertyID> "doi" .
+_:c14n54 <http://schema.org/value> "10.1016/j.ijpara.2007.08.005" .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n55 <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+_:c14n55 <http://schema.org/identifier> _:c14n17 .
+_:c14n55 <http://schema.org/name> "Bothriocephalidean tapeworms (Cestoda) from the blackfish, Centrolophus niger (Perciformes : Centrolophidae)" .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n56 <http://schema.org/propertyID> "wosuid" .
+_:c14n56 <http://schema.org/value> "medline:28640666" .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n57 <http://schema.org/propertyID> "doi" .
+_:c14n57 <http://schema.org/value> "10.1016/j.ijpara.2012.01.005" .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n58 <http://schema.org/propertyID> "wosuid" .
+_:c14n58 <http://schema.org/value> "wos:000309454000043" .
+_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n6 <http://schema.org/propertyID> "wosuid" .
+_:c14n6 <http://schema.org/value> "wos:000427385500003" .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n7 <http://schema.org/propertyID> "doi" .
+_:c14n7 <http://schema.org/value> "10.1007/s11230-018-9796-y" .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n8 <http://schema.org/propertyID> "wosuid" .
+_:c14n8 <http://schema.org/value> "wos:000351562800005" .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n9 <http://schema.org/creator> <https://orcid.org/0000-0002-2636-414X> .
+_:c14n9 <http://schema.org/identifier> _:c14n49 .
+_:c14n9 <http://schema.org/name> "Conflict between morphology and molecular data: a case of the genus Caryophyllaeus (Cestoda: Caryophyllidea), monozoic tapeworms of cyprinid fishes" .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/identifier> _:c14n144 .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/identifier> _:c14n37 .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/identifier> _:c14n65 .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/name> "Re-establishment of the fish parasite fauna in the Tisa River system (Slovakia) after a catastrophic pollution event" .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000265442600035&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-009-1356-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/identifier> _:c14n139 .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/identifier> _:c14n76 .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/identifier> _:c14n86 .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/name> "Spermatological characters of the aspidogastrean Aspidogaster limacoides Diesing, 1835" .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000266266800010&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-009-1367-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/identifier> _:c14n126 .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/identifier> _:c14n155 .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/identifier> _:c14n156 .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/name> "Vitellogenesis in the cestode Atractolytocestus huronensis Anthony, 1958 (Caryophyllidea: Lytocestidae)" .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000268314400007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-009-1436-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/identifier> _:c14n101 .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/identifier> _:c14n36 .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/identifier> _:c14n70 .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/name> "A chromosome study and localization of 18S rDNA in Khawia saurogobii (Cestoda: Caryophyllidea)" .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000274252400006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-009-1702-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/identifier> _:c14n103 .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/identifier> _:c14n122 .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/identifier> _:c14n80 .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/name> "Ultrastructural aspects of spermatogenesis, testes, and vas deferens in the parthenogenetic tapeworm Atractolytocestus huronensis Anthony, 1958 (Cestoda: Caryophyllidea), a carp parasite from Slovakia" .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000286494800006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-010-2038-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/identifier> _:c14n119 .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/identifier> _:c14n72 .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/identifier> _:c14n79 .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/name> "Ultrastructure of spermiogenesis and mature spermatozoon of Breviscolex orientalis (Cestoda: Caryophyllidea)" .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000288457000029&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-010-2144-z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/identifier> _:c14n138 .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/identifier> _:c14n30 .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/identifier> _:c14n50 .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/name> "Spermatological characters of bothriocephalideans (Cestoda) inferred from an ultrastructural study on Oncodiscus sauridae and Senga sp." .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000291800200002&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-010-2215-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/identifier> _:c14n117 .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/identifier> _:c14n60 .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/identifier> _:c14n77 .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/name> "Classical and molecular cytogenetics of Khawia sinensis (Cestoda: Caryophyllidea), invasive parasite of carp, Cyprinus carpio" .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000302814700042&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-011-2720-x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/identifier> _:c14n114 .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/identifier> _:c14n153 .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/identifier> _:c14n82 .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/name> "Sequence structure and intragenomic variability of ribosomal ITS2 in monozoic tapeworms of the genus Khawia (Cestoda: Caryophyllidea), parasites of cyprinid fish" .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000308952900025&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-012-3001-z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/identifier> _:c14n149 .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/identifier> _:c14n55 .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/identifier> _:c14n83 .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/name> "The tapeworm Atractolytocestus tenuicollis (Cestoda: Caryophyllidea) - A sister species or ancestor of an invasive A. huronensis?" .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000324326500001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-013-3516-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/identifier> _:c14n111 .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/identifier> _:c14n158 .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/identifier> _:c14n62 .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/name> "Asian fish tapeworm, Khawia japonensis (Yamaguti, 1934), has expanded its European invasive range" .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000352723200047&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-015-4447-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/identifier> _:c14n130 .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/identifier> _:c14n140 .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/identifier> _:c14n87 .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/name> "A new monozoic tapeworm, Parabreviscolex niepini n. g., n. sp. (Cestoda: Caryophyllidea), from schizothoracine fishes (Cyprinidae: Schizothoracinae) in Tibet, China" .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000422968700001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-017-5682-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/identifier> _:c14n46 .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/identifier> _:c14n5 .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/identifier> _:c14n56 .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/name> "Chromosomal study of Khawia abbottinae (Cestoda: Caryophyllidea): karyotype and localization of telomeric and ribosomal sequences after fluorescence in situ hybridization (FISH)" .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000487313500006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s00436-019-06450-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/identifier> _:c14n113 .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/identifier> _:c14n154 .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/identifier> _:c14n18 .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/name> "The morphology and systematic status of Khawia rossittensis (Szidat, 1937) and K. parva (Zmeev, 1936) (Cestoda: Caryophyllidea), parasites of cyprinid fishes" .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000249659400005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s11230-007-9099-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/identifier> _:c14n0 .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/identifier> _:c14n148 .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/identifier> _:c14n99 .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/name> "Phylogenetic relationships of the monozoic tapeworms (Eucestoda: Caryophyllidea) inferred from morphological characters" .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000254462000001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s11230-008-9133-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/identifier> _:c14n61 .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/identifier> _:c14n66 .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/identifier> _:c14n98 .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/name> "A new monozoic tapeworm, Lobulovarium longiovatum n. g., n. sp. (Cestoda: Caryophyllidea), from barbs Puntius spp. (Teleostei: Cyprinidae) in the Indomalayan region" .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000307541400001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s11230-012-9367-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/identifier> _:c14n159 .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/identifier> _:c14n34 .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/identifier> _:c14n53 .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/name> "Phenotypic plasticity in Caryophyllaeus brachycollis Janiszewska, 1953 (Cestoda: Caryophyllidea): Does fish host play a role?" .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000336380600004&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s11230-014-9495-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/identifier> _:c14n108 .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/identifier> _:c14n120 .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/identifier> _:c14n97 .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/name> "Morphological polymorphism in tapeworms: redescription of Caryophyllaeus laticeps (Pallas, 1781) (Cestoda: Caryophyllidea) and characterisation of its morphotypes from different fish hosts" .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000349407700006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1007/s11230-014-9536-x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.jmii.2019.04.012> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1016/j.jmii.2019.04.012> <http://schema.org/identifier> _:c14n27 .
+<https://doi.org/10.1016/j.jmii.2019.04.012> <http://schema.org/identifier> _:c14n29 .
+<https://doi.org/10.1016/j.jmii.2019.04.012> <http://schema.org/name> "Multidisciplinary approach in study of the zoonotic Anisakis larval infection in the blue mackerel (Scomber australasicus) and the largehead hairtail (Trichiurus lepturus) in Northern Taiwan" .
+<https://doi.org/10.1016/j.jmii.2019.04.012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/identifier> _:c14n57 .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/identifier> _:c14n9 .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/identifier> _:c14n96 .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/name> "Vitellogenesis of basal trematode Aspidogaster limacoides(Aspidogastrea: Aspidogastridae)" .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000284300300007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1016/j.parint.2010.06.011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/identifier> _:c14n112 .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/identifier> _:c14n116 .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/identifier> _:c14n152 .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/name> "Molecular evidence of cryptic diversity in Paracaryophyllaeus (Cestoda: Caryophyllidea), parasites of loaches (Cobitidae) in Eurasia, including description of P. vladkae n. sp." .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000343192200015&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1016/j.parint.2014.07.015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/identifier> _:c14n118 .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/identifier> _:c14n38 .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/identifier> _:c14n93 .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/name> "Tapeworm Khawia sinensis: Review of the introduction and subsequent decline of a pathogen of carp, Cyprinus carpio" .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000271052900017&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1016/j.vetpar.2009.05.010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/identifier> _:c14n129 .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/identifier> _:c14n67 .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/identifier> _:c14n85 .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/name> "Phylogenetic relationship of Hepatozoon blood parasites found in snakes from Africa, America and Asia" .
+<https://doi.org/10.1017/s0031182013001765> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000332377900008&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1017/s0031182013001765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/identifier> _:c14n161 .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/identifier> _:c14n39 .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/identifier> _:c14n68 .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/name> "New data on spermiogenesis and trepaxonematan axoneme in basal tapeworms (Cestoda, Caryophyllidea, Lytocestidae) parasitizing cyprinid fishes" .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000484657300005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1038/s41598-019-49312-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/identifier> _:c14n16 .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/identifier> _:c14n26 .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/identifier> _:c14n8 .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/name> "Spermatozoa of tapeworms (Platyhelminthes, Eucestoda): Advances in ultrastructural and phylogenetic studies" .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000279722700007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1111/j.1469-185x.2009.00114.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/identifier> _:c14n11 .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/identifier> _:c14n2 .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/identifier> _:c14n81 .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/name> "Parasitic infection of Cobitis elongatoides Băcescu &amp; Mayer, 1969 by zoonotic metacercariae Clinostomum complanatum (Rudolphi, 1814)" .
+<https://doi.org/10.1111/jfd.13097> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000490041600001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1111/jfd.13097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://schema.org/identifier> _:c14n12 .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://schema.org/identifier> _:c14n95 .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://schema.org/name> "Bothriocephalidean tapeworms (Cestoda) of freshwater fish in Africa, including erection of Kirstenella n. gen. and description of Tetracampos martinae n. sp" .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000304173600001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.11646/zootaxa.3309.1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/identifier> _:c14n17 .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/identifier> _:c14n3 .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/identifier> _:c14n7 .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/name> "Exploring the diversity of Diplostomum (Digenea: Diplostomidae) in fishes from the River Danube using mitochondrial DNA barcodes" .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000416965200002&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1186/s13071-017-2518-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/identifier> _:c14n109 .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/identifier> _:c14n145 .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/identifier> _:c14n42 .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/name> "Complex insight on microanatomy of larval \"human broad tapeworm\" Dibothriocephalus latus (Cestoda: Diphyllobothriidea)" .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000482904800001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1186/s13071-019-3664-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n135 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n160 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n84 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/name> "Revision of Gangesia (Cestoda: Proteocephalidea) in the Indomalayan Region: Morphology, Molecules and Surface Ultrastructure" .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000309454000043&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1371/journal.pone.0046421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/identifier> _:c14n141 .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/identifier> _:c14n147 .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/identifier> _:c14n94 .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/name> "Scolex morphology of monozoic cestodes (Caryophyllidea) from the palaearctic region: A useful tool for species identification" .
+<https://doi.org/10.14411/fp.2010.006> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000277348000005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2010.006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/identifier> _:c14n133 .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/identifier> _:c14n51 .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/identifier> _:c14n90 .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/name> "Revision of Khawia spp. (Cestoda: Caryophyllidea), parasites of cyprinid fish, including a key to their identification and molecular phylogeny" .
+<https://doi.org/10.14411/fp.2011.020> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000295863000004&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2011.020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/identifier> _:c14n10 .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/identifier> _:c14n45 .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/identifier> _:c14n52 .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/name> "Spermiogenesis and spermatozoon ultrastructure of Hunterella nodulosa (Cestoda: Caryophyllidea), a monozoic parasite of suckers (Catostomidae) in North America" .
+<https://doi.org/10.14411/fp.2012.025> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000310191700005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2012.025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/identifier> _:c14n104 .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/identifier> _:c14n124 .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/identifier> _:c14n131 .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/name> "Khawia abbottinae sp. n. (cestoda: Caryophyllidea) from the chinese false gudgeon abbottina rivularis (cyprinidae: Gobioninae) in China: Morphological and molecular data" .
+<https://doi.org/10.14411/fp.2013.015> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000319720200006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2013.015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/identifier> _:c14n137 .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/identifier> _:c14n157 .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/identifier> _:c14n21 .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/name> "Conflict between morphology and molecular data: A case of the genus Caryophyllaeus (Cestoda: Caryophyllidea), monozoic tapeworms of cyprinid fishes" .
+<https://doi.org/10.14411/fp.2014.035> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000340577800007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2014.035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/identifier> _:c14n22 .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/identifier> _:c14n40 .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/identifier> _:c14n47 .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/name> "A synoptic review of Promonobothrium Mackiewicz, 1968 (Cestoda: Caryophyllidea), parasites of suckers (Catostomidae) in North America, with description of two new species" .
+<https://doi.org/10.14411/fp.2016.008> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000382606600001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2016.008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/identifier> _:c14n128 .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/identifier> _:c14n32 .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/identifier> _:c14n41 .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/name> "A synoptic review of Caryophyllaeus Gmelin, 1790 (Cestoda: Caryophyllidea), parasites of cyprinid fishes" .
+<https://doi.org/10.14411/fp.2017.027> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000407998400001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2017.027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/identifier> _:c14n125 .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/identifier> _:c14n143 .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/identifier> _:c14n146 .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/name> "Scolex morphology of monozoic tapeworms (Caryophyllidea) from the Nearctic Region: Taxonomic and evolutionary implications" .
+<https://doi.org/10.14411/fp.2020.003> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000522853800001&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.14411/fp.2020.003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/identifier> _:c14n123 .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/identifier> _:c14n28 .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/identifier> _:c14n64 .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/name> "The occurrence of the common European fish cestode Caryophyllaeus laticeps (Pallas, 1781) in the River Irtysh, China: A morphological characterization and molecular data" .
+<https://doi.org/10.1515/ap-2016-0065> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000387048300007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1515/ap-2016-0065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/identifier> _:c14n105 .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/identifier> _:c14n127 .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/identifier> _:c14n89 .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/name> "The pathogenic Asian fish tapeworm, Bothriocephalus acheilognathi Yamaguti, 1934 (Cestoda) in the Red discus (Symphysodon discus)" .
+<https://doi.org/10.1515/helmin-2015-0044> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000359664100015&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1515/helmin-2015-0044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/identifier> _:c14n136 .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/identifier> _:c14n23 .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/identifier> _:c14n33 .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/name> "New circumscription of freshwater fish parasites monobothrium diesing, 1863 and Promonobothrium Mackiewicz, 1968 (Cestoda: Caryophyllidea) using morphological and molecular evidence" .
+<https://doi.org/10.1645/14-610.1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000351562800005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/14-610.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/16-80> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/16-80> <http://schema.org/identifier> _:c14n63 .
+<https://doi.org/10.1645/16-80> <http://schema.org/identifier> _:c14n75 .
+<https://doi.org/10.1645/16-80> <http://schema.org/identifier> _:c14n92 .
+<https://doi.org/10.1645/16-80> <http://schema.org/name> "A Common Eurasian Fish Tapeworm, Caryophyllaeides fennica (Cestoda), in Western North America: Further Evidence of 'Amphi-Pacific' Vicariance in Freshwater Fish Parasites" .
+<https://doi.org/10.1645/16-80> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000413457100007&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/16-80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/17-58> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/17-58> <http://schema.org/identifier> _:c14n19 .
+<https://doi.org/10.1645/17-58> <http://schema.org/identifier> _:c14n69 .
+<https://doi.org/10.1645/17-58> <http://schema.org/identifier> _:c14n71 .
+<https://doi.org/10.1645/17-58> <http://schema.org/name> "A New Classification of Glaridacris Cooper, 1920 (Cestoda: Caryophyllidea), Parasites of Suckers (Catostomidae) in North America, Including Erection of Pseudoglaridacris N. Gen." .
+<https://doi.org/10.1645/17-58> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000425036000008&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/17-58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/identifier> _:c14n132 .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/identifier> _:c14n4 .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/identifier> _:c14n78 .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/name> "Khawia saurogobii n. sp. (cestoda: Caryophyllidea) from freshwater fish saurogobio spp. (cyprinidae) in China" .
+<https://doi.org/10.1645/ge-1808.1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000274068400041&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/ge-1808.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/identifier> _:c14n100 .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/identifier> _:c14n151 .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/identifier> _:c14n24 .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/name> "Tapeworms (Cestoda: Caryophyllidea), Parasites of Clarias batrachus (Pisces: Siluriformes) in the Indomalayan Region" .
+<https://doi.org/10.1645/ge-2625.1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000291775300011&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/ge-2625.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/identifier> _:c14n115 .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/identifier> _:c14n20 .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/identifier> _:c14n58 .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/name> "Cestodes (caryophyllidea) of the stinging catfish heteropneustes fossilis (siluriformes: Heteropneustidae) from asia" .
+<https://doi.org/10.1645/ge-2661.1> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000295950700026&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.1645/ge-2661.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/identifier> _:c14n102 .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/identifier> _:c14n13 .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/identifier> _:c14n54 .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/name> "Diphyllobothrium nihonkaiense tapeworm larvae in Salmon from North America" .
+<https://doi.org/10.3201/eid2302.161026> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000393088600034&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.3201/eid2302.161026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3354/dao062115> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.3354/dao062115> <http://schema.org/identifier> _:c14n134 .
+<https://doi.org/10.3354/dao062115> <http://schema.org/identifier> _:c14n25 .
+<https://doi.org/10.3354/dao062115> <http://schema.org/identifier> _:c14n91 .
+<https://doi.org/10.3354/dao062115> <http://schema.org/name> "The cestode Atractolytocestus huronensis (Caryophyllidea) continues to spread in Europe: New data on the helminth parasite of the common carp" .
+<https://doi.org/10.3354/dao062115> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000226680900013&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.3354/dao062115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/identifier> _:c14n1 .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/identifier> _:c14n121 .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/identifier> _:c14n35 .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/name> "The occurrence of the non-native tapeworm Khawia Japonensis (Yamaguti, 1934) (Cestoda) in cultured common carp in the Czech Republic confirms its recent expansion in Europe" .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000451023700012&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+<https://doi.org/10.3391/bir.2018.7.3.12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/address> _:c14n107 .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/alternateName> "Oros, M." .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/alternateName> "Oros, Mikuláš" .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/familyName> "Oros" .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/givenName> "Mikuláš" .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/identifier> _:c14n106 .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/identifier> _:c14n15 .
+<https://orcid.org/0000-0002-0518-5708> <http://schema.org/mainEntityOfPage> "https://orcid.org/0000-0002-0518-5708" .
+<https://orcid.org/0000-0002-0518-5708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:c14n0 <http://schema.org/propertyID> "doi" .
+_:c14n0 <http://schema.org/value> "10.1007/s11230-008-9133-y" .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n1 <http://schema.org/propertyID> "doi" .
+_:c14n1 <http://schema.org/value> "10.3391/bir.2018.7.3.12" .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n10 <http://schema.org/propertyID> "wosuid" .
+_:c14n10 <http://schema.org/value> "wos:000310191700005" .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n100 <http://schema.org/propertyID> "wosuid" .
+_:c14n100 <http://schema.org/value> "wos:000291775300011" .
+_:c14n100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n101 <http://schema.org/propertyID> "doi" .
+_:c14n101 <http://schema.org/value> "10.1007/s00436-009-1702-8" .
+_:c14n101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n102 <http://schema.org/propertyID> "wosuid" .
+_:c14n102 <http://schema.org/value> "wos:000393088600034" .
+_:c14n102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n103 <http://schema.org/propertyID> "doi" .
+_:c14n103 <http://schema.org/value> "10.1007/s00436-010-2038-0" .
+_:c14n103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n104 <http://schema.org/propertyID> "eid" .
+_:c14n104 <http://schema.org/value> "2-s2.0-84881200861" .
+_:c14n104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n105 <http://schema.org/propertyID> "doi" .
+_:c14n105 <http://schema.org/value> "10.1515/helmin-2015-0044" .
+_:c14n105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n106 <http://schema.org/propertyID> "ResearcherID" .
+_:c14n106 <http://schema.org/value> "AAP-8046-2020" .
+_:c14n106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n107 <http://schema.org/addressCountry> "SK" .
+_:c14n107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+_:c14n108 <http://schema.org/propertyID> "wosuid" .
+_:c14n108 <http://schema.org/value> "wos:000349407700006" .
+_:c14n108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n109 <http://schema.org/propertyID> "eid" .
+_:c14n109 <http://schema.org/value> "2-s2.0-85071234639" .
+_:c14n109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n11 <http://schema.org/propertyID> "doi" .
+_:c14n11 <http://schema.org/value> "10.1111/jfd.13097" .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n110 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n110 <http://schema.org/identifier> _:c14n88 .
+_:c14n110 <http://schema.org/name> "Bothriocephalidean tapeworms (Cestoda) of freshwater fish in Africa, including erection of Kirstenella n. gen. and description of Tetracampos martinae n. sp." .
+_:c14n110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n111 <http://schema.org/propertyID> "wosuid" .
+_:c14n111 <http://schema.org/value> "wos:000352723200047" .
+_:c14n111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n112 <http://schema.org/propertyID> "wosuid" .
+_:c14n112 <http://schema.org/value> "wos:000343192200015" .
+_:c14n112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n113 <http://schema.org/propertyID> "eid" .
+_:c14n113 <http://schema.org/value> "2-s2.0-34948824310" .
+_:c14n113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n114 <http://schema.org/propertyID> "eid" .
+_:c14n114 <http://schema.org/value> "2-s2.0-84868193673" .
+_:c14n114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n115 <http://schema.org/propertyID> "doi" .
+_:c14n115 <http://schema.org/value> "10.1645/ge-2661.1" .
+_:c14n115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n116 <http://schema.org/propertyID> "doi" .
+_:c14n116 <http://schema.org/value> "10.1016/j.parint.2014.07.015" .
+_:c14n116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n117 <http://schema.org/propertyID> "wosuid" .
+_:c14n117 <http://schema.org/value> "wos:000302814700042" .
+_:c14n117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n118 <http://schema.org/propertyID> "eid" .
+_:c14n118 <http://schema.org/value> "2-s2.0-70249123063" .
+_:c14n118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n119 <http://schema.org/propertyID> "wosuid" .
+_:c14n119 <http://schema.org/value> "wos:000288457000029" .
+_:c14n119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n12 <http://schema.org/propertyID> "wosuid" .
+_:c14n12 <http://schema.org/value> "wos:000304173600001" .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n120 <http://schema.org/propertyID> "eid" .
+_:c14n120 <http://schema.org/value> "2-s2.0-84923561314" .
+_:c14n120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n121 <http://schema.org/propertyID> "wosuid" .
+_:c14n121 <http://schema.org/value> "wos:000451023700012" .
+_:c14n121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n122 <http://schema.org/propertyID> "eid" .
+_:c14n122 <http://schema.org/value> "2-s2.0-78751567940" .
+_:c14n122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n123 <http://schema.org/propertyID> "doi" .
+_:c14n123 <http://schema.org/value> "10.1515/ap-2016-0065" .
+_:c14n123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n124 <http://schema.org/propertyID> "wosuid" .
+_:c14n124 <http://schema.org/value> "wos:000319720200006" .
+_:c14n124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n125 <http://schema.org/propertyID> "doi" .
+_:c14n125 <http://schema.org/value> "10.14411/fp.2020.003" .
+_:c14n125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n126 <http://schema.org/propertyID> "wosuid" .
+_:c14n126 <http://schema.org/value> "wos:000268314400007" .
+_:c14n126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n127 <http://schema.org/propertyID> "wosuid" .
+_:c14n127 <http://schema.org/value> "wos:000359664100015" .
+_:c14n127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n128 <http://schema.org/propertyID> "wosuid" .
+_:c14n128 <http://schema.org/value> "wos:000407998400001" .
+_:c14n128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n129 <http://schema.org/propertyID> "eid" .
+_:c14n129 <http://schema.org/value> "2-s2.0-84894520416" .
+_:c14n129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n13 <http://schema.org/propertyID> "eid" .
+_:c14n13 <http://schema.org/value> "2-s2.0-85010002526" .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n130 <http://schema.org/propertyID> "eid" .
+_:c14n130 <http://schema.org/value> "2-s2.0-85037714092" .
+_:c14n130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n131 <http://schema.org/propertyID> "doi" .
+_:c14n131 <http://schema.org/value> "10.14411/fp.2013.015" .
+_:c14n131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n132 <http://schema.org/propertyID> "doi" .
+_:c14n132 <http://schema.org/value> "10.1645/ge-1808.1" .
+_:c14n132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n133 <http://schema.org/propertyID> "doi" .
+_:c14n133 <http://schema.org/value> "10.14411/fp.2011.020" .
+_:c14n133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n134 <http://schema.org/propertyID> "wosuid" .
+_:c14n134 <http://schema.org/value> "wos:000226680900013" .
+_:c14n134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n135 <http://schema.org/propertyID> "eid" .
+_:c14n135 <http://schema.org/value> "2-s2.0-84867050332" .
+_:c14n135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n136 <http://schema.org/propertyID> "eid" .
+_:c14n136 <http://schema.org/value> "2-s2.0-84923636313" .
+_:c14n136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n137 <http://schema.org/propertyID> "wosuid" .
+_:c14n137 <http://schema.org/value> "wos:000340577800007" .
+_:c14n137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n138 <http://schema.org/propertyID> "eid" .
+_:c14n138 <http://schema.org/value> "2-s2.0-79959377913" .
+_:c14n138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n139 <http://schema.org/propertyID> "wosuid" .
+_:c14n139 <http://schema.org/value> "wos:000266266800010" .
+_:c14n139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n14 <http://schema.org/propertyID> "eid" .
+_:c14n14 <http://schema.org/value> "2-s2.0-84861537699" .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n140 <http://schema.org/propertyID> "doi" .
+_:c14n140 <http://schema.org/value> "10.1007/s00436-017-5682-9" .
+_:c14n140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n141 <http://schema.org/propertyID> "doi" .
+_:c14n141 <http://schema.org/value> "10.14411/fp.2010.006" .
+_:c14n141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n142 <http://schema.org/propertyID> "wosuid" .
+_:c14n142 <http://schema.org/value> "wos:000304427800006" .
+_:c14n142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n143 <http://schema.org/propertyID> "eid" .
+_:c14n143 <http://schema.org/value> "2-s2.0-85082380937" .
+_:c14n143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n144 <http://schema.org/propertyID> "eid" .
+_:c14n144 <http://schema.org/value> "2-s2.0-67349163624" .
+_:c14n144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n145 <http://schema.org/propertyID> "wosuid" .
+_:c14n145 <http://schema.org/value> "wos:000482904800001" .
+_:c14n145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n146 <http://schema.org/propertyID> "wosuid" .
+_:c14n146 <http://schema.org/value> "wos:000522853800001" .
+_:c14n146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n147 <http://schema.org/propertyID> "eid" .
+_:c14n147 <http://schema.org/value> "2-s2.0-77950674495" .
+_:c14n147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n148 <http://schema.org/propertyID> "eid" .
+_:c14n148 <http://schema.org/value> "2-s2.0-41549163870" .
+_:c14n148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n149 <http://schema.org/propertyID> "wosuid" .
+_:c14n149 <http://schema.org/value> "wos:000324326500001" .
+_:c14n149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n15 <http://schema.org/propertyID> "Scopus Author ID" .
+_:c14n15 <http://schema.org/value> "22234595400" .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n150 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n150 <http://schema.org/identifier> _:c14n59 .
+_:c14n150 <http://schema.org/name> "Atractolytocestus Huronensis (Cestoda): A new invasive parasite of common carp in Europe" .
+_:c14n150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n151 <http://schema.org/propertyID> "doi" .
+_:c14n151 <http://schema.org/value> "10.1645/ge-2625.1" .
+_:c14n151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n152 <http://schema.org/propertyID> "eid" .
+_:c14n152 <http://schema.org/value> "2-s2.0-84908313544" .
+_:c14n152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n153 <http://schema.org/propertyID> "wosuid" .
+_:c14n153 <http://schema.org/value> "wos:000308952900025" .
+_:c14n153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n154 <http://schema.org/propertyID> "wosuid" .
+_:c14n154 <http://schema.org/value> "wos:000249659400005" .
+_:c14n154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n155 <http://schema.org/propertyID> "doi" .
+_:c14n155 <http://schema.org/value> "10.1007/s00436-009-1436-7" .
+_:c14n155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n156 <http://schema.org/propertyID> "eid" .
+_:c14n156 <http://schema.org/value> "2-s2.0-70349231541" .
+_:c14n156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n157 <http://schema.org/propertyID> "eid" .
+_:c14n157 <http://schema.org/value> "2-s2.0-84900861042" .
+_:c14n157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n158 <http://schema.org/propertyID> "doi" .
+_:c14n158 <http://schema.org/value> "10.1007/s00436-015-4447-6" .
+_:c14n158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n159 <http://schema.org/propertyID> "wosuid" .
+_:c14n159 <http://schema.org/value> "wos:000336380600004" .
+_:c14n159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n16 <http://schema.org/propertyID> "wosuid" .
+_:c14n16 <http://schema.org/value> "wos:000279722700007" .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n160 <http://schema.org/propertyID> "wosuid" .
+_:c14n160 <http://schema.org/value> "wos:000309454000043" .
+_:c14n160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n161 <http://schema.org/propertyID> "eid" .
+_:c14n161 <http://schema.org/value> "2-s2.0-85071966986" .
+_:c14n161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n17 <http://schema.org/propertyID> "eid" .
+_:c14n17 <http://schema.org/value> "2-s2.0-85036615147" .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n18 <http://schema.org/propertyID> "doi" .
+_:c14n18 <http://schema.org/value> "10.1007/s11230-007-9099-1" .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n19 <http://schema.org/propertyID> "doi" .
+_:c14n19 <http://schema.org/value> "10.1645/17-58" .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n2 <http://schema.org/propertyID> "eid" .
+_:c14n2 <http://schema.org/value> "2-s2.0-85074260867" .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n20 <http://schema.org/propertyID> "wosuid" .
+_:c14n20 <http://schema.org/value> "wos:000295950700026" .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n21 <http://schema.org/propertyID> "doi" .
+_:c14n21 <http://schema.org/value> "10.14411/fp.2014.035" .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n22 <http://schema.org/propertyID> "wosuid" .
+_:c14n22 <http://schema.org/value> "wos:000382606600001" .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n23 <http://schema.org/propertyID> "wosuid" .
+_:c14n23 <http://schema.org/value> "wos:000351562800005" .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n24 <http://schema.org/propertyID> "eid" .
+_:c14n24 <http://schema.org/value> "2-s2.0-79958245742" .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n25 <http://schema.org/propertyID> "doi" .
+_:c14n25 <http://schema.org/value> "10.3354/dao062115" .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n26 <http://schema.org/propertyID> "doi" .
+_:c14n26 <http://schema.org/value> "10.1111/j.1469-185x.2009.00114.x" .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n27 <http://schema.org/propertyID> "eid" .
+_:c14n27 <http://schema.org/value> "2-s2.0-85066832879" .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n28 <http://schema.org/propertyID> "wosuid" .
+_:c14n28 <http://schema.org/value> "wos:000387048300007" .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n29 <http://schema.org/propertyID> "doi" .
+_:c14n29 <http://schema.org/value> "10.1016/j.jmii.2019.04.012" .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n3 <http://schema.org/propertyID> "wosuid" .
+_:c14n3 <http://schema.org/value> "wos:000416965200002" .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n30 <http://schema.org/propertyID> "doi" .
+_:c14n30 <http://schema.org/value> "10.1007/s00436-010-2215-1" .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n31 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n31 <http://schema.org/identifier> _:c14n44 .
+_:c14n31 <http://schema.org/identifier> _:c14n49 .
+_:c14n31 <http://schema.org/name> "A karyotype of Nippotaenia mogurndae: The first cytogenetic data within the order Nippotaeniidea (Cestoda)" .
+_:c14n31 <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000228099100005&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n32 <http://schema.org/propertyID> "doi" .
+_:c14n32 <http://schema.org/value> "10.14411/fp.2017.027" .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n33 <http://schema.org/propertyID> "doi" .
+_:c14n33 <http://schema.org/value> "10.1645/14-610.1" .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n34 <http://schema.org/propertyID> "eid" .
+_:c14n34 <http://schema.org/value> "2-s2.0-84900857444" .
+_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n35 <http://schema.org/propertyID> "eid" .
+_:c14n35 <http://schema.org/value> "2-s2.0-85053630026" .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n36 <http://schema.org/propertyID> "wosuid" .
+_:c14n36 <http://schema.org/value> "wos:000274252400006" .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n37 <http://schema.org/propertyID> "doi" .
+_:c14n37 <http://schema.org/value> "10.1007/s00436-009-1356-6" .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n38 <http://schema.org/propertyID> "wosuid" .
+_:c14n38 <http://schema.org/value> "wos:000271052900017" .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n39 <http://schema.org/propertyID> "doi" .
+_:c14n39 <http://schema.org/value> "10.1038/s41598-019-49312-9" .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n4 <http://schema.org/propertyID> "wosuid" .
+_:c14n4 <http://schema.org/value> "wos:000274068400041" .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n40 <http://schema.org/propertyID> "doi" .
+_:c14n40 <http://schema.org/value> "10.14411/fp.2016.008" .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n41 <http://schema.org/propertyID> "eid" .
+_:c14n41 <http://schema.org/value> "2-s2.0-85041091887" .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n42 <http://schema.org/propertyID> "doi" .
+_:c14n42 <http://schema.org/value> "10.1186/s13071-019-3664-8" .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n43 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n43 <http://schema.org/identifier> _:c14n142 .
+_:c14n43 <http://schema.org/name> "Bothriocephalidean tapeworms (Cestoda) of freshwater fish in Africa, including erection of Kirstenella n. gen. and description of Tetracampos martinae n. sp. (vol 3309, pg 1, 2012)" .
+_:c14n43 <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000304427800006&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+_:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n44 <http://schema.org/propertyID> "eid" .
+_:c14n44 <http://schema.org/value> "2-s2.0-21044452093" .
+_:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n45 <http://schema.org/propertyID> "doi" .
+_:c14n45 <http://schema.org/value> "10.14411/fp.2012.025" .
+_:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n46 <http://schema.org/propertyID> "eid" .
+_:c14n46 <http://schema.org/value> "2-s2.0-85072226879" .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n47 <http://schema.org/propertyID> "eid" .
+_:c14n47 <http://schema.org/value> "2-s2.0-85014482266" .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n48 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n48 <http://schema.org/identifier> _:c14n14 .
+_:c14n48 <http://schema.org/name> "Erratum: Bothriocephalidean tapeworms (Cestoda) of freshwater fish in Africa, including erection of Kirstenella n. gen. and description of Tetracampos martinae n. sp.. (Zootaxa (2012) 3309 (1-35))" .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n49 <http://schema.org/propertyID> "wosuid" .
+_:c14n49 <http://schema.org/value> "wos:000228099100005" .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n5 <http://schema.org/propertyID> "doi" .
+_:c14n5 <http://schema.org/value> "10.1007/s00436-019-06450-3" .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n50 <http://schema.org/propertyID> "wosuid" .
+_:c14n50 <http://schema.org/value> "wos:000291800200002" .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n51 <http://schema.org/propertyID> "eid" .
+_:c14n51 <http://schema.org/value> "2-s2.0-81155136244" .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n52 <http://schema.org/propertyID> "eid" .
+_:c14n52 <http://schema.org/value> "2-s2.0-84871858098" .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n53 <http://schema.org/propertyID> "doi" .
+_:c14n53 <http://schema.org/value> "10.1007/s11230-014-9495-2" .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n54 <http://schema.org/propertyID> "doi" .
+_:c14n54 <http://schema.org/value> "10.3201/eid2302.161026" .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n55 <http://schema.org/propertyID> "doi" .
+_:c14n55 <http://schema.org/value> "10.1007/s00436-013-3516-y" .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n56 <http://schema.org/propertyID> "wosuid" .
+_:c14n56 <http://schema.org/value> "wos:000487313500006" .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n57 <http://schema.org/propertyID> "eid" .
+_:c14n57 <http://schema.org/value> "2-s2.0-77958508088" .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n58 <http://schema.org/propertyID> "eid" .
+_:c14n58 <http://schema.org/value> "2-s2.0-80053964502" .
+_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n59 <http://schema.org/propertyID> "eid" .
+_:c14n59 <http://schema.org/value> "2-s2.0-84884701648" .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n6 <http://schema.org/propertyID> "wosuid" .
+_:c14n6 <http://schema.org/value> "wos:000284287600008" .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n60 <http://schema.org/propertyID> "eid" .
+_:c14n60 <http://schema.org/value> "2-s2.0-84863466303" .
+_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n61 <http://schema.org/propertyID> "wosuid" .
+_:c14n61 <http://schema.org/value> "wos:000307541400001" .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n62 <http://schema.org/propertyID> "eid" .
+_:c14n62 <http://schema.org/value> "2-s2.0-84937762809" .
+_:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n63 <http://schema.org/propertyID> "eid" .
+_:c14n63 <http://schema.org/value> "2-s2.0-85032160094" .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n64 <http://schema.org/propertyID> "eid" .
+_:c14n64 <http://schema.org/value> "2-s2.0-84979891862" .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n65 <http://schema.org/propertyID> "wosuid" .
+_:c14n65 <http://schema.org/value> "wos:000265442600035" .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n66 <http://schema.org/propertyID> "doi" .
+_:c14n66 <http://schema.org/value> "10.1007/s11230-012-9367-6" .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n67 <http://schema.org/propertyID> "wosuid" .
+_:c14n67 <http://schema.org/value> "wos:000332377900008" .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n68 <http://schema.org/propertyID> "wosuid" .
+_:c14n68 <http://schema.org/value> "wos:000484657300005" .
+_:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n69 <http://schema.org/propertyID> "wosuid" .
+_:c14n69 <http://schema.org/value> "wos:000425036000008" .
+_:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n7 <http://schema.org/propertyID> "doi" .
+_:c14n7 <http://schema.org/value> "10.1186/s13071-017-2518-5" .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n70 <http://schema.org/propertyID> "eid" .
+_:c14n70 <http://schema.org/value> "2-s2.0-77949262266" .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n71 <http://schema.org/propertyID> "eid" .
+_:c14n71 <http://schema.org/value> "2-s2.0-85042161760" .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n72 <http://schema.org/propertyID> "eid" .
+_:c14n72 <http://schema.org/value> "2-s2.0-79956211903" .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n73 <http://schema.org/creator> <https://orcid.org/0000-0002-0518-5708> .
+_:c14n73 <http://schema.org/identifier> _:c14n6 .
+_:c14n73 <http://schema.org/identifier> _:c14n74 .
+_:c14n73 <http://schema.org/name> "Pollution and diversity of fish parasites: Impact of pollution on the diversity of fish parasites in the Tisa River in Slovakia" .
+_:c14n73 <http://schema.org/sameAs> "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=Publons&SrcAuth=Publons_CEL&KeyUT=WOS:000284287600008&DestLinkType=FullRecord&DestApp=WOS_CPL" .
+_:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n74 <http://schema.org/propertyID> "eid" .
+_:c14n74 <http://schema.org/value> "2-s2.0-84892110432" .
+_:c14n74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n75 <http://schema.org/propertyID> "doi" .
+_:c14n75 <http://schema.org/value> "10.1645/16-80" .
+_:c14n75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n76 <http://schema.org/propertyID> "doi" .
+_:c14n76 <http://schema.org/value> "10.1007/s00436-009-1367-3" .
+_:c14n76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n77 <http://schema.org/propertyID> "doi" .
+_:c14n77 <http://schema.org/value> "10.1007/s00436-011-2720-x" .
+_:c14n77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n78 <http://schema.org/propertyID> "eid" .
+_:c14n78 <http://schema.org/value> "2-s2.0-76749103779" .
+_:c14n78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n79 <http://schema.org/propertyID> "doi" .
+_:c14n79 <http://schema.org/value> "10.1007/s00436-010-2144-z" .
+_:c14n79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n8 <http://schema.org/propertyID> "eid" .
+_:c14n8 <http://schema.org/value> "2-s2.0-77954601310" .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n80 <http://schema.org/propertyID> "wosuid" .
+_:c14n80 <http://schema.org/value> "wos:000286494800006" .
+_:c14n80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n81 <http://schema.org/propertyID> "wosuid" .
+_:c14n81 <http://schema.org/value> "wos:000490041600001" .
+_:c14n81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n82 <http://schema.org/propertyID> "doi" .
+_:c14n82 <http://schema.org/value> "10.1007/s00436-012-3001-z" .
+_:c14n82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n83 <http://schema.org/propertyID> "eid" .
+_:c14n83 <http://schema.org/value> "2-s2.0-84884700202" .
+_:c14n83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n84 <http://schema.org/propertyID> "doi" .
+_:c14n84 <http://schema.org/value> "10.1371/journal.pone.0046421" .
+_:c14n84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n85 <http://schema.org/propertyID> "doi" .
+_:c14n85 <http://schema.org/value> "10.1017/s0031182013001765" .
+_:c14n85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n86 <http://schema.org/propertyID> "eid" .
+_:c14n86 <http://schema.org/value> "2-s2.0-67649622385" .
+_:c14n86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n87 <http://schema.org/propertyID> "wosuid" .
+_:c14n87 <http://schema.org/value> "wos:000422968700001" .
+_:c14n87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n88 <http://schema.org/propertyID> "eid" .
+_:c14n88 <http://schema.org/value> "2-s2.0-84861084537" .
+_:c14n88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n89 <http://schema.org/propertyID> "eid" .
+_:c14n89 <http://schema.org/value> "2-s2.0-84939553363" .
+_:c14n89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n9 <http://schema.org/propertyID> "wosuid" .
+_:c14n9 <http://schema.org/value> "wos:000284300300007" .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n90 <http://schema.org/propertyID> "wosuid" .
+_:c14n90 <http://schema.org/value> "wos:000295863000004" .
+_:c14n90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n91 <http://schema.org/propertyID> "eid" .
+_:c14n91 <http://schema.org/value> "2-s2.0-11144284877" .
+_:c14n91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n92 <http://schema.org/propertyID> "wosuid" .
+_:c14n92 <http://schema.org/value> "wos:000413457100007" .
+_:c14n92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n93 <http://schema.org/propertyID> "doi" .
+_:c14n93 <http://schema.org/value> "10.1016/j.vetpar.2009.05.010" .
+_:c14n93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n94 <http://schema.org/propertyID> "wosuid" .
+_:c14n94 <http://schema.org/value> "wos:000277348000005" .
+_:c14n94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n95 <http://schema.org/propertyID> "doi" .
+_:c14n95 <http://schema.org/value> "10.11646/zootaxa.3309.1.1" .
+_:c14n95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n96 <http://schema.org/propertyID> "doi" .
+_:c14n96 <http://schema.org/value> "10.1016/j.parint.2010.06.011" .
+_:c14n96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n97 <http://schema.org/propertyID> "doi" .
+_:c14n97 <http://schema.org/value> "10.1007/s11230-014-9536-x" .
+_:c14n97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n98 <http://schema.org/propertyID> "eid" .
+_:c14n98 <http://schema.org/value> "2-s2.0-84865557465" .
+_:c14n98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n99 <http://schema.org/propertyID> "wosuid" .
+_:c14n99 <http://schema.org/value> "wos:000254462000001" .
+_:c14n99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+
+<https://doi.org/10.1006/mpev.1996.0073> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1006/mpev.1996.0073> <http://schema.org/identifier> _:c14n20 .
+<https://doi.org/10.1006/mpev.1996.0073> <http://schema.org/name> "A molecular phylogenetic survey of the nightjars and allies (Caprimulgiformes) with special emphasis on the potoos (Nyctibiidae)" .
+<https://doi.org/10.1006/mpev.1996.0073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1006/mpev.2001.0930> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1006/mpev.2001.0930> <http://schema.org/identifier> _:c14n47 .
+<https://doi.org/10.1006/mpev.2001.0930> <http://schema.org/name> "Interrelationships and evolution of the tapeworms (Platyhelminthes: Cestoda)" .
+<https://doi.org/10.1006/mpev.2001.0930> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/bf00007387> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/bf00007387> <http://schema.org/identifier> _:c14n49 .
+<https://doi.org/10.1007/bf00007387> <http://schema.org/name> "Cestodes of birds from the Ivory Coast. Species of the genus Anonchotaenia Cohn, 1990" .
+<https://doi.org/10.1007/bf00007387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/bf00009359> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/bf00009359> <http://schema.org/identifier> _:c14n38 .
+<https://doi.org/10.1007/bf00009359> <http://schema.org/name> "Cestodes of birds from the Ivory Coast. Yapolepis yapolepis n. g., n. sp., a new metadilepidid (Cyclophyllidea: Paruterinoidea) parasite of the icterine greenbul (Aves: Pycnonotidae)" .
+<https://doi.org/10.1007/bf00009359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/bf00016906> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/bf00016906> <http://schema.org/identifier> _:c14n75 .
+<https://doi.org/10.1007/bf00016906> <http://schema.org/name> "Cestodes d'oiseaux de Côte-d'Ivoire. II. Parasites de Coraciiformes et Piciformes" .
+<https://doi.org/10.1007/bf00016906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-011-2809-2> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s00436-011-2809-2> <http://schema.org/identifier> _:c14n3 .
+<https://doi.org/10.1007/s00436-011-2809-2> <http://schema.org/name> "Spermiogenesis and spermatozoon ultrastructure of the paruterinid cestode Notopentorchis sp. (Cyclophyllidea)" .
+<https://doi.org/10.1007/s00436-011-2809-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-013-3533-x> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s00436-013-3533-x> <http://schema.org/identifier> _:c14n26 .
+<https://doi.org/10.1007/s00436-013-3533-x> <http://schema.org/name> "First data on the genetic diversity of avian haemosporidians in China: Cytochrome b lineages of the genera Plasmodium and Haemoproteus (Haemosporida) from Gansu Province" .
+<https://doi.org/10.1007/s00436-013-3533-x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s00436-016-5295-8> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s00436-016-5295-8> <http://schema.org/identifier> _:c14n43 .
+<https://doi.org/10.1007/s00436-016-5295-8> <http://schema.org/name> "The first data on the vitellogenesis of paruterinid tapeworms: an ultrastructural study of Dictyterina cholodkowskii (Cestoda: Cyclophyllidea)" .
+<https://doi.org/10.1007/s00436-016-5295-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-005-9020-8> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-005-9020-8> <http://schema.org/identifier> _:c14n53 .
+<https://doi.org/10.1007/s11230-005-9020-8> <http://schema.org/name> "Redescription and new data on Microsomacanthus jaegerskioeldi (Fuhrmann, 1913) (Cestoda: Hymenolepididae)" .
+<https://doi.org/10.1007/s11230-005-9020-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-007-9103-9> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-007-9103-9> <http://schema.org/identifier> _:c14n17 .
+<https://doi.org/10.1007/s11230-007-9103-9> <http://schema.org/name> "Redescriptions of Monopylidium exiguum (Dujardin, 1845) and M. albani (Mettrick, 1958) n. comb. (Cestoda: Dilepididae) from European passerine birds" .
+<https://doi.org/10.1007/s11230-007-9103-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-008-9134-x> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-008-9134-x> <http://schema.org/identifier> _:c14n9 .
+<https://doi.org/10.1007/s11230-008-9134-x> <http://schema.org/name> "Redescription and new data on Microsomacanthus diorchis (Fuhrmann, 1913) (Cestoda : Hymenolepididae)" .
+<https://doi.org/10.1007/s11230-008-9134-x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-009-9178-6> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-009-9178-6> <http://schema.org/identifier> _:c14n41 .
+<https://doi.org/10.1007/s11230-009-9178-6> <http://schema.org/name> "Redescription of Testudotaenia testudo (Magath, 1924) (Eucestoda: Proteocephalidea), a parasite of Apalone spinifera (Le Sueur) (Reptilia: Trionychidae) and Amia calva L. (Pisces: Amiidae) in North America and erection of the Testudotaeniinae n. subfam." .
+<https://doi.org/10.1007/s11230-009-9178-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-011-9322-y> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-011-9322-y> <http://schema.org/identifier> _:c14n71 .
+<https://doi.org/10.1007/s11230-011-9322-y> <http://schema.org/name> "Acuaria paraguayensis n. sp. from Sirystes sibilator (Aves: Tyrannidae) in Paraguay and a redescription of A. mamillaris (Molin, 1860) from Cyanocorax cayanus (Corvidae) in Brazil, with a key to the species of Acuaria Bremser, 1811 (Nematoda: Acuariidae) in the New World" .
+<https://doi.org/10.1007/s11230-011-9322-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-013-9445-4> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-013-9445-4> <http://schema.org/identifier> _:c14n34 .
+<https://doi.org/10.1007/s11230-013-9445-4> <http://schema.org/name> "Pseudangularia gonzalezi n. sp. and Gibsonilepis swifti (Singh, 1952) n. g., n. comb. (Cestoda, Dilepididae) from the House Swift, Apus affinis (J.E. Gray) (Aves, Apodiformes) from Franceville, Republic of Gabon" .
+<https://doi.org/10.1007/s11230-013-9445-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://schema.org/identifier> _:c14n103 .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://schema.org/identifier> _:c14n46 .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://schema.org/name> "Two new species of Quasithelazia Maplestone, 1932 (Nematoda: Acuariidae) from Malaysia, with an amended diagnosis and review of the genus." .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://schema.org/sameAs> "https://www.ncbi.nlm.nih.gov/pubmed/24832183" .
+<https://doi.org/10.1007/s11230-014-9483-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-014-9507-2> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-014-9507-2> <http://schema.org/identifier> _:c14n56 .
+<https://doi.org/10.1007/s11230-014-9507-2> <http://schema.org/name> "Description of Proyseria petterae n. sp., with an amended generic diagnosis and a review of the species of Proyseria Petter, 1959 and Stegophorus Wehr, 1934 (Nematoda: Acuariidae)" .
+<https://doi.org/10.1007/s11230-014-9507-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-014-9540-1> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-014-9540-1> <http://schema.org/identifier> _:c14n15 .
+<https://doi.org/10.1007/s11230-014-9540-1> <http://schema.org/identifier> _:c14n36 .
+<https://doi.org/10.1007/s11230-014-9540-1> <http://schema.org/name> "Stammerinema hyalinum n. comb. for Filaria hyalina von Linstow, 1890 and its recognition as a senior synonym of Stammerinema rhopalocephalum (Sołtys, 1952) (Spirurida: Acuariidae), a parasite of shrews" .
+<https://doi.org/10.1007/s11230-014-9540-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-015-9588-6> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-015-9588-6> <http://schema.org/identifier> _:c14n4 .
+<https://doi.org/10.1007/s11230-015-9588-6> <http://schema.org/name> "Meteterakis saotomensis n. sp. (Nematoda: Heterakidae) from Schistometopum thomense (Bocage) (Gymnophiona: Dermophiidae) on São Tomé Island." .
+<https://doi.org/10.1007/s11230-015-9588-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1007/s11230-016-9695-z> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1007/s11230-016-9695-z> <http://schema.org/identifier> _:c14n25 .
+<https://doi.org/10.1007/s11230-016-9695-z> <http://schema.org/name> "Description of Acuaria europaea n. sp. (Spirurida: Acuariidae) from Dendrocopos syriacus (Hemprich & Ehrenberg) and Oriolus oriolus (L.) (Aves) in Europe, with results of re-examination of related European species of Acuaria Bremser, 1811" .
+<https://doi.org/10.1007/s11230-016-9695-z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/0020-7519(94)90107-4> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/0020-7519(94)90107-4> <http://schema.org/identifier> _:c14n31 .
+<https://doi.org/10.1016/0020-7519(94)90107-4> <http://schema.org/name> "First workshop on systematic zoology of tapeworms: Geneva, 30-31 August 1993" .
+<https://doi.org/10.1016/0020-7519(94)90107-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/0020-7519(95)00129-8> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/0020-7519(95)00129-8> <http://schema.org/identifier> _:c14n11 .
+<https://doi.org/10.1016/0020-7519(95)00129-8> <http://schema.org/name> "Cestode systematics: Any progress?" .
+<https://doi.org/10.1016/0020-7519(95)00129-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.biocon.2012.07.015> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/j.biocon.2012.07.015> <http://schema.org/identifier> _:c14n13 .
+<https://doi.org/10.1016/j.biocon.2012.07.015> <http://schema.org/name> "The conservation status of the world's reptiles" .
+<https://doi.org/10.1016/j.biocon.2012.07.015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.meegid.2015.01.004> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/j.meegid.2015.01.004> <http://schema.org/identifier> _:c14n115 .
+<https://doi.org/10.1016/j.meegid.2015.01.004> <http://schema.org/name> "Genetic diversity of avian haemosporidians in Malaysia: Cytochrome b lineages of the genera Plasmodium and Haemoproteus (Haemosporida) from Selangor" .
+<https://doi.org/10.1016/j.meegid.2015.01.004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/j.meegid.2017.12.017> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/j.meegid.2017.12.017> <http://schema.org/identifier> _:c14n44 .
+<https://doi.org/10.1016/j.meegid.2017.12.017> <http://schema.org/name> "Avian haemosporidians from rain forests in Madagascar: Molecular and morphological data of the genera  Plasmodium ,  Haemoproteus  and  Leucocytozoon" .
+<https://doi.org/10.1016/j.meegid.2017.12.017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/s0020-7519(01)00179-5> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/s0020-7519(01)00179-5> <http://schema.org/identifier> _:c14n76 .
+<https://doi.org/10.1016/s0020-7519(01)00179-5> <http://schema.org/name> "Origin and evolution of African Polystoma (Monogenea: Polystomatidae) assessed by molecular methods" .
+<https://doi.org/10.1016/s0020-7519(01)00179-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/s0020-7519(99)00122-8> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/s0020-7519(99)00122-8> <http://schema.org/identifier> _:c14n27 .
+<https://doi.org/10.1016/s0020-7519(99)00122-8> <http://schema.org/name> "Molecular systematic analysis of the order Proteocephalidea (Eucestoda) based on mitochondrial and nuclear rDNA sequences" .
+<https://doi.org/10.1016/s0020-7519(99)00122-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1016/s0020-7519(99)00163-0> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1016/s0020-7519(99)00163-0> <http://schema.org/identifier> _:c14n80 .
+<https://doi.org/10.1016/s0020-7519(99)00163-0> <http://schema.org/name> "Phylogenetic analysis of the suborder Plagiorchiata (Platyhelminthes, Digenea) based on partial lsrDNA sequences" .
+<https://doi.org/10.1016/s0020-7519(99)00163-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1023/a:1006465026316> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1023/a:1006465026316> <http://schema.org/identifier> _:c14n95 .
+<https://doi.org/10.1023/a:1006465026316> <http://schema.org/name> "Nomimoscolex suspectus n. sp. (Eucestoda: Proteocephalidea: Zygobothriinae) with morphological and molecular phylogenetic analyses of the genus" .
+<https://doi.org/10.1023/a:1006465026316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1023/a:1015034329033> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1023/a:1015034329033> <http://schema.org/identifier> _:c14n45 .
+<https://doi.org/10.1023/a:1015034329033> <http://schema.org/name> "Polystomatidae (Monogenea) of African Anura: Polystoma dawiekoki n. sp. parasitic in Ptychadena anchietae (Bocage)" .
+<https://doi.org/10.1023/a:1015034329033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1023/a:1024663120600> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1023/a:1024663120600> <http://schema.org/identifier> _:c14n94 .
+<https://doi.org/10.1023/a:1024663120600> <http://schema.org/name> "A new tapeworm, Postgangesia inarmata n. sp. (Eucestoda: Proteocephalidea: Gangesiinae), parasitic in Silurus glanis (Siluriformes) from Iraq and some comments on the Gangesiinae Mola, 1929" .
+<https://doi.org/10.1023/a:1024663120600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1023/b:sypa.0000019083.26876.34> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1023/b:sypa.0000019083.26876.34> <http://schema.org/identifier> _:c14n39 .
+<https://doi.org/10.1023/b:sypa.0000019083.26876.34> <http://schema.org/name> "The evolution of the Proteocephalidea (Platyhelminthes, Eucestoda) based on an enlarged molecular phylogeny, with comments on their uterine development" .
+<https://doi.org/10.1023/b:sypa.0000019083.26876.34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1080/21564574.2013.781549> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1080/21564574.2013.781549> <http://schema.org/identifier> _:c14n116 .
+<https://doi.org/10.1080/21564574.2013.781549> <http://schema.org/name> "Species boundaries and biogeography of east African torrent frogs of the genus petropedetes (Amphibia: Anura: Petropeditidae)" .
+<https://doi.org/10.1080/21564574.2013.781549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1111/j.1096-3642.2007.00332.x> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1111/j.1096-3642.2007.00332.x> <http://schema.org/identifier> _:c14n0 .
+<https://doi.org/10.1111/j.1096-3642.2007.00332.x> <http://schema.org/name> "The two-horned chamaeleons of East Africa" .
+<https://doi.org/10.1111/j.1096-3642.2007.00332.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/zootaxa.3746.3.3> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.11646/zootaxa.3746.3.3> <http://schema.org/identifier> _:c14n10 .
+<https://doi.org/10.11646/zootaxa.3746.3.3> <http://schema.org/identifier> _:c14n54 .
+<https://doi.org/10.11646/zootaxa.3746.3.3> <http://schema.org/name> "The “Rhampholeon uluguruensis complex” (Squamata: Chamaeleonidae) and the taxonomic status of the Pygmy Chameleons in Tanzania." .
+<https://doi.org/10.11646/zootaxa.3746.3.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.11646/zootaxa.4290.1.3> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.11646/zootaxa.4290.1.3> <http://schema.org/identifier> _:c14n64 .
+<https://doi.org/10.11646/zootaxa.4290.1.3> <http://schema.org/identifier> _:c14n7 .
+<https://doi.org/10.11646/zootaxa.4290.1.3> <http://schema.org/name> "Redescriptions of four Palaeotropical species of the cestode genus Notopentorchis Burt, 1938 (Cyclophyllidea: Paruterinidae)" .
+<https://doi.org/10.11646/zootaxa.4290.1.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pbio.2005075> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1371/journal.pbio.2005075> <http://schema.org/identifier> _:c14n113 .
+<https://doi.org/10.1371/journal.pbio.2005075> <http://schema.org/name> "Taxonomy based on science is necessary for global conservation" .
+<https://doi.org/10.1371/journal.pbio.2005075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/identifier> _:c14n65 .
+<https://doi.org/10.1371/journal.pone.0046421> <http://schema.org/name> "Revision of Gangesia (Cestoda: Proteocephalidea) in the Indomalayan Region: Morphology, Molecules and Surface Ultrastructure" .
+<https://doi.org/10.1371/journal.pone.0046421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.14411/fp.2014.058> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.14411/fp.2014.058> <http://schema.org/identifier> _:c14n40 .
+<https://doi.org/10.14411/fp.2014.058> <http://schema.org/name> "Two new and two redescribed species of Anonchotaenia (Cestoda: Paruterinidae) from South American birds" .
+<https://doi.org/10.14411/fp.2014.058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1515/ap-2017-0078> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1515/ap-2017-0078> <http://schema.org/identifier> _:c14n112 .
+<https://doi.org/10.1515/ap-2017-0078> <http://schema.org/name> "Hymenolepididae (Cestoda, Cyclophyllidea) of ciconiiform and pelecaniform birds: the genera Oschmarinolepis Spassky and Spasskaja, 1954 and Paraoschmarinolepis gen. n." .
+<https://doi.org/10.1515/ap-2017-0078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-1275.1> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1645/ge-1275.1> <http://schema.org/identifier> _:c14n21 .
+<https://doi.org/10.1645/ge-1275.1> <http://schema.org/name> "Sandonella sandoni (Lynsdale, 1960), an enigmatic and morphologically unique cestode parasitic in the osteoglossiform fish Heterotis niloticus in Africa" .
+<https://doi.org/10.1645/ge-1275.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-1594.1> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1645/ge-1594.1> <http://schema.org/identifier> _:c14n102 .
+<https://doi.org/10.1645/ge-1594.1> <http://schema.org/name> "A new genus and species of proteocephalidean (cestoda) from clarias catfishes (Siluriformes: Clariidae) in Africa" .
+<https://doi.org/10.1645/ge-1594.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.1645/ge-2705.1> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.1645/ge-2705.1> <http://schema.org/identifier> _:c14n84 .
+<https://doi.org/10.1645/ge-2705.1> <http://schema.org/name> "Redescription of corallobothrium solidum (Cestoda: Proteocephalidea) and erection of a new genus, Essexiella, for tapeworms from channel catfishes (Ictaluridae)" .
+<https://doi.org/10.1645/ge-2705.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.2305/iucn.uk.2010-4.rlts.t176322a7218445.en> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.2305/iucn.uk.2010-4.rlts.t176322a7218445.en> <http://schema.org/identifier> _:c14n107 .
+<https://doi.org/10.2305/iucn.uk.2010-4.rlts.t176322a7218445.en> <http://schema.org/name> "Rhampholeon spectrum: Mariaux, J. & LeBreton, M." .
+<https://doi.org/10.2305/iucn.uk.2010-4.rlts.t176322a7218445.en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.2307/3284374> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.2307/3284374> <http://schema.org/identifier> _:c14n35 .
+<https://doi.org/10.2307/3284374> <http://schema.org/name> "Phylogeny of the orders of the eucestoda (Cercomeromorphae) based on comparative morphology: Historical perspectives and a new working hypothesis" .
+<https://doi.org/10.2307/3284374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.2307/3284540> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.2307/3284540> <http://schema.org/identifier> _:c14n59 .
+<https://doi.org/10.2307/3284540> <http://schema.org/name> "A molecular phylogeny of the Eucestoda" .
+<https://doi.org/10.2307/3284540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.2478/s11686-013-0117-y> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.2478/s11686-013-0117-y> <http://schema.org/identifier> _:c14n79 .
+<https://doi.org/10.2478/s11686-013-0117-y> <http://schema.org/name> "A new genus of the family Hymenolepididae (Cestoda) from Sephanoides sephaniodes (Apodiformes, Trochilidae) in Northern Patagonia (Chile)" .
+<https://doi.org/10.2478/s11686-013-0117-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3897/zookeys.500.9360> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.3897/zookeys.500.9360> <http://schema.org/identifier> _:c14n78 .
+<https://doi.org/10.3897/zookeys.500.9360> <http://schema.org/name> "A large 28S rDNA-based phylogeny confirms the limitations of established morphological characters for classification of proteocephalidean tapeworms (Platyhelminthes, Cestoda)" .
+<https://doi.org/10.3897/zookeys.500.9360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.3897/zookeys.797.28005> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.3897/zookeys.797.28005> <http://schema.org/identifier> _:c14n14 .
+<https://doi.org/10.3897/zookeys.797.28005> <http://schema.org/name> "Bird cestodes from Huinay (Comau Fjord), Chilean Patagonia: several species of the family Dilepididae (Platyhelminthes, Cyclophyllidea), with the erection of two new genera" .
+<https://doi.org/10.3897/zookeys.797.28005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5061/dryad.dv44b> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5061/dryad.dv44b> <http://schema.org/identifier> _:c14n100 .
+<https://doi.org/10.5061/dryad.dv44b> <http://schema.org/name> "Data from: A large 28S rDNA-based phylogeny confirms the limitations of established morphological characters for classification of proteocephalidean tapeworms (Platyhelminthes, Cestoda)" .
+<https://doi.org/10.5061/dryad.dv44b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5169/seals-89255> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5169/seals-89255> <http://schema.org/identifier> _:c14n72 .
+<https://doi.org/10.5169/seals-89255> <http://schema.org/name> "Helminthes des poissons de l'Areuse" .
+<https://doi.org/10.5169/seals-89255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5169/seals-89429> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5169/seals-89429> <http://schema.org/identifier> _:c14n42 .
+<https://doi.org/10.5169/seals-89429> <http://schema.org/name> "Situation de Diphyllobothrium latum L., 1758 (Cestoda : Pseudophyllidea) dans quatre lacs du Plateau suisse" .
+<https://doi.org/10.5169/seals-89429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5281/zenodo.322659> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5281/zenodo.322659> <http://schema.org/identifier> _:c14n18 .
+<https://doi.org/10.5281/zenodo.322659> <http://schema.org/identifier> _:c14n66 .
+<https://doi.org/10.5281/zenodo.322659> <http://schema.org/name> "Orientatractis brycini sp. nov. (Nematoda: Atractidae) from characiform freshwater fishes in Gabon, Africa" .
+<https://doi.org/10.5281/zenodo.322659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5281/zenodo.3463469> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5281/zenodo.3463469> <http://schema.org/identifier> _:c14n120 .
+<https://doi.org/10.5281/zenodo.3463469> <http://schema.org/name> "A new species of Oochoristica (Cyclophyllidea, Anoplocephalidae) from Varanus albigularis (Squamata, Varanidae) in Kenya" .
+<https://doi.org/10.5281/zenodo.3463469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2018.440> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5852/ejt.2018.440> <http://schema.org/identifier> _:c14n90 .
+<https://doi.org/10.5852/ejt.2018.440> <http://schema.org/name> "Seven new species of cestode parasites (Neodermata, Platyhelminthes) from Australian birds" .
+<https://doi.org/10.5852/ejt.2018.440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://doi.org/10.5852/ejt.2020.616> <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+<https://doi.org/10.5852/ejt.2020.616> <http://schema.org/identifier> _:c14n83 .
+<https://doi.org/10.5852/ejt.2020.616> <http://schema.org/name> "Cestode parasites (Neodermata, Platyhelminthes) from Malaysian birds, with description of five new species" .
+<https://doi.org/10.5852/ejt.2020.616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/address> _:c14n118 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/affiliation> _:c14n111 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/affiliation> _:c14n29 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/affiliation> _:c14n77 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/affiliation> _:c14n85 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/affiliation> _:c14n88 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/alumniOf> _:c14n99 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/familyName> "Mariaux" .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/givenName> "Jean" .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/identifier> _:c14n62 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/identifier> _:c14n98 .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/mainEntityOfPage> "https://orcid.org/0000-0002-9601-855X" .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/url> "http://genev.unige.ch/fr/users/Jean-Mariaux" .
+<https://orcid.org/0000-0002-9601-855X> <http://schema.org/url> "http://www.ville-ge.ch/mhng/dpt_inve_collab_e.php" .
+<https://orcid.org/0000-0002-9601-855X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:c14n0 <http://schema.org/propertyID> "doi" .
+_:c14n0 <http://schema.org/value> "10.1111/j.1096-3642.2007.00332.x" .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n1 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n1 <http://schema.org/name> "PROGRESS IN TAPEWORM SYSTEMATICS" .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n10 <http://schema.org/propertyID> "eid" .
+_:c14n10 <http://schema.org/value> "2-s2.0-84890820522" .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n100 <http://schema.org/propertyID> "doi" .
+_:c14n100 <http://schema.org/value> "10.5061/dryad.dv44b" .
+_:c14n100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n101 <http://schema.org/propertyID> "eid" .
+_:c14n101 <http://schema.org/value> "2-s2.0-34547177729" .
+_:c14n101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n102 <http://schema.org/propertyID> "doi" .
+_:c14n102 <http://schema.org/value> "10.1645/ge-1594.1" .
+_:c14n102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n103 <http://schema.org/propertyID> "pmid" .
+_:c14n103 <http://schema.org/value> "24832183" .
+_:c14n103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n104 <http://schema.org/alternateName> "Development of molecular systematics in parasitology" .
+_:c14n104 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n104 <http://schema.org/identifier> _:c14n128 .
+_:c14n104 <http://schema.org/identifier> _:c14n86 .
+_:c14n104 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n105 <http://schema.org/propertyID> "eid" .
+_:c14n105 <http://schema.org/value> "2-s2.0-34247252900" .
+_:c14n105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n106 <http://schema.org/propertyID> "eid" .
+_:c14n106 <http://schema.org/value> "2-s2.0-1842832928" .
+_:c14n106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n107 <http://schema.org/propertyID> "doi" .
+_:c14n107 <http://schema.org/value> "10.2305/iucn.uk.2010-4.rlts.t176322a7218445.en" .
+_:c14n107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n108 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n108 <http://schema.org/name> "A NEW SPECIES OF STAPHYLEPIS SPASSKY AND OSHMARIN, 1954 (CESTODA, HYMENOLEPIDIDAE) FOUND IN WEST AFRICAN NECTARINIID BIRDS" .
+_:c14n108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n109 <http://schema.org/alternateName> "First workshop on systematic zoology of tapeworms" .
+_:c14n109 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n109 <http://schema.org/identifier> _:c14n119 .
+_:c14n109 <http://schema.org/identifier> _:c14n123 .
+_:c14n109 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n11 <http://schema.org/propertyID> "doi" .
+_:c14n11 <http://schema.org/value> "10.1016/0020-7519(95)00129-8" .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n110 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n110 <http://schema.org/identifier> _:c14n5 .
+_:c14n110 <http://schema.org/name> "Herpetofauna of Mahenge Mountain, Tanzania: A window on African biogeography" .
+_:c14n110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n111 <http://schema.org/alternateName> "Institut de Zoologie" .
+_:c14n111 <http://schema.org/identifier> _:c14n121 .
+_:c14n111 <http://schema.org/name> "Université de Neuchâtel" .
+_:c14n111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n112 <http://schema.org/propertyID> "doi" .
+_:c14n112 <http://schema.org/value> "10.1515/ap-2017-0078" .
+_:c14n112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n113 <http://schema.org/propertyID> "doi" .
+_:c14n113 <http://schema.org/value> "10.1371/journal.pbio.2005075" .
+_:c14n113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n114 <http://schema.org/alternateName> "Parasite radiations: Domino effect of host radiations?" .
+_:c14n114 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n114 <http://schema.org/identifier> _:c14n124 .
+_:c14n114 <http://schema.org/identifier> _:c14n57 .
+_:c14n114 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n115 <http://schema.org/propertyID> "doi" .
+_:c14n115 <http://schema.org/value> "10.1016/j.meegid.2015.01.004" .
+_:c14n115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n116 <http://schema.org/propertyID> "doi" .
+_:c14n116 <http://schema.org/value> "10.1080/21564574.2013.781549" .
+_:c14n116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n117 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n117 <http://schema.org/identifier> _:c14n92 .
+_:c14n117 <http://schema.org/name> "A new genus of dilepididae (cestoda) of the yellowbill ceuthmochares aereus (cuculidae) from the ivory coast" .
+_:c14n117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n118 <http://schema.org/addressCountry> "CH" .
+_:c14n118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+_:c14n119 <http://schema.org/propertyID> "grant_number" .
+_:c14n119 <http://schema.org/value> "37846" .
+_:c14n119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n12 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n12 <http://schema.org/name> "Onchoproteocephalidea I Caira, Jensen, Waeschenbach, Olson & Littlewood, 2014" .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n120 <http://schema.org/propertyID> "doi" .
+_:c14n120 <http://schema.org/value> "10.5281/zenodo.3463469" .
+_:c14n120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n121 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n121 <http://schema.org/value> "27214" .
+_:c14n121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n122 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n122 <http://schema.org/value> "27214" .
+_:c14n122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n123 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n123 <http://schema.org/value> "111875" .
+_:c14n123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n124 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n124 <http://schema.org/value> "111875" .
+_:c14n124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n125 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n125 <http://schema.org/value> "111875" .
+_:c14n125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n126 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n126 <http://schema.org/value> "111875" .
+_:c14n126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n127 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n127 <http://schema.org/value> "111875" .
+_:c14n127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n128 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n128 <http://schema.org/value> "111875" .
+_:c14n128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n129 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n129 <http://schema.org/value> "8264" .
+_:c14n129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n13 <http://schema.org/propertyID> "doi" .
+_:c14n13 <http://schema.org/value> "10.1016/j.biocon.2012.07.015" .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n130 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n130 <http://schema.org/value> "8264" .
+_:c14n130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n14 <http://schema.org/propertyID> "doi" .
+_:c14n14 <http://schema.org/value> "10.3897/zookeys.797.28005" .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n15 <http://schema.org/propertyID> "doi" .
+_:c14n15 <http://schema.org/value> "10.1007/s11230-014-9540-1" .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n16 <http://schema.org/propertyID> "eid" .
+_:c14n16 <http://schema.org/value> "2-s2.0-1842854738" .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n17 <http://schema.org/propertyID> "doi" .
+_:c14n17 <http://schema.org/value> "10.1007/s11230-007-9103-9" .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n18 <http://schema.org/propertyID> "eid" .
+_:c14n18 <http://schema.org/value> "2-s2.0-85018284783" .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n19 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n19 <http://schema.org/identifier> _:c14n105 .
+_:c14n19 <http://schema.org/name> "Cestodes of the genus Biuterina Fuhrmann, 1902 (Cyclophyllidea: Paruterinidae) from passeriform and piciform birds in the Ivory Coast, with a key to the species of the genus" .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n2 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n2 <http://schema.org/value> "87659" .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n20 <http://schema.org/propertyID> "doi" .
+_:c14n20 <http://schema.org/value> "10.1006/mpev.1996.0073" .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n21 <http://schema.org/propertyID> "doi" .
+_:c14n21 <http://schema.org/value> "10.1645/ge-1275.1" .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n22 <http://schema.org/propertyID> "grant_number" .
+_:c14n22 <http://schema.org/value> "30368" .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n23 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n23 <http://schema.org/name> "An overview of the tapeworms of vertebrate bowels of the earth." .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n24 <http://schema.org/propertyID> "grant_number" .
+_:c14n24 <http://schema.org/value> "37548" .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n25 <http://schema.org/propertyID> "doi" .
+_:c14n25 <http://schema.org/value> "10.1007/s11230-016-9695-z" .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n26 <http://schema.org/propertyID> "doi" .
+_:c14n26 <http://schema.org/value> "10.1007/s00436-013-3533-x" .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n27 <http://schema.org/propertyID> "doi" .
+_:c14n27 <http://schema.org/value> "10.1016/s0020-7519(99)00122-8" .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n28 <http://schema.org/propertyID> "eid" .
+_:c14n28 <http://schema.org/value> "2-s2.0-80054739242" .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n29 <http://schema.org/identifier> _:c14n129 .
+_:c14n29 <http://schema.org/name> "Smithsonian Institution" .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n3 <http://schema.org/propertyID> "doi" .
+_:c14n3 <http://schema.org/value> "10.1007/s00436-011-2809-2" .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n30 <http://schema.org/propertyID> "eid" .
+_:c14n30 <http://schema.org/value> "2-s2.0-79959454620" .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n31 <http://schema.org/propertyID> "doi" .
+_:c14n31 <http://schema.org/value> "10.1016/0020-7519(94)90107-4" .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n32 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n32 <http://schema.org/identifier> _:c14n101 .
+_:c14n32 <http://schema.org/name> "Erratum: Cestodes of the genus Bluterina Fuhrmann, 1902 (Cyclophyllidea: Paruterinidae) from passeriform and piciform birds in the Ivory Coast, with a key to the species of the genus (Revue Suisse de Zoologie (2007) 114:1 (141-174)" .
+_:c14n32 <http://schema.org/sameAs> "http://www.scopus.com/inward/record.url?eid=2-s2.0-34547177729&partnerID=MN8TOARS" .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n33 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n33 <http://schema.org/name> "Molecular systematics of Mesocestoides spp. (Cestoda : mesocestoididae) from domestic dogs (Canis familiaris) and coyotes (Canis latrans)" .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n34 <http://schema.org/propertyID> "doi" .
+_:c14n34 <http://schema.org/value> "10.1007/s11230-013-9445-4" .
+_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n35 <http://schema.org/propertyID> "doi" .
+_:c14n35 <http://schema.org/value> "10.2307/3284374" .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n36 <http://schema.org/propertyID> "eid" .
+_:c14n36 <http://schema.org/value> "2-s2.0-84920131808" .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n37 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n37 <http://schema.org/name> "The report of the snake genus Conophis in South America is erroneous" .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n38 <http://schema.org/propertyID> "doi" .
+_:c14n38 <http://schema.org/value> "10.1007/bf00009359" .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n39 <http://schema.org/propertyID> "doi" .
+_:c14n39 <http://schema.org/value> "10.1023/b:sypa.0000019083.26876.34" .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n4 <http://schema.org/propertyID> "doi" .
+_:c14n4 <http://schema.org/value> "10.1007/s11230-015-9588-6" .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n40 <http://schema.org/propertyID> "doi" .
+_:c14n40 <http://schema.org/value> "10.14411/fp.2014.058" .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n41 <http://schema.org/propertyID> "doi" .
+_:c14n41 <http://schema.org/value> "10.1007/s11230-009-9178-6" .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n42 <http://schema.org/propertyID> "doi" .
+_:c14n42 <http://schema.org/value> "10.5169/seals-89429" .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n43 <http://schema.org/propertyID> "doi" .
+_:c14n43 <http://schema.org/value> "10.1007/s00436-016-5295-8" .
+_:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n44 <http://schema.org/propertyID> "doi" .
+_:c14n44 <http://schema.org/value> "10.1016/j.meegid.2017.12.017" .
+_:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n45 <http://schema.org/propertyID> "doi" .
+_:c14n45 <http://schema.org/value> "10.1023/a:1015034329033" .
+_:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n46 <http://schema.org/propertyID> "doi" .
+_:c14n46 <http://schema.org/value> "10.1007/s11230-014-9483-6" .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n47 <http://schema.org/propertyID> "doi" .
+_:c14n47 <http://schema.org/value> "10.1006/mpev.2001.0930" .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n48 <http://schema.org/alternateName> "Study phylogeny Nyctibiidae by DNA techniques, including: sequencing and PCR (Polymerase Chain Reaction)." .
+_:c14n48 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n48 <http://schema.org/identifier> _:c14n125 .
+_:c14n48 <http://schema.org/identifier> _:c14n22 .
+_:c14n48 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n49 <http://schema.org/propertyID> "doi" .
+_:c14n49 <http://schema.org/value> "10.1007/bf00007387" .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n5 <http://schema.org/propertyID> "eid" .
+_:c14n5 <http://schema.org/value> "2-s2.0-3242721267" .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n50 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n50 <http://schema.org/identifier> _:c14n91 .
+_:c14n50 <http://schema.org/name> "The pygmy chameleons of the Eastern Arc Range (Tanzania): evolutionary relationships and the description of three new species of Rhampholeon (Sauria: Chamaeleonidae)" .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n51 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n51 <http://schema.org/identifier> _:c14n16 .
+_:c14n51 <http://schema.org/name> "A re-evaluation of the generic assignment of Bradypodion spinosum (Matschie, 1892) and some considerations on the genus Rhampholeon Günther, 1874" .
+_:c14n51 <http://schema.org/sameAs> "http://www.scopus.com/inward/record.url?eid=2-s2.0-1842854738&partnerID=MN8TOARS" .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n52 <http://schema.org/alternateName> "Determinants of faunal structure in a biodiversity hotspot: Coevolution and historical biogeography among saurians, anurans and parasites in the eastern arc range (Tanzania)" .
+_:c14n52 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n52 <http://schema.org/identifier> _:c14n127 .
+_:c14n52 <http://schema.org/identifier> _:c14n68 .
+_:c14n52 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n53 <http://schema.org/propertyID> "doi" .
+_:c14n53 <http://schema.org/value> "10.1007/s11230-005-9020-8" .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n54 <http://schema.org/propertyID> "doi" .
+_:c14n54 <http://schema.org/value> "10.11646/zootaxa.3746.3.3" .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n55 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n55 <http://schema.org/identifier> _:c14n30 .
+_:c14n55 <http://schema.org/name> "Gastrointestinal helminths of magpies (pica pica), rooks (corvus frugilegus) and carrion crows (corvus corone) in mazandaran province, North of Iran" .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n56 <http://schema.org/propertyID> "doi" .
+_:c14n56 <http://schema.org/value> "10.1007/s11230-014-9507-2" .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n57 <http://schema.org/propertyID> "grant_number" .
+_:c14n57 <http://schema.org/value> "grant.169211" .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n58 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n58 <http://schema.org/identifier> _:c14n28 .
+_:c14n58 <http://schema.org/name> "An annotated list of the parasitic nematodes (Nematoda) of freshwater fishes from Paraguay deposited in the Museum of natural history of Geneva" .
+_:c14n58 <http://schema.org/sameAs> "http://www.scopus.com/inward/record.url?eid=2-s2.0-80054739242&partnerID=MN8TOARS" .
+_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n59 <http://schema.org/propertyID> "doi" .
+_:c14n59 <http://schema.org/value> "10.2307/3284540" .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n6 <http://schema.org/propertyID> "RINGGOLD" .
+_:c14n6 <http://schema.org/value> "30600" .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n60 <http://schema.org/propertyID> "eid" .
+_:c14n60 <http://schema.org/value> "2-s2.0-84873737705" .
+_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n61 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n61 <http://schema.org/name> "PSEUDOCHOANOTAENIA-EBURNEA N-SP (CESTODA, CYCLOPHYLLIDEA) PARASITE IN 5 SPECIES OF THE BIRD GENUS CISTICOLA IN IVORY-COAST" .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n62 <http://schema.org/propertyID> "ResearcherID" .
+_:c14n62 <http://schema.org/value> "A-1142-2010" .
+_:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n63 <http://schema.org/propertyID> "eid" .
+_:c14n63 <http://schema.org/value> "2-s2.0-0026562904" .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n64 <http://schema.org/propertyID> "eid" .
+_:c14n64 <http://schema.org/value> "2-s2.0-85022044678" .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n65 <http://schema.org/propertyID> "doi" .
+_:c14n65 <http://schema.org/value> "10.1371/journal.pone.0046421" .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n66 <http://schema.org/propertyID> "doi" .
+_:c14n66 <http://schema.org/value> "10.5281/zenodo.322659" .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n67 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n67 <http://schema.org/name> "NOTES ON 2 MESOSTIGMATIC MITES (ACARI, MESOSTIGMATA) RECORDED FROM SUNBIRDS (NECTARINIIDAE) IN THE IVORY-COAST" .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n68 <http://schema.org/propertyID> "grant_number" .
+_:c14n68 <http://schema.org/value> "55710" .
+_:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n69 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n69 <http://schema.org/identifier> _:c14n60 .
+_:c14n69 <http://schema.org/name> "Cucolepis cincta gen. n. et sp. n. (Cestoda: Cyclophyllidea) from the squirrel cuckoo piaya cayana lesson (Aves: Cuculiformes) from paraguay" .
+_:c14n69 <http://schema.org/sameAs> "http://www.scopus.com/inward/record.url?eid=2-s2.0-84873737705&partnerID=MN8TOARS" .
+_:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n7 <http://schema.org/propertyID> "doi" .
+_:c14n7 <http://schema.org/value> "10.11646/zootaxa.4290.1.3" .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n70 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n70 <http://schema.org/identifier> _:c14n106 .
+_:c14n70 <http://schema.org/name> "Redescription of Brooksiella praeputialis and Goezeella siluri (Eucestoda: Proteocephalidea), parasites of Cetopsis coecutiens (Siluriformes) from the Amazon and proposition of Goezeella danbrooksi sp. n." .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n71 <http://schema.org/propertyID> "doi" .
+_:c14n71 <http://schema.org/value> "10.1007/s11230-011-9322-y" .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n72 <http://schema.org/propertyID> "doi" .
+_:c14n72 <http://schema.org/value> "10.5169/seals-89255" .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n73 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n73 <http://schema.org/name> "CESTODES OF BIRDS OF IVORY-COAST III - ON SOME PARASITES OF CHARADRIIFORMES" .
+_:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n74 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n74 <http://schema.org/identifier> _:c14n89 .
+_:c14n74 <http://schema.org/name> "Avian cestodes of the Ivory Coast" .
+_:c14n74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n75 <http://schema.org/propertyID> "doi" .
+_:c14n75 <http://schema.org/value> "10.1007/bf00016906" .
+_:c14n75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n76 <http://schema.org/propertyID> "doi" .
+_:c14n76 <http://schema.org/value> "10.1016/s0020-7519(01)00179-5" .
+_:c14n76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n77 <http://schema.org/identifier> _:c14n6 .
+_:c14n77 <http://schema.org/name> "Muséum d'histoire naturelle de la Ville de Genève" .
+_:c14n77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n78 <http://schema.org/propertyID> "doi" .
+_:c14n78 <http://schema.org/value> "10.3897/zookeys.500.9360" .
+_:c14n78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n79 <http://schema.org/propertyID> "doi" .
+_:c14n79 <http://schema.org/value> "10.2478/s11686-013-0117-y" .
+_:c14n79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n8 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n8 <http://schema.org/identifier> _:c14n63 .
+_:c14n8 <http://schema.org/name> "A new genus of metadilepididae (cestoda: Cyclophyllidea) parasitic in Terpsiphone rufiventer (aves: Muscicapidae) from the ivory coast" .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n80 <http://schema.org/propertyID> "doi" .
+_:c14n80 <http://schema.org/value> "10.1016/s0020-7519(99)00163-0" .
+_:c14n80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n81 <http://schema.org/propertyID> "eid" .
+_:c14n81 <http://schema.org/value> "2-s2.0-79960802313" .
+_:c14n81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n82 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n82 <http://schema.org/identifier> _:c14n81 .
+_:c14n82 <http://schema.org/name> "Tapeworms (Cestoda: Proteocephalidea) of Synodontis spp. (Siluriformes)in Africa: Survey of species and their redescriptions" .
+_:c14n82 <http://schema.org/sameAs> "http://www.scopus.com/inward/record.url?eid=2-s2.0-79960802313&partnerID=MN8TOARS" .
+_:c14n82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n83 <http://schema.org/propertyID> "doi" .
+_:c14n83 <http://schema.org/value> "10.5852/ejt.2020.616" .
+_:c14n83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n84 <http://schema.org/propertyID> "doi" .
+_:c14n84 <http://schema.org/value> "10.1645/ge-2705.1" .
+_:c14n84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n85 <http://schema.org/alternateName> "Département de Génétique et Evolution" .
+_:c14n85 <http://schema.org/identifier> _:c14n2 .
+_:c14n85 <http://schema.org/name> "Université de Genève" .
+_:c14n85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n86 <http://schema.org/propertyID> "grant_number" .
+_:c14n86 <http://schema.org/value> "51825" .
+_:c14n86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n87 <http://schema.org/alternateName> "Molecular phylogeny of the Eucestoda (Platyhelminthes)" .
+_:c14n87 <http://schema.org/funder> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n87 <http://schema.org/identifier> _:c14n126 .
+_:c14n87 <http://schema.org/identifier> _:c14n24 .
+_:c14n87 <http://schema.org/name> "Swiss National Science Foundation" .
+_:c14n87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n88 <http://schema.org/alternateName> "Laboratory of Molecular Systematics" .
+_:c14n88 <http://schema.org/identifier> _:c14n130 .
+_:c14n88 <http://schema.org/name> "Smithsonian Institution" .
+_:c14n88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:c14n89 <http://schema.org/propertyID> "eid" .
+_:c14n89 <http://schema.org/value> "2-s2.0-0028008066" .
+_:c14n89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n9 <http://schema.org/propertyID> "doi" .
+_:c14n9 <http://schema.org/value> "10.1007/s11230-008-9134-x" .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n90 <http://schema.org/propertyID> "doi" .
+_:c14n90 <http://schema.org/value> "10.5852/ejt.2018.440" .
+_:c14n90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n91 <http://schema.org/propertyID> "eid" .
+_:c14n91 <http://schema.org/value> "2-s2.0-34047214659" .
+_:c14n91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n92 <http://schema.org/propertyID> "eid" .
+_:c14n92 <http://schema.org/value> "2-s2.0-0025373757" .
+_:c14n92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n93 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n93 <http://schema.org/name> "Cyclophyllidea van Beneden in Braun, 1900" .
+_:c14n93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n94 <http://schema.org/propertyID> "doi" .
+_:c14n94 <http://schema.org/value> "10.1023/a:1024663120600" .
+_:c14n94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n95 <http://schema.org/propertyID> "doi" .
+_:c14n95 <http://schema.org/value> "10.1023/a:1006465026316" .
+_:c14n95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n96 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n96 <http://schema.org/name> "Genetic diversity of avian haemosporidians in Malaysia: cytochrome b lineages of the genera Plasmodium and Haemoproteus (Haemosporida) from Selangor" .
+_:c14n96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n97 <http://schema.org/creator> <https://orcid.org/0000-0002-9601-855X> .
+_:c14n97 <http://schema.org/name> "Tetrabothriidea Baer, 1954" .
+_:c14n97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:c14n98 <http://schema.org/propertyID> "Scopus Author ID" .
+_:c14n98 <http://schema.org/value> "6603691245" .
+_:c14n98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PropertyValue> .
+_:c14n99 <http://schema.org/identifier> _:c14n122 .
+_:c14n99 <http://schema.org/name> "Université de Neuchâtel" .
+_:c14n99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+

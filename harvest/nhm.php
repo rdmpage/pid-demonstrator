@@ -42,7 +42,13 @@ function get($url, $format = 'application/ld+json')
 
 
 $ids = array(
-'8449d6f3-af9d-418b-8538-671664bf9536'
+"8449d6f3-af9d-418b-8538-671664bf9536",
+"8c5f9a32-a707-461b-a4c1-e3e74a74576c",
+"6e8be646-486e-4193-ac46-e13e23c5daef",
+"038e765f-1a4a-4e9d-9c3e-86f13c07ab18",
+"3d60a244-dd7f-44b6-a823-977f4f3286ab",
+"1a995d3f-d4c9-4ee3-a0a3-8301233f2e10",
+"b59e3747-3322-4153-9277-46cd7da0adaf",
 );
 
 $rdf_filename = dirname(__FILE__) . '/nhm.nt';
