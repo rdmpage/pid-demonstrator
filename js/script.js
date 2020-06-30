@@ -339,8 +339,14 @@ function releasetheKraken() {
           url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://doi.org/' +
             encodeURIComponent(guid.identifier),
           success: function(data) {
-
-               e.html(e.html() + JSON.stringify(data));
+          	    var html = '<ul>';
+				for (var i in data['@graph']) {
+					html += '<li>';
+					html += '<a href="' + data['@graph'][i].body.id + '">' + data['@graph'][i].body.name + '</a>';
+					html += '</li>';
+				}
+				html += '</ul>';
+               e.html(e.html() + html);
  
           }
         });        
