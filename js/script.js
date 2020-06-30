@@ -107,6 +107,7 @@ function releasetheKraken() {
     if (metas[i].getAttribute("name") == "citation_doi") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
+      guid.uri = 'https://doi.org/' + guid.identifier;
     }
 
     // Dublin Core
@@ -115,6 +116,7 @@ function releasetheKraken() {
       if (metas[i].getAttribute("scheme") == "doi") {
         guid.namespace = 'doi';
         guid.identifier = metas[i].getAttribute("content");
+        guid.uri = 'https://doi.org/' + guid.identifier;
       }
     }
 
@@ -125,6 +127,7 @@ function releasetheKraken() {
           guid.namespace = 'doi';
           guid.identifier = metas[i].getAttribute("content");
           guid.identifier = guid.identifier.replace(/info:doi\//, "");
+          guid.uri = 'https://doi.org/' + guid.identifier;
         }
       }
     }
@@ -133,6 +136,7 @@ function releasetheKraken() {
     if (metas[i].getAttribute("name") == "DC.Identifier.DOI") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
+      guid.uri = 'https://doi.org/' + guid.identifier;
     }
 
     // BHL
@@ -140,7 +144,8 @@ function releasetheKraken() {
       var m = metas[i].getAttribute("content").match(/https?:\/\/(?:www.)?biodiversitylibrary.org\/item\/(\d+)/);
       if (m) {
         guid.namespace = 'bhl';
-        guid.identifier = m[1];
+        guid.identifier = m[1];    
+        guid.uri = 'https://www.biodiversitylibrary.org/item/' + guid.identifier;    
       }
     }
 
@@ -152,22 +157,22 @@ function releasetheKraken() {
         // GBIF
         if (url.match(/gbif.org\/occurrence/)) {
           guid.namespace = 'occurrence';
-          guid.identifier = url;
-          guid.identifier = guid.identifier.replace(/https?:\/\/(www\.)?gbif.org\/occurrence\//, '');
+          guid.url = url;
+          guid.identifier = guid.url.replace(/https?:\/\/(www\.)?gbif.org\/occurrence\//, '');
         }
 
         // ALA
         if (url.match(/bie.ala.org.au\/species\/urn:lsid/)) {
           guid.namespace = 'ala';
-          guid.identifier = url;
-          guid.identifier = guid.identifier.replace(/https?:\/\/bie.ala.org.au\/species\//, '');
+          guid.url = url;
+          guid.identifier = guid.url.replace(/https?:\/\/bie.ala.org.au\/species\//, '');
         }
         
         // NHMUK
         if (url.match(/data.nhm.ac.uk\/object/)) {
           guid.namespace = 'nhmuk';
-          guid.identifier = url;
-          guid.identifier = guid.identifier.replace(/https?:\/\/data.nhm.ac.uk\/object\//, '');
+          guid.uri = url;
+          guid.identifier = guid.uri.replace(/https?:\/\/data.nhm.ac.uk\/object\//, '');
         }
   
       }
@@ -185,6 +190,7 @@ function releasetheKraken() {
     for (i = 0; i < elements.length; i++) {
       guid.namespace = 'uri';
       guid.identifier = elements[i].getAttribute("href");
+      guid.uri = guid.identifier;
     }
 
   }
@@ -192,9 +198,6 @@ function releasetheKraken() {
   /*
   // 	<link rel="alternate" type="text/n3" href="https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3">
   if (!guid.namespace) {
-
-    // canonical link
-
     var elements = document.querySelectorAll('link[rel="alternate"]');
     for (i = 0; i < elements.length; i++) {
     	if (elements[i].getAttribute('type') == 'text/n3') {
@@ -203,7 +206,6 @@ function releasetheKraken() {
     	  guid.identifier = guid.identifier.replace(/\.n3/, '');
     	}
     }
-
   }
  */
 
@@ -215,6 +217,7 @@ function releasetheKraken() {
     for (i = 0; i < elements.length; i++) {
       guid.namespace = 'uri';
       guid.identifier = elements[i].getAttribute("href");
+      guid.uri = guid.identifier;
 
     }
  
@@ -230,6 +233,7 @@ function releasetheKraken() {
       if (text.match(/urn:lsid/)) {
       	guid.namespace = 'ipni';
       	guid.identifier = text;
+      	guid.uri = guid.identifier;
       }
 
     }
@@ -246,6 +250,7 @@ function releasetheKraken() {
       if (m) {
       	guid.namespace = 'genbank';
       	guid.identifier = m[1];
+      	guid.uri = 'https://www.ncbi.nlm.nih.gov/nucleotide/' +  guid.identifier;
       }
 
     }
@@ -336,8 +341,8 @@ function releasetheKraken() {
         
        $.ajax({
           type: "GET",
-          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://doi.org/' +
-            encodeURIComponent(guid.identifier),
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
+            encodeURIComponent(guid.uri),
           success: function(data) {
                 // e.html(e.html() + JSON.stringify(data));
                 
@@ -349,8 +354,6 @@ function releasetheKraken() {
 					for (var i in dataFeedElement) {
 						html += '<li>';
 						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
-						html += ' ';
-						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
 						html += '</li>';
 					}
 					html += '</ul>';
@@ -370,8 +373,8 @@ function releasetheKraken() {
         
        $.ajax({
           type: "GET",
-          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=https://data.nhm.ac.uk/object/' +
-            encodeURIComponent(guid.identifier),
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
+            encodeURIComponent(guid.uri),
           success: function(data) {
                 // e.html(e.html() + JSON.stringify(data));
                 
@@ -382,8 +385,8 @@ function releasetheKraken() {
 					var html = '<ul>';
 					for (var i in dataFeedElement) {
 						html += '<li>';
-						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
-						html += ' ';
+//						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
+//						html += ' ';
 						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
 						html += '</li>';
 					}
