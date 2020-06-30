@@ -1,0 +1,114 @@
+{
+  "@context": {
+	"aiiso": "http://purl.org/vocab/aiiso/schema#",
+	"cc": "http://creativecommons.org/ns#",
+	"dc": "http://purl.org/dc/terms/",
+	"dwc": "http://rs.tdwg.org/dwc/terms/",
+	"foaf": "http://xmlns.com/foaf/0.1/",
+	"owl": "http://www.w3.org/2002/07/owl#",
+	"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"void": "http://rdfs.org/ns/void#",
+	"xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+	{
+	  "@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750",
+	  "aiiso:Department": "Entomology",
+	  "dc:created": {
+		"@type": "xsd:dateTime",
+		"@value": "2019-03-19T12:18:23"
+	  },
+	  "dc:identifier": "f62e09d5-1ee4-4c54-86b5-26f3cd9c8750",
+	  "dc:publisher": {
+		"@id": "https://nhm.ac.uk"
+	  },
+	  "dc:title": "Arhopala argentea boordi Tennent & Rawlins, 2010",
+	  "dc:type": "Specimen",
+	  "dwc:associatedMedia": "https://www.nhm.ac.uk/services/media-store/asset/d55b8f7b32ab20256545ee9bb6c82d1327720a91/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/55ac70a0557b246b60bf2b11c4a3cc63ca28ff37/contents/preview",
+	  "dwc:basisOfRecord": "Specimen",
+	  "dwc:catalogNumber": "BMNH(E)808126",
+	  "dwc:class": "Insecta",
+	  "dwc:collectionCode": "BMNH(E)",
+	  "dwc:continent": "Asia",
+	  "dwc:country": "Indonesia",
+	  "dwc:dynamicProperties": "{\"barcode\": \"013376635\", \"donorName\": \"Mr John Tennent\", \"associatedMediaCount\": 2, \"project\": \"Papilionoidea New Types Digitisation Project\", \"determinationNames\": \"Arhopala argentea boordi Tennent & Rawlins, 2010\", \"preservative\": \"Dry - pinned\"}",
+	  "dwc:family": "Lycaenidae",
+	  "dwc:genus": "Arhopala",
+	  "dwc:higherClassification": "Insecta; Lepidoptera; Papilionoidea; Lycaenidae; Theclinae",
+	  "dwc:higherGeography": "Asia; Indonesia",
+	  "dwc:individualCount": "0",
+	  "dwc:infraspecificEpithet": "boordi",
+	  "dwc:institutionCode": "NHMUK",
+	  "dwc:modified": {
+		"@type": "xsd:dateTime",
+		"@value": "2019-06-12T13:38:03"
+	  },
+	  "dwc:occurrenceID": "f62e09d5-1ee4-4c54-86b5-26f3cd9c8750",
+	  "dwc:order": "Lepidoptera",
+	  "dwc:otherCatalogNumbers": "NHMUK:ecatalogue:8780103",
+	  "dwc:scientificName": "Arhopala argentea boordi Tennent & Rawlins, 2010",
+	  "dwc:scientificNameAuthorship": "Tennent & Rawlins, 2010",
+	  "dwc:specificEpithet": "argentea",
+	  "dwc:typeStatus": "PARATYPE",
+	  "foaf:depiction": [
+		{
+		  "@id": "https://www.nhm.ac.uk/services/media-store/asset/d55b8f7b32ab20256545ee9bb6c82d1327720a91/contents/preview"
+		},
+		{
+		  "@id": "https://www.nhm.ac.uk/services/media-store/asset/55ac70a0557b246b60bf2b11c4a3cc63ca28ff37/contents/preview"
+		}
+	  ],
+	  "owl:sameAs": {
+		"@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750/1592956800000"
+	  },
+	  "owl:versionInfo": 1592956800000,
+	  "void:inDataset": {
+		"@id": "https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset"
+	  }
+	},
+	{
+	  "@id": "https://www.nhm.ac.uk/services/media-store/asset/d55b8f7b32ab20256545ee9bb6c82d1327720a91/contents/preview",
+	  "@type": "foaf:Image",
+	  "cc:license": {
+		"@id": "http://creativecommons.org/licenses/by/4.0/"
+	  },
+	  "dc:Format": "image/jpeg",
+	  "dc:RightsStatement": "The Trustees of the Natural History Museum, London",
+	  "dc:title": "013376635_Arhopala_argentea_boordi_Tennent & Rawlins_2010_PT",
+	  "foaf:depicts": {
+		"@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750"
+	  },
+	  "foaf:thumbnail": {
+		"@id": "https://www.nhm.ac.uk/services/media-store/asset/d55b8f7b32ab20256545ee9bb6c82d1327720a91/contents/thumbnail"
+	  }
+	},
+	{
+	  "@id": "https://www.nhm.ac.uk/services/media-store/asset/55ac70a0557b246b60bf2b11c4a3cc63ca28ff37/contents/preview",
+	  "@type": "foaf:Image",
+	  "cc:license": {
+		"@id": "http://creativecommons.org/licenses/by/4.0/"
+	  },
+	  "dc:Format": "image/jpeg",
+	  "dc:RightsStatement": "The Trustees of the Natural History Museum, London",
+	  "dc:title": "013376635_Arhopala_argentea_boordi_Tennent & Rawlins_2010_PT_1",
+	  "foaf:depicts": {
+		"@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750"
+	  },
+	  "foaf:thumbnail": {
+		"@id": "https://www.nhm.ac.uk/services/media-store/asset/55ac70a0557b246b60bf2b11c4a3cc63ca28ff37/contents/thumbnail"
+	  }
+	},
+	{
+	  "@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750.json-ld",
+	  "dc:created": {
+		"@type": "xsd:dateTime",
+		"@value": "2020-06-24T12:51:28.820096"
+	  },
+	  "dc:creator": "Natural History Museum, London",
+	  "dc:subject": {
+		"@id": "https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-86b5-26f3cd9c8750"
+	  }
+	}
+  ]
+}
