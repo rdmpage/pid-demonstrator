@@ -63,7 +63,7 @@ function releasetheKraken() {
     $('body').append(e);
     
     var styles = `
-    	.rdmpannotate {
+    	#rdmpannotate {
 			position:    fixed;
 			top:         0px;
 			right:       0px;
