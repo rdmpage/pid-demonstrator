@@ -61,7 +61,32 @@ function releasetheKraken() {
 
     // append it to the body:
     $('body').append(e);
+    
+    var styles = `
+    	.rdmpannotate {
+			position:    fixed;
+			top:         0px;
+			right:       0px;
+			width:       300px;
+			height:      100vh;
+			padding:     20px;
+			backgroundColor: orange;
+			color:       black;
+			text-align:  left;
+			font-size:   12px;
+			font-weight: normal;
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			box-shadow:  -5px 5px 5px 0px rgba(50, 50, 50, 0.3);
+			z-index:     200000;
+    	}    
+    `;
+    
+    var styleSheet = document.createElement("style")
+	styleSheet.type = "text/css"
+	styleSheet.innerText = styles
+	document.head.appendChild(styleSheet)
 
+	/*
     // style it:
     e.css({
       position: 'fixed',
@@ -70,7 +95,6 @@ function releasetheKraken() {
       width: '300px',
       height: '100vh',
       padding: '20px',
-      /* backgroundColor: "#FFFFCC", */
       backgroundColor: "white",
       color: 'black',
       'text-align': 'left',
@@ -80,6 +104,7 @@ function releasetheKraken() {
       'box-shadow': '-5px 5px 5px 0px rgba(50, 50, 50, 0.3)',
       'z-index': '200000'
     });
+    */
 
     $('#rdmpannotate').data("top", $('#rdmpannotate').offset().top);
    }
@@ -90,8 +115,10 @@ function releasetheKraken() {
   // ×
 
   var html = '<span style="float:right;" onclick="rdmp_close(\'rdmpannotate\')">Close [x]</span>';
-  html += '<div style="width:200px;font-size:120%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' +
-    '<span style="font-weight:bold;">' + window.document.title + '</span>' + '</div>';
+  
+  // Title
+  html += '<div>' +
+    '<span>' + window.document.title + '</span>' + '</div>';
   e.html(html);
 
   // Get identifier(s) from page elements or URL
@@ -275,6 +302,9 @@ function releasetheKraken() {
   // 2. List of linked entities (data feed)
 
   if (guid.namespace) {
+  
+  	e.html(e.html() + "<b>Links</b>");
+  
     switch (guid.namespace) {
 
       case 'bhl':
@@ -282,9 +312,11 @@ function releasetheKraken() {
         // to track current PageID, so that we could then display annotations relevant
         // to the page being displayed.
 
-        e.html(e.html() + JSON.stringify(guid));
+		if (debug) {
+        	e.html(e.html() + JSON.stringify(guid));
+        }
 
-        var html = '<div id="bhl_page"></a>';
+        var html = '<div id="bhl_page"></div>';
         e.html(e.html() + '<br />' + html);
 
         var currentpageURL = document.querySelector('[id=currentpageURL]');
@@ -422,10 +454,6 @@ function releasetheKraken() {
 							}
 							html += '</ul>';
 						}
-						
-						
-						https://orcid.org/sites/default/files/images/orcid_16x16.png
-						
 						html += '</li>';
 					}
 					html += '</ul>';
@@ -469,33 +497,6 @@ function releasetheKraken() {
 
 
   }
-
-  /*
-	// GBIF occurrence
-	var pattern = /gbif.org\/occurrence\/(\d+)/;
-	
-	hit = pattern.exec(window.location.href);
-	
-	if (hit) {
-		$.getJSON('http://api.gbif.org/v0.9/occurrence/' + hit[1] + '?callback=?',
-			function(data){
-				if (data.key == hit[1]) {
-					var html = '<div style="text-align:left;">';
-					html += '<div>' + data.institutionCode + ' ' + data.catalogNumber + '</div>';
-					html += '<span>[' + data.decimalLatitude + ',' + data.decimalLongitude + ']</span>';
-					if (data.decimalLongitude && data.decimalLatitude) {
-						html += '<img src="http://maps.googleapis.com/maps/api/staticmap?' 
-							+ 'size=300x100&zoom=6&maptype=terrain&markers=size:mid|' 
-							+  data.decimalLatitude + ',' + data.decimalLongitude + '&sensor=false'
-							+ '" />';
-					}
-					html += '</div>';
-					e.html(e.html() + html);
-				}
-			});
-	}
-	
-	*/
 
 }
 
