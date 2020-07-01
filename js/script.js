@@ -82,12 +82,18 @@ function releasetheKraken() {
     	
     	.pidannotate h1 {
     		font-size:14px;
+    		line-height:16px;
     		font-weight:bold;
+    		margin: 0px;
+    		font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
     	}
     	
     	.pidannotate h2 {
     		font-size:12px;
+    		line-height:14px;
     		font-weight:bold;
+    		margin: 0px;
+    		font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
     	}
     	
     	
