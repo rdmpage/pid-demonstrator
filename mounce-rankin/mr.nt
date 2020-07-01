@@ -1,0 +1,36 @@
+<urn:uuid:2019a32f-95c1-4a5a-96cc-e104f0ddf557#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:2019a32f-95c1-4a5a-96cc-e104f0ddf557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:2019a32f-95c1-4a5a-96cc-e104f0ddf557> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> .
+<urn:uuid:2019a32f-95c1-4a5a-96cc-e104f0ddf557> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:2019a32f-95c1-4a5a-96cc-e104f0ddf557#target> .
+
+<urn:uuid:0bb1bcd0-def7-4e1b-aa2b-da64ce479371#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:0bb1bcd0-def7-4e1b-aa2b-da64ce479371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:0bb1bcd0-def7-4e1b-aa2b-da64ce479371> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> .
+<urn:uuid:0bb1bcd0-def7-4e1b-aa2b-da64ce479371> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:0bb1bcd0-def7-4e1b-aa2b-da64ce479371#target> .
+
+<urn:uuid:25e98634-9466-41a5-ac14-3476c376591e#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:25e98634-9466-41a5-ac14-3476c376591e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:25e98634-9466-41a5-ac14-3476c376591e> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> .
+<urn:uuid:25e98634-9466-41a5-ac14-3476c376591e> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:25e98634-9466-41a5-ac14-3476c376591e#target> .
+
+<urn:uuid:167e8306-9739-49c0-94e5-307dc6059759#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:167e8306-9739-49c0-94e5-307dc6059759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:167e8306-9739-49c0-94e5-307dc6059759> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> .
+<urn:uuid:167e8306-9739-49c0-94e5-307dc6059759> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:167e8306-9739-49c0-94e5-307dc6059759#target> .
+
+<urn:uuid:6dede4f1-0090-4807-9643-0febc0196a15#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:6dede4f1-0090-4807-9643-0febc0196a15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:6dede4f1-0090-4807-9643-0febc0196a15> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> .
+<urn:uuid:6dede4f1-0090-4807-9643-0febc0196a15> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:6dede4f1-0090-4807-9643-0febc0196a15#target> .
+
+<urn:uuid:e8097b38-8a54-470c-869f-8b3eb312641f#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0046421> .
+<urn:uuid:e8097b38-8a54-470c-869f-8b3eb312641f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:e8097b38-8a54-470c-869f-8b3eb312641f> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> .
+<urn:uuid:e8097b38-8a54-470c-869f-8b3eb312641f> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:e8097b38-8a54-470c-869f-8b3eb312641f#target> .
+
+<urn:uuid:eecfb21f-49d7-45c9-b874-2546be6d021d#target> <http://www.w3.org/ns/oa#canonical> <https://doi.org/10.1371/journal.pone.0041767> .
+<urn:uuid:eecfb21f-49d7-45c9-b874-2546be6d021d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:eecfb21f-49d7-45c9-b874-2546be6d021d> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
+<urn:uuid:eecfb21f-49d7-45c9-b874-2546be6d021d> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:eecfb21f-49d7-45c9-b874-2546be6d021d#target> .
+
+
