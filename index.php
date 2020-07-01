@@ -7,6 +7,13 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 <html>
 <head>
 	<meta charset="utf-8" />
+	<style>
+		body {
+			margin: 0px;
+			padding:20px;
+			font-family: sans-serif;
+		}
+	</style>
 	<title><?php echo $config['site_name']; ?></title>
 </head>
 <body>
