@@ -54,31 +54,51 @@ function releasetheKraken() {
   }
 
   var e = null;
-  if (!$('#rdmpannotate').length) {
+  if (!$('#pidannotate').length) {
   
      // create the element:
-    e = $('<div id="rdmpannotate"></div>');
+    e = $('<div class="pidannotate" id="pidannotate"></div>');
 
     // append it to the body:
     $('body').append(e);
     
     var styles = `
-    	#rdmpannotate {
-			position:    fixed;
-			top:         0px;
-			right:       0px;
-			width:       300px;
-			height:      100vh;
-			padding:     20px;
-			backgroundColor: orange;
-			color:       black;
-			text-align:  left;
-			font-size:   12px;
-			font-weight: normal;
-			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			box-shadow:  -5px 5px 5px 0px rgba(50, 50, 50, 0.3);
-			z-index:     200000;
-    	}    
+    	.pidannotate {
+			position:    		fixed;
+			top:         		0px;
+			right:       		0px;
+			width:       		300px;
+			height:      		100vh;
+			padding:     		20px;
+			background-color: 	white;
+			color:       		black;
+			text-align:  		left;
+			font-size:   		12px;
+			font-weight: 		normal;
+			font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
+			box-shadow:  		-5px 5px 5px 0px rgba(50, 50, 50, 0.3);
+			z-index:     		200000;
+    	}
+    	
+    	.pidannotate h1 {
+    		font-size:14px;
+    		font-weight:bold;
+    	}
+    	
+    	.pidannotate h2 {
+    		font-size:12px;
+    		font-weight:bold;
+    	}
+    	
+    	
+    	.pidannotate a {
+    		text-decoration:none;
+			color:rgb(28,27,168);
+    	}   
+    	
+    	.pidannotate a:hover {
+			text-decoration:underline;
+		}		
     `;
     
     var styleSheet = document.createElement("style")
@@ -106,19 +126,18 @@ function releasetheKraken() {
     });
     */
 
-    $('#rdmpannotate').data("top", $('#rdmpannotate').offset().top);
+    $('#pidannotate').data("top", $('#pidannotate').offset().top);
    }
   else {
-    e = $('#rdmpannotate');
+    e = $('#pidannotate');
   }
 
   // ×
 
-  var html = '<span style="float:right;" onclick="rdmp_close(\'rdmpannotate\')">Close [x]</span>';
+  var html = '<span style="float:right;" onclick="rdmp_close(\'pidannotate\')">Close [x]</span>';
   
   // Title
-  html += '<div>' +
-    '<span>' + window.document.title + '</span>' + '</div>';
+  html += '<h1>' + window.document.title + '</h1>';
   e.html(html);
 
   // Get identifier(s) from page elements or URL
@@ -133,14 +152,14 @@ function releasetheKraken() {
 
   for (i = 0; i < metas.length; i++) {
 
-    // Google Scholar tags
+    // Google Scholar tags----------------------------------------------------------------
     if (metas[i].getAttribute("name") == "citation_doi") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
       guid.uri = 'https://doi.org/' + guid.identifier;
     }
 
-    // Dublin Core
+    // Dublin Core------------------------------------------------------------------------
     // Taylor and Francis
     if (metas[i].getAttribute("name") == "dc.Identifier") {
       if (metas[i].getAttribute("scheme") == "doi") {
@@ -150,7 +169,7 @@ function releasetheKraken() {
       }
     }
 
-    // Ingenta
+    // Ingenta----------------------------------------------------------------------------
     if (metas[i].getAttribute("name") == "DC.identifier") {
       if (metas[i].getAttribute("scheme") == "URI") {
         if (metas[i].getAttribute("content").match(/info:doi\//)) {
@@ -162,14 +181,14 @@ function releasetheKraken() {
       }
     }
 
-    // OJS (e.g. EJT)    
+    // OJS (e.g. EJT)---------------------------------------------------------------------
     if (metas[i].getAttribute("name") == "DC.Identifier.DOI") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
       guid.uri = 'https://doi.org/' + guid.identifier;
     }
 
-    // BHL
+    // BHL--------------------------------------------------------------------------------
     if (metas[i].getAttribute("name") == "DC.identifier.URI") {
       var m = metas[i].getAttribute("content").match(/https?:\/\/(?:www.)?biodiversitylibrary.org\/item\/(\d+)/);
       if (m) {
@@ -179,7 +198,7 @@ function releasetheKraken() {
       }
     }
 
-    // Facebook meta tags
+    // Facebook og tags ------------------------------------------------------------------
     if (!guid.namespace) {
       if (metas[i].getAttribute("property") == "og:url") {
         var url = metas[i].getAttribute("content");
@@ -207,14 +226,13 @@ function releasetheKraken() {
   
       }
     }
-
+    
   }
 
   // No GUID from meta tags, try other rules
   if (!guid.namespace) {
 
-    // canonical link
-
+    // canonical link---------------------------------------------------------------------
     // <link rel="canonical" href="https://www.jstor.org/stable/24532712">
     var elements = document.querySelectorAll('link[rel="canonical"]');
     for (i = 0; i < elements.length; i++) {
@@ -242,13 +260,12 @@ function releasetheKraken() {
   // Still nothing, let's get more specific (and dive into the HTML)
   if (!guid.namespace) {
 
-    // RBGE
+    // RBGE-------------------------------------------------------------------------------
     var elements = document.querySelectorAll('[alt="Stable URI"]');
     for (i = 0; i < elements.length; i++) {
       guid.namespace = 'uri';
       guid.identifier = elements[i].getAttribute("href");
       guid.uri = guid.identifier;
-
     }
  
 
@@ -256,7 +273,7 @@ function releasetheKraken() {
   
   if (!guid.namespace) {
 
-    // IPNI
+    // IPNI-------------------------------------------------------------------------------
     var elements = document.querySelectorAll('dl dd');
     for (i = 0; i < elements.length; i++) {
       var text = elements[i].textContent;
@@ -265,14 +282,13 @@ function releasetheKraken() {
       	guid.identifier = text;
       	guid.uri = guid.identifier;
       }
-
     }
 
   }  
   
   if (!guid.namespace) {
 
-    // GenBank
+    // GenBank----------------------------------------------------------------------------
     var elements = document.querySelectorAll('p[class="itemid"]');
     for (i = 0; i < elements.length; i++) {
       var text = elements[i].textContent;
@@ -282,7 +298,6 @@ function releasetheKraken() {
       	guid.identifier = m[1];
       	guid.uri = 'https://www.ncbi.nlm.nih.gov/nucleotide/' +  guid.identifier;
       }
-
     }
 
   }    
@@ -296,6 +311,7 @@ function releasetheKraken() {
     // var m  = pattern.exec(window.location.href);
   }
 
+  //--------------------------------------------------------------------------------------
   // Now we (might) have an identifier, what can we do with it?
 
   // 1. display entity
@@ -303,7 +319,7 @@ function releasetheKraken() {
 
   if (guid.namespace) {
   
-  	e.html(e.html() + "<b>Links</b>");
+  	e.html(e.html() + "<h2>Links</h2>");
   
     switch (guid.namespace) {
 
@@ -507,7 +523,7 @@ function releasetheKraken() {
 var startProductBarPos = -1;
 
 window.onscroll = function() {
-  var bar = document.getElementById('rdmpannotate');
+  var bar = document.getElementById('pidannotate');
   if (startProductBarPos < 0) startProductBarPos = findPosY(bar);
 
   if (pageYOffset > startProductBarPos) {
