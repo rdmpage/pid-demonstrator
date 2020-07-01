@@ -75,28 +75,27 @@ function releasetheKraken() {
 			text-align:  		left;
 			font-size:   		12px;
 			font-weight: 		normal;
-			font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-family: 		sans-serif;
 			box-shadow:  		-5px 5px 5px 0px rgba(50, 50, 50, 0.3);
 			z-index:     		200000;
     	}
     	
     	.pidannotate h1 {
     		font-size:14px;
-    		line-height:16px;
+    		line-height:18px;
     		font-weight:bold;
-    		margin: 0px;
-    		font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
+    		margin: 4px;
+    		font-family: sans-serif;
     	}
     	
     	.pidannotate h2 {
     		font-size:12px;
     		line-height:14px;
     		font-weight:bold;
-    		margin: 0px;
-    		font-family: 		'Helvetica Neue', Helvetica, Arial, sans-serif;
+    		margin: 4px;
+    		font-family: sans-serif;
     	}
-    	
-    	
+    	    	
     	.pidannotate a {
     		text-decoration:none;
 			color:rgb(28,27,168);
