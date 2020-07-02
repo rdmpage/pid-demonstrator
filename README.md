@@ -60,6 +60,11 @@ In the bookmarklet I use the MutationObserver interface to track whether the Pag
 
 Could use [NHM specimens example](https://github.com/rossmounce/NHM-specimens) where we have data (that has a DOI http://dx.doi.org/10.5281/zenodo.34966). Need to represent links between specimens as annotations, think about how we give credit in annotation to source. See https://www.w3.org/TR/annotation-model/#lifecycle-information for ideas.
 
+### Problems
+
+NHM URLs have changed since Ross and Aime did their work. For example, switched to HTTPS and replaced /specimen/ with /object/, meaning the specimen URLS no longer resolved. This has been fixed see https://github.com/NaturalHistoryMuseum/ckanext-nhm/pull/477. However, some URLS without versions (/\d+ appended to end of URL) can return 404 https://twitter.com/jrdhumphries/status/1278650609667911680
+
+
 ## Examples of PIDs and data sources
 
 Institution | Data type | PID | Example | RDF | URL in meta
