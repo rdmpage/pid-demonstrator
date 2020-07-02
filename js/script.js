@@ -533,7 +533,57 @@ function releasetheKraken() {
         break;
 
       default:
-        e.html(e.html() + JSON.stringify(guid));
+        if (debug) {
+	        e.html(e.html() + JSON.stringify(guid));
+	    }
+        
+        // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
+            encodeURIComponent(guid.uri),
+          success: function(data) {
+                // e.html(e.html() + JSON.stringify(data));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+						
+						// since annotations can be bidirectional, is body or target the one we want?
+						var id = '';
+						var name = '[untitled]';
+						
+						if (dataFeedElement[i].body.id == guid.uri) {
+							// target
+							id = dataFeedElement[i].target.id;
+							if (dataFeedElement[i].target.canonical) {
+								id = dataFeedElement[i].target.canonical;
+							}
+							if (dataFeedElement[i].target.name) {
+								name = dataFeedElement[i].target.name;							
+							}
+						} else {
+							// body
+							id = dataFeedElement[i].body.id;
+							if (dataFeedElement[i].body.name) {
+								name = dataFeedElement[i].body.name;							
+							}
+						}
+						html += '<a href="' + id + '">' + name + '</a>';
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });                
         break;
     }
 

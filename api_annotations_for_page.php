@@ -101,6 +101,9 @@ WHERE
 		OPTIONAL {
 			?body rdf:value ?body_value .
 		}
+		OPTIONAL {
+			?body rdf:value ?body_value .
+		}		
 	}      		  		
 
 	?annotation oa:hasTarget ?target .
@@ -140,8 +143,14 @@ WHERE
 	
 	# display
 	OPTIONAL {
-		?body dwc:catalogNumber ?body_name .
-	} 		
+		{
+			?body dwc:catalogNumber ?body_name .
+		} 	
+		UNION 
+		{
+			?body schema:name ?body_name .
+		}
+	} 			
 	
 	OPTIONAL {
 		?canonical schema:name ?target_name .
