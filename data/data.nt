@@ -1,0 +1,11 @@
+<urn:uuid:859a6082-6feb-4233-9b14-6a8e786cf127#target> <http://www.w3.org/ns/oa#canonical> <https://www.ncbi.nlm.nih.gov/nuccore/MG211673> .
+<urn:uuid:859a6082-6feb-4233-9b14-6a8e786cf127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:859a6082-6feb-4233-9b14-6a8e786cf127> <http://www.w3.org/ns/oa#hasBody> <https://doi.org/10.1111/ibi.12597> .
+<urn:uuid:859a6082-6feb-4233-9b14-6a8e786cf127> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:859a6082-6feb-4233-9b14-6a8e786cf127#target> .
+
+<urn:uuid:de87123a-d8b6-4274-8847-861f955c8024#target> <http://www.w3.org/ns/oa#canonical> <https://www.ncbi.nlm.nih.gov/nuccore/MG211673> .
+<urn:uuid:de87123a-d8b6-4274-8847-861f955c8024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/oa#Annotation> .
+<urn:uuid:de87123a-d8b6-4274-8847-861f955c8024> <http://www.w3.org/ns/oa#hasBody> <https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> .
+<urn:uuid:de87123a-d8b6-4274-8847-861f955c8024> <http://www.w3.org/ns/oa#hasTarget> <urn:uuid:de87123a-d8b6-4274-8847-861f955c8024#target> .
+
+
