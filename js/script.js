@@ -411,7 +411,28 @@ function releasetheKraken() {
 					var html = '<ul>';
 					for (var i in dataFeedElement) {
 						html += '<li>';
-						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
+						
+						// since annotations can be bidirectional, is body or target the one we want?
+						var id = '';
+						var name = '[untitled]';
+						
+						if (dataFeedElement[i].body.id == guid.uri) {
+							// target
+							id = dataFeedElement[i].target.id;
+							if (dataFeedElement[i].target.canonical) {
+								id = dataFeedElement[i].target.canonical;
+							}
+							if (dataFeedElement[i].target.name) {
+								name = dataFeedElement[i].target.name;							
+							}
+						} else {
+							// body
+							id = dataFeedElement[i].body.id;
+							if (dataFeedElement[i].body.name) {
+								name = dataFeedElement[i].body.name;							
+							}
+						}
+						html += '<a href="' + id + '">' + name + '</a>';
 						html += '</li>';
 					}
 					html += '</ul>';
