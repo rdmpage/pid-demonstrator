@@ -16,6 +16,7 @@ else
 	$context->dcterms 	= "http://purl.org/dc/terms/";
 	$context->rdf     	= "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	$context->xsd		= "http://www.w3.org/2001/XMLSchema#";
+	$context->schema	= "http://schema.org/";
 	
 
 	// so things are easy to work with in clients we rewrite @id and @type
