@@ -301,7 +301,7 @@ function releasetheKraken() {
       if (m) {
       	guid.namespace = 'genbank';
       	guid.identifier = m[1];
-      	guid.uri = 'https://www.ncbi.nlm.nih.gov/nucleotide/' +  guid.identifier;
+      	guid.uri = 'https://www.ncbi.nlm.nih.gov/nuccore/' +  guid.identifier;
       }
     }
 
