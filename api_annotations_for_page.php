@@ -175,7 +175,7 @@ WHERE
 	OPTIONAL
 	{
 		?body dwc:associatedMedia ?thumbnail .
-		?thumbnail dcterms:type <http://purl.org/dc/dcmitype/Image> .
+		?thumbnail dcterms:type "http://purl.org/dc/dcmitype/Image" . # FFS
 	}			
 	
 	OPTIONAL {

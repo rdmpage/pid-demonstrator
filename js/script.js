@@ -412,6 +412,31 @@ function releasetheKraken() {
         observer.observe(currentpageURL, {
           attributes: true //configure it to listen to attribute changes
         });
+        
+       // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
+            encodeURIComponent(guid.uri),
+          success: function(data) {
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });             
 
         break;
 
