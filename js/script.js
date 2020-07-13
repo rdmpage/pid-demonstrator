@@ -85,7 +85,8 @@ function show_annotations(uri) {
 					html += '<a href="' + id + '">' + name + '</a>';
 					if (images.length > 0) {
 						html += '<div class="pidannotate-image-container">';
-						for (var j in images) {
+						var m = images.length;
+						for (var j = 0; j < m; j++) {
 							html += '<div class="pidannotate-image-item">';
 							html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
 							html += '</div>';
