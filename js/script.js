@@ -351,7 +351,6 @@ function releasetheKraken() {
     var elements = document.querySelectorAll('md-card-actions a');
     for (i = 0; i < elements.length; i++) {
       var url = elements[i].href;
-      alert(url);
       var m = url.match(/specimen\/(.*)\/rdf/);
       if (m) {
       	guid.namespace = 'uri';

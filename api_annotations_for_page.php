@@ -171,8 +171,12 @@ WHERE
 		?body dcterms:relation ?thumbnail .
 		?thumbnail dcterms:type <http://purl.org/dc/dcmitype/Image> .
 	}	
-	
-	
+
+	OPTIONAL
+	{
+		?body dwc:associatedMedia ?thumbnail .
+		?thumbnail dcterms:type <http://purl.org/dc/dcmitype/Image> .
+	}			
 	
 	OPTIONAL {
 		?canonical schema:name ?target_name .
