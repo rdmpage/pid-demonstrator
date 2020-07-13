@@ -104,7 +104,26 @@ function releasetheKraken() {
     	
     	.pidannotate a:hover {
 			text-decoration:underline;
+		}
+		
+		.pidannotate-image-container {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 5px;
+			justify-content: space-evenly;
+			background: rgb(228,228,228); 
 		}		
+		
+		.pidannotate-image-item {
+			margin: 5px;
+			border:1px solid rgb(228,228,228);
+			object-fit: cover;
+		}	
+		
+		.pidannotate img {
+			height:64px;
+		}	
+				
     `;
     
     var styleSheet = document.createElement("style")
@@ -442,9 +461,13 @@ function releasetheKraken() {
 							
 						}
 						html += '<a href="' + id + '">' + name + '</a>';
-						html += '<div>';
-						for (var j in images) {
-							html += '<img style="float:left;" src="http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '" height="64">';
+						if (images.length > 0) {
+							html += '<div class="pidannotate-image-container">';
+							for (var j in images) {
+								html += '<div class="pidannotate-image-item">';
+								html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+								html += '</div>';
+							}
 						}
 						html += '</div>';
 						html += '</li>';
