@@ -47,6 +47,8 @@ function rdmp_close(id) {
 //--------------------------------------------------------------------------------------------------
 // annotations?
 function show_annotations(uri) {
+
+	var e = $('#pidannotate');
 	
    $.ajax({
 	  type: "GET",
@@ -61,7 +63,7 @@ function show_annotations(uri) {
 				var html = '<ul>';
 				for (var i in dataFeedElement) {
 					html += '<li>';
-					html += i;
+					html += i + "=";
 					html += JSON.stringify(dataFeedElement[i]);
 					//html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
 					html += '</li>';
@@ -69,7 +71,7 @@ function show_annotations(uri) {
 				html += '</ul>';
 				
 				//var html = JSON.stringify(dataFeedElement);
-				$('#pidannotate').html($('#pidannotate').html() + html);
+				e.html(e.html() + html);
    
 		   }
 
