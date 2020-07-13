@@ -290,6 +290,8 @@ function releasetheKraken() {
     for (i = 0; i < elements.length; i++) {
       guid.namespace = 'uri';
       guid.identifier = elements[i].getAttribute("href");
+      // HTTPS
+      guid.identifier = guid.identifier.replace("http:", "https:");
       guid.uri = guid.identifier;
     }
  
