@@ -431,6 +431,13 @@ function releasetheKraken() {
 							if (dataFeedElement[i].body.name) {
 								name = dataFeedElement[i].body.name;							
 							}
+							
+							if (dataFeedElement[i].thumbnailUrl) {							
+								for (var i in dataFeedElement[i].thumbnailUrl) {
+								  html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + dataFeedElement[i].thumbnailUrl + '" height="100">';
+								}														
+							}
+							
 						}
 						html += '<a href="' + id + '">' + name + '</a>';
 						html += '</li>';
@@ -470,6 +477,7 @@ function releasetheKraken() {
 //						html += ' ';
 						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
 						
+						/*
 						if (dataFeedElement[i].target['schema:creator']) {
 							html += '<ul style="list-style-type:none;">';
 							for (var j in dataFeedElement[i].target['schema:creator']) {
@@ -496,6 +504,7 @@ function releasetheKraken() {
 							}
 							html += '</ul>';
 						}
+						*/
 						html += '</li>';
 					}
 					html += '</ul>';

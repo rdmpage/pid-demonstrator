@@ -113,6 +113,12 @@ else
 	$context->modified->{'@type'} = 'xsd:dateTime';
 	$context->modified->{'@id'} = 'dcterms:modified';
 	
+	// images
+	$context->thumbnailUrl = new stdclass;
+	$context->thumbnailUrl->{'@type'} = '@id';
+	$context->thumbnailUrl->{'@id'} = 'schema:thumbnailUrl';
+	
+	
 	// domain specific
 	$context->dwc		= "http://rs.tdwg.org/dwc/terms/";
 

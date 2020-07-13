@@ -19,6 +19,7 @@ $query = 'PREFIX schema: <http://schema.org/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 	PREFIX oa: <http://www.w3.org/ns/oa#>
 	PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 CONSTRUCT 
 {
 	<http://example.rss>
@@ -35,7 +36,6 @@ CONSTRUCT
 	?annotation oa:hasBody ?body .
 	?body a ?body_type .
 	?body rdf:value ?body_value .   
-
 
 	?annotation oa:hasTarget ?target .
 	?target oa:hasSource ?source .
@@ -62,8 +62,11 @@ CONSTRUCT
 	# display
 	?body schema:name ?body_name .
 	?target schema:name ?target_name .
-	?target schema:creator ?creator .
-	?creator schema:name ?creator_name .
+	
+	?body schema:thumbnailUrl ?thumbnail .
+	
+	#?target schema:creator ?creator .
+	#?creator schema:name ?creator_name .
 	
 }
 WHERE 
@@ -101,9 +104,6 @@ WHERE
 		OPTIONAL {
 			?body rdf:value ?body_value .
 		}
-		OPTIONAL {
-			?body rdf:value ?body_value .
-		}		
 	}      		  		
 
 	?annotation oa:hasTarget ?target .
@@ -141,8 +141,9 @@ WHERE
 		}     		    
 	}
 	
-	# display
-	OPTIONAL {
+	# display name
+	#OPTIONAL 
+	{
 		{
 			?body dwc:catalogNumber ?body_name .
 		} 	
@@ -150,17 +151,25 @@ WHERE
 		{
 			?body schema:name ?body_name .
 		}
-	} 			
+	} 		
+	
+	
+	# display image
+	OPTIONAL
+	{
+		?body foaf:depiction ?depiction .
+		?depiction foaf:thumbnail ?thumbnail .
+	}	
 	
 	OPTIONAL {
 		?canonical schema:name ?target_name .
 		
-		OPTIONAL {
-			?canonical schema:creator ?creator .
-  			?creator schema:givenName ?givenName .
-  			?creator schema:familyName ?familyName .
-  			BIND(CONCAT(?givenName, " ", ?familyName) AS ?creator_name)
-  		}
+		#OPTIONAL {
+		#	?canonical schema:creator ?creator .
+  		#	?creator schema:givenName ?givenName .
+  		#	?creator schema:familyName ?familyName .
+  		#	BIND(CONCAT(?givenName, " ", ?familyName) AS ?creator_name)
+  		#}
 	} 	
 	
 }
@@ -175,7 +184,7 @@ if (isset($_GET['callback']))
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
-header('Access-Control-Max-Age: 1000');
+#header('Access-Control-Max-Age: 1000');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
 
 header("Content-type: application/json");
