@@ -435,7 +435,7 @@ function releasetheKraken() {
 							
 							if (dataFeedElement[i].body.thumbnailUrl) {							
 								for (var j in dataFeedElement[i].body.thumbnailUrl) {
-									images[] = dataFeedElement[i].body.thumbnailUrl[j];
+									images.push(dataFeedElement[i].body.thumbnailUrl[j]);
 								}														
 							}
 							
