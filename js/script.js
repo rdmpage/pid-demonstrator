@@ -432,9 +432,9 @@ function releasetheKraken() {
 								name = dataFeedElement[i].body.name;							
 							}
 							
-							if (dataFeedElement[i].thumbnailUrl) {							
-								for (var j in dataFeedElement[i].thumbnailUrl) {
-								  html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + dataFeedElement[i].thumbnailUrl[j] + '" height="100">';
+							if (dataFeedElement[i].body.thumbnailUrl) {							
+								for (var j in dataFeedElement[i].body.thumbnailUrl) {
+								  html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + dataFeedElement[i].body.thumbnailUrl[j] + '" height="100">';
 								}														
 							}
 							
