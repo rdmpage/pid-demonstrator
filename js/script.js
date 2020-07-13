@@ -465,7 +465,7 @@ function releasetheKraken() {
 							html += '<div class="pidannotate-image-container">';
 							for (var j in images) {
 								html += '<div class="pidannotate-image-item">';
-								html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+								html += '<img src="proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
 								html += '</div>';
 							}
 						}
