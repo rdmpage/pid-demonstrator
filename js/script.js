@@ -57,16 +57,18 @@ function show_annotations(uri) {
 	
 				var dataFeedElement = data['@graph'][0].dataFeedElement;
 
-				/*
+				
 				var html = '<ul>';
 				for (var i in dataFeedElement) {
 					html += '<li>';
-					html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
+					html += i;
+					html += JSON.stringify(dataFeedElement[i]);
+					//html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
 					html += '</li>';
 				}
 				html += '</ul>';
-				*/
-				var html = JSON.stringify(dataFeedElement);
+				
+				//var html = JSON.stringify(dataFeedElement);
 				$('#pidannotate').html($('#pidannotate').html() + html);
    
 		   }
