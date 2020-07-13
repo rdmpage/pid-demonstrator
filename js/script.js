@@ -344,6 +344,22 @@ function releasetheKraken() {
     }
 
   }      
+  
+  if (!guid.namespace) {
+ 
+    // Meise------------------------------------------------------------------------------
+    var elements = document.querySelectorAll('md-card-actions a');
+    for (i = 0; i < elements.length; i++) {
+      var url = elements[i].href;
+      var m = url.match(/specimen\/(.*)\/rdf$/);
+      if (m) {
+      	guid.namespace = 'uri';
+      	guid.identifier = m[1];
+      	guid.uri = 'https://www.botanicalcollections.be/specimen/' +  guid.identifier;
+      }
+    }
+
+  }        
 
 
 

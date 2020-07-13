@@ -1,6 +1,6 @@
 <?php
 
-// Get RDF for RBGE specimens
+// Get RDF for Meise specimens
 
 error_reporting(E_ALL);
 require_once (dirname(dirname(__FILE__)) . '/vendor/autoload.php');
@@ -42,23 +42,23 @@ function get($url, $format = 'application/ld+json')
 
 
 $ids = array(
-"E00179300"
+"BR0000019451688"
 
 );
 
 
-$rdf_filename = dirname(__FILE__) . '/rbge.nt';
+$rdf_filename = dirname(__FILE__) . '/meise.nt';
 
 
 foreach ($ids as $id)
 {
 	echo $id . "\n";
 
-	$url = 'http://data.rbge.org.uk/herb/' . $id;
+	$url = 'http://www.botanicalcollections.be/specimen/' . $id . '/rdf';
 	
 	echo $url . "\n";
 	
-	$rdf = get($url, 'application/rdf+xml');	
+	$rdf = get($url);	
 	
 	
 	echo $rdf . "\n";
