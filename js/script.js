@@ -327,6 +327,21 @@ function releasetheKraken() {
 
   }    
 
+ 
+    // Kew--------------------------------------------------------------------------------
+    var elements = document.querySelectorAll('div[id=downloadButtonsDetails] a');
+    for (i = 0; i < elements.length; i++) {
+      var url = elements[i].href;
+      var m = url.match(/barcode=(.*)$/);
+      if (m) {
+      	guid.namespace = 'uri';
+      	guid.identifier = m[1];
+      	guid.uri = 'http://specimens.kew.org/herbarium/' +  guid.identifier;
+      }
+    }
+
+  }      
+
 
 
   // Still no GUID, use page URL
