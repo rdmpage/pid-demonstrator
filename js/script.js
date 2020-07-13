@@ -64,7 +64,33 @@ function show_annotations(uri) {
 				for (var i in dataFeedElement) {
 					if (dataFeedElement[i].body) {
 						html += '<li>';
-						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';								
+						
+						// since annotations can be bidirectional, is body or target the one we want?
+						var name = '[untitled]';
+						var images = [];
+	
+						var id = dataFeedElement[i].body.id;
+						
+						if (dataFeedElement[i].body.name) {
+							name = dataFeedElement[i].body.name;							
+						}
+						
+						if (dataFeedElement[i].body.thumbnailUrl) {							
+							for (var j in dataFeedElement[i].body.thumbnailUrl) {
+								images.push(dataFeedElement[i].body.thumbnailUrl[j]);
+							}														
+						}
+
+						html += '<a href="' + id + '">' + name + '</a>';
+						if (images.length > 0) {
+							html += '<div class="pidannotate-image-container">';
+							for (var j in images) {
+								html += '<div class="pidannotate-image-item">';
+								html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+								html += '</div>';
+							}
+						}
+						html += '</div>';
 						html += '</li>';					
 					}
 				}
