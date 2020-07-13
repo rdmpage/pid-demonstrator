@@ -18,6 +18,7 @@ if (isset($_REQUEST['uri']))
 $query = 'PREFIX schema: <http://schema.org/>
 	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 	PREFIX oa: <http://www.w3.org/ns/oa#>
+	PREFIX dcterms: <http://purl.org/dc/terms/>
 	PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
 	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 CONSTRUCT 
@@ -142,8 +143,12 @@ WHERE
 	}
 	
 	# display name
-	#OPTIONAL 
+	OPTIONAL 
 	{
+		{
+			?body dcterms:title ?body_name .		
+		}
+		UNION
 		{
 			?body dwc:catalogNumber ?body_name .
 		} 	
