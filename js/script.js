@@ -59,40 +59,40 @@ function show_annotations(uri) {
 	
 				var dataFeedElement = data['@graph'][0].dataFeedElement;
 
+				var n = dataFeedElement.length;
 				
 				var html = '<ul>';
-				for (var i in dataFeedElement) {
-					if (dataFeedElement[i].body) {
-						html += '<li>';
-						
-						// since annotations can be bidirectional, is body or target the one we want?
-						var name = '[untitled]';
-						var images = [];
-	
-						var id = dataFeedElement[i].body.id;
-						
-						if (dataFeedElement[i].body.name) {
-							name = dataFeedElement[i].body.name;							
-						}
-						
-						if (dataFeedElement[i].body.thumbnailUrl) {							
-							for (var j in dataFeedElement[i].body.thumbnailUrl) {
-								images.push(dataFeedElement[i].body.thumbnailUrl[j]);
-							}														
-						}
+				for (var i = 0; i < n; i++) {
+					html += '<li>';
+					
+					// since annotations can be bidirectional, is body or target the one we want?
+					var name = '[untitled]';
+					var images = [];
 
-						html += '<a href="' + id + '">' + name + '</a>';
-						if (images.length > 0) {
-							html += '<div class="pidannotate-image-container">';
-							for (var j in images) {
-								html += '<div class="pidannotate-image-item">';
-								html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
-								html += '</div>';
-							}
-						}
-						html += '</div>';
-						html += '</li>';					
+					var id = dataFeedElement[i].body.id;
+					
+					if (dataFeedElement[i].body.name) {
+						name = dataFeedElement[i].body.name;							
 					}
+					
+					if (dataFeedElement[i].body.thumbnailUrl) {
+						var m = dataFeedElement[i].body.thumbnailUrl.length;						
+						for (var j = 0; j < m; j++) {
+							images.push(dataFeedElement[i].body.thumbnailUrl[j]);
+						}														
+					}
+
+					html += '<a href="' + id + '">' + name + '</a>';
+					if (images.length > 0) {
+						html += '<div class="pidannotate-image-container">';
+						for (var j in images) {
+							html += '<div class="pidannotate-image-item">';
+							html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+							html += '</div>';
+						}
+					}
+					html += '</div>';
+						html += '</li>';					
 				}
 				html += '</ul>';
 				
