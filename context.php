@@ -116,7 +116,7 @@ else
 	// images
 	$context->thumbnailUrl = new stdclass;
 	$context->thumbnailUrl->{'@type'} = '@id';
-	$context->thumbnailUrl = "@set";
+	$context->thumbnailUrl->{'@container'} = "@set";
 
 	$context->thumbnailUrl->{'@id'} = 'schema:thumbnailUrl';
 	
