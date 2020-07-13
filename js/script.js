@@ -327,6 +327,7 @@ function releasetheKraken() {
 
   }    
 
+  if (!guid.namespace) {
  
     // Kew--------------------------------------------------------------------------------
     var elements = document.querySelectorAll('div[id=downloadButtonsDetails] a');
