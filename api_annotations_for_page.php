@@ -165,6 +165,14 @@ WHERE
 		?body foaf:depiction ?depiction .
 		?depiction foaf:thumbnail ?thumbnail .
 	}	
+
+	OPTIONAL
+	{
+		?body dcterms:relation ?thumbnail .
+		?thumbnail dcterms:type <http://purl.org/dc/dcmitype/Image> .
+	}	
+	
+	
 	
 	OPTIONAL {
 		?canonical schema:name ?target_name .
