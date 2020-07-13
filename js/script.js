@@ -43,6 +43,38 @@ function rdmp_close(id) {
   $('#' + id).remove();
 }
 
+
+//--------------------------------------------------------------------------------------------------
+// annotations?
+function show_annotations(uri) {
+	
+   $.ajax({
+	  type: "GET",
+	  url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
+		encodeURIComponent(uri),
+	  success: function(data) {
+			if (data['@graph'].length == 1) {
+	
+				var dataFeedElement = data['@graph'][0].dataFeedElement;
+
+				var html = '<ul>';
+				for (var i in dataFeedElement) {
+					html += '<li>';
+					html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
+					html += '</li>';
+				}
+				html += '</ul>';
+				
+				$('#pidannotate').html($('#pidannotate').html() + html);
+   
+		   }
+
+	  }
+	});  
+	
+}            
+
+
 //--------------------------------------------------------------------------------------------------
 function releasetheKraken() {
   // The Kraken has been released, master!
@@ -397,6 +429,8 @@ function releasetheKraken() {
         var currentpageURL = document.querySelector('[id=currentpageURL]');
 
         document.getElementById('bhl_page').innerHTML = currentpageURL;
+        
+        show_annotations(currentpageURL);
 
         // https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
         observer = new MutationObserver(function(mutations) {
@@ -406,34 +440,7 @@ function releasetheKraken() {
               document.getElementById('bhl_page').innerHTML = currentpageURL;
               console.log("attributes changed")
               
-			  
-			  // annotations?
-		
-			   $.ajax({
-				  type: "GET",
-				  url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
-					encodeURIComponent(currentpageURL),
-				  success: function(data) {
-						if (data['@graph'].length == 1) {
-				
-							var dataFeedElement = data['@graph'][0].dataFeedElement;
-		  
-							var html = '<ul>';
-							for (var i in dataFeedElement) {
-								html += '<li>';
-								html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
-								html += '</li>';
-							}
-							html += '</ul>';
-							e.html(e.html() + html);
-			   
-					   }
- 
-				  }
-				});                          
-			  
-              
-              
+               show_annotations(currentpageURL);
               
             }
           });
