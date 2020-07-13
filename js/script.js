@@ -62,16 +62,15 @@ function show_annotations(uri) {
 				
 				var html = '<ul>';
 				for (var i in dataFeedElement) {
-					html += '<li>';
-					html += i + "=";
-					html += JSON.stringify(dataFeedElement[i]);
-					//html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';								
-					html += '</li>';
+					if (dataFeedElement[i].body) {
+						html += '<li>';
+						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';								
+						html += '</li>';					
+					}
 				}
 				html += '</ul>';
 				
-				//var html = JSON.stringify(dataFeedElement);
-				e.html(e.html() + html);
+				document.getElementById('bhl_links').innerHTML = html;
    
 		   }
 
@@ -429,7 +428,7 @@ function releasetheKraken() {
         	e.html(e.html() + JSON.stringify(guid));
         }
 
-        var html = '<div id="bhl_page"></div>';
+        var html = '<div id="bhl_page"></div><div id="bhl_links"></div>';
         e.html(e.html() + '<br />' + html);
 
         var currentpageURL = document.querySelector('[id=currentpageURL]');
@@ -444,7 +443,9 @@ function releasetheKraken() {
             if (mutation.type == "attributes") {
               var currentpageURL = document.querySelector('[id=currentpageURL]');
               document.getElementById('bhl_page').innerHTML = currentpageURL;
+              document.getElementById('bhl_links').innerHTML = "";
               console.log("attributes changed")
+              
               
                show_annotations(currentpageURL);
               
