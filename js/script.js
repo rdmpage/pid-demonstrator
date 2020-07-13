@@ -415,6 +415,7 @@ function releasetheKraken() {
 						// since annotations can be bidirectional, is body or target the one we want?
 						var id = '';
 						var name = '[untitled]';
+						var images = [];
 						
 						if (dataFeedElement[i].body.id == guid.uri) {
 							// target
@@ -434,12 +435,17 @@ function releasetheKraken() {
 							
 							if (dataFeedElement[i].body.thumbnailUrl) {							
 								for (var j in dataFeedElement[i].body.thumbnailUrl) {
-								  html += '<img src="http://exeg5le.cloudimg.io/s/height/100/' + dataFeedElement[i].body.thumbnailUrl[j] + '" height="100">';
+									images[] = dataFeedElement[i].body.thumbnailUrl[j];
 								}														
 							}
 							
 						}
 						html += '<a href="' + id + '">' + name + '</a>';
+						html += '<div>';
+						for (var j in images) {
+							html += '<img style="float:left;" src="http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '" height="64">';
+						}
+						html += '</div>';
 						html += '</li>';
 					}
 					html += '</ul>';
