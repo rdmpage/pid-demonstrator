@@ -78,6 +78,7 @@ function releasetheKraken() {
 			font-family: 		sans-serif;
 			box-shadow:  		-5px 5px 5px 0px rgba(50, 50, 50, 0.3);
 			z-index:     		200000;
+			overflow-y:			auto;
     	}
     	
     	.pidannotate h1 {
