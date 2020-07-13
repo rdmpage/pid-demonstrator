@@ -57,6 +57,7 @@ function show_annotations(uri) {
 	
 				var dataFeedElement = data['@graph'][0].dataFeedElement;
 
+				/*
 				var html = '<ul>';
 				for (var i in dataFeedElement) {
 					html += '<li>';
@@ -64,7 +65,9 @@ function show_annotations(uri) {
 					html += '</li>';
 				}
 				html += '</ul>';
+				*/
 				
+				var html = 'hello';
 				$('#pidannotate').html($('#pidannotate').html() + html);
    
 		   }
