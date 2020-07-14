@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>PID Demo</title>
+	<style>
+		body {
+			font-size:2em;
+			font-family:sans-serif;
+			padding:1em;
+		}
+		
+		li {
+			line-height:2em;
+		}
+	</style>
+	<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+</head>
+<body>
+
+	<h1>PID Demo</h1>
+	
+	<div style="padding:1em;" tabindex="0" id="one">
+		<h2>1. Persistent identifiers (PIDs) that we know and love</h2>
+		
+		<h3>DOIs (Digital Object Identifiers)</h3>
+		
+		<p>Academic articles have a DOI (e.g., <b>10.1371/journal.pone.0053873</b>), as does the literature cited by that article (mostly).</p>
+		
+		<ol>
+			<li>Reader can trace the <b>provenance</b> of ideas, data, quotes, etc.</li>
+			<li>Enable <b>metrics</b> of use (number of citations of that paper)</li>
+			<li>Third party ecosystem (e.g. altmetric "donut")
+			
+			<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1371/journal.pone.0053873" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+			</li>
+		</ol>
+		
+	</div>
+	
+	<div style="height:20em;"></div>	
+	
+	
+	<div style="padding:1em;" tabindex="0" id="two">
+		<h2>2. Can we do this for collection objects?</h2>
+		
+		<p>Imagine we had a citation graph for collection objects (such as specimens in natural history collections). 
+		How could we build this?
+		We need at least three things:</p>
+		
+		<ol>
+			<li>Identifier for collection <b>object</b> (e.g., stable URL for herbarium specimen)</li>
+			<li>Identifier for <b>paper</b> (or dataset, etc.) that mentions that object (e.g., DOI)</li>
+			<li>A statement saying "this <b>paper</b> mentions this <b>object</b>"</li>		
+		</ol>
+		
+	</div>
+	
+	<div style="height:20em;"></div>
+	
+	<div style="padding:1em;" tabindex="0" id="three">
+		<h2>3. How do we show these connections?</h2>
+		
+		<p>Let's assume that we have a list of specimens and the papers that mention them, 
+		how do we show this in a useful way?</p>
+		
+		<ol>
+			<li>Try and convince academic publishers, museums, herbaria and other archives to add this to their web sites...</li>	
+			<li>... or be like altmetric and <b>just do it!</b>
+			<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1371/journal.pone.0053873" data-hide-no-mentions="true" class="altmetric-embed"></div>
+			
+			</li>	
+		</ol>
+		
+	</div>	
+	
+	<div style="height:20em;"></div>
+	
+	<div style="padding:1em;" tabindex="0" id="four">
+		<h2>4. Bookmarklet demo</h2>
+		
+		<p>
+			<a onclick="alert('Please drag this link to your bookmarks bar.'); return false;" href="javascript:(function(a){%20a=document.createElement('script');a.type='text/javascript';a.src='https://pid-demonstrator.herokuapp.com/js/script.js?x='+Date.now();document.getElementsByTagName('body')[0].appendChild(a);})();">Annotate It!</a>	
+			<span>← Drag this to your bookmarks bar</span>
+		</p>
+		
+		<p>Then visit the following pages and click on the <b>Annotate It!</b> bookmarklet.</p>
+				
+		<h4>Specimens</h4>
+		<ul style="font-size:0.8em;">
+			<li>RBGE <a href="http://data.rbge.org.uk/herb/E00179300" target="_new">E00179300</a>  (PID <a href="http://data.rbge.org.uk/herb/E00179300" target="_new">http://data.rbge.org.uk/herb/E00179300</a>)</li>
+			<li>NHMUK <a href="https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690" target="_new">BM000944669,Begonia floccifera Bedd.</a>  (PID <a href="https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690" target="_new">https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690</a>)</li>
+			<li>Meise <a href="https://www.botanicalcollections.be/specimen/BR0000019451688">Gaertnera luteocarpa Jongkind)</a> (PID <a href="https://www.botanicalcollections.be/specimen/BR0000019451688">https://www.botanicalcollections.be/specimen/BR0000019451688</a>)</li>
+		</ul>
+					
+		<h4>Publications</h4>
+		<ul style="font-size:0.8em;">
+			<li><a href="https://doi.org/10.1371/journal.pone.0053873"  target="_new">Why the Long Face? The Mechanics of Mandibular Symphysis Proportions in Crocodiles</a> 10.1371/journal.pone.0053873</li>	
+			<li><a href="https://doi.org/10.1017/S0960428619000349"  target="_new">A NEW SECTION (BEGONIA SECT. FLOCCIFERAE SECT. NOV.) AND TWO NEW SPECIES IN BEGONIACEAE FROM THE WESTERN GHATS OF INDIA</a> 10.1017/S0960428619000349</li>
+			<li><a href="https://doi.org/10.5852/ejt.2015.126"  target="_new">Description of Gaertnera luteocarpa (Gentianales: Rubiaceae), with two subspecies, a new forest shrub species from Liberia, Ivory Coast and Ghana</a> 10.5852/ejt.2015.126</li>	
+			<li><a href="https://www.biodiversitylibrary.org/page/56312118"  target="_new">European Journal of Taxonomy no. 126 (2015) p. 3</a></li>	
+
+		</ul>
+		
+	</div>				
+
+
+
+</body>
+</html>
