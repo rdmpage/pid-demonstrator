@@ -64,7 +64,7 @@
 		<h2>3. How do we show these connections?</h2>
 		
 		<p>Let's assume that we have a list of specimens and the papers that mention them, 
-		how do we show this in a useful way?</p>
+		how do we these connections in a useful way?</p>
 		
 		<ol>
 			<li>Try and convince academic publishers, museums, herbaria and other archives to add this to their web sites...</li>	
@@ -84,19 +84,17 @@
 		<p>
 			<a onclick="alert('Please drag this link to your bookmarks bar.'); return false;" href="javascript:(function(a){%20a=document.createElement('script');a.type='text/javascript';a.src='https://pid-demonstrator.herokuapp.com/js/script.js?x='+Date.now();document.getElementsByTagName('body')[0].appendChild(a);})();">Annotate It!</a>	
 			<span>← Drag this to your bookmarks bar</span>
-		</p>
-		
-		<p>Then visit the following pages and click on the <b>Annotate It!</b> bookmarklet.</p>
+then visit the following pages and click on the <b>Annotate It!</b> bookmarklet.</p>
 				
 		<h4>Specimens</h4>
-		<ul style="font-size:0.8em;">
+		<ul style="font-size:0.6em;">
 			<li>RBGE <a href="http://data.rbge.org.uk/herb/E00179300" target="_new">E00179300</a>  (PID <a href="http://data.rbge.org.uk/herb/E00179300" target="_new">http://data.rbge.org.uk/herb/E00179300</a>)</li>
 			<li>NHMUK <a href="https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690" target="_new">BM000944669,Begonia floccifera Bedd.</a>  (PID <a href="https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690" target="_new">https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690</a>)</li>
 			<li>Meise <a href="https://www.botanicalcollections.be/specimen/BR0000019451688">Gaertnera luteocarpa Jongkind)</a> (PID <a href="https://www.botanicalcollections.be/specimen/BR0000019451688">https://www.botanicalcollections.be/specimen/BR0000019451688</a>)</li>
 		</ul>
 					
 		<h4>Publications</h4>
-		<ul style="font-size:0.8em;">
+		<ul style="font-size:0.6em;">
 			<li><a href="https://doi.org/10.1371/journal.pone.0053873"  target="_new">Why the Long Face? The Mechanics of Mandibular Symphysis Proportions in Crocodiles</a> 10.1371/journal.pone.0053873</li>	
 			<li><a href="https://doi.org/10.1017/S0960428619000349"  target="_new">A NEW SECTION (BEGONIA SECT. FLOCCIFERAE SECT. NOV.) AND TWO NEW SPECIES IN BEGONIACEAE FROM THE WESTERN GHATS OF INDIA</a> 10.1017/S0960428619000349</li>
 			<li><a href="https://doi.org/10.5852/ejt.2015.126"  target="_new">Description of Gaertnera luteocarpa (Gentianales: Rubiaceae), with two subspecies, a new forest shrub species from Liberia, Ivory Coast and Ghana</a> 10.5852/ejt.2015.126</li>	
@@ -104,8 +102,34 @@
 
 		</ul>
 		
-	</div>				
-
+	</div>		
+	
+	<div style="height:20em;"></div>
+	
+	<div style="padding:1em;" tabindex="0" id="five">
+		<h2>5. Summary</h2>
+		
+		<h4>What's Bin Did</h4>
+		<p>
+		Using a bookmarklet we have displayed links between academic publications and objects 
+		in natural history collections. In each case <b>neither</b> the publication's publisher <b>nor</b> the 
+		natural history collection <b>knew about the links</b>, but we were able to add them to 
+		the user's web page using a bookmarklet. We can enhance the user's experience, and gain insight
+		into connections between objects and research based on those objects <b>without requiring changes in the
+		underlying web pages</b>.
+		</p>
+		
+		<h4>What's Bin Hid</h4>
+		<p>Under the hood there are two key components, the <b>bookmarklet</b> that reads the web page, 
+		and a <b>database</b> that stores links between collection objects and publications. When you
+		 click on the bookmarklet it reads the HTML underlying the web page, extracts anything that looks
+		 like a persistent identifier, then queries the database for any known links to that identifier.
+		 The <b>major limiting step</b> is the discovery of links between objects and publications, 
+		 which typically requires text-mining or manual annotation. While the is a culture of citing DOIs for publications
+		  and datasets, citing specimens is typically done using alphanumeric codes, not identifiers.
+		 </p>
+			
+	</div>	
 
 
 </body>
