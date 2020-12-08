@@ -79,7 +79,7 @@ while (!feof($file_handle))
 				}
 			}
 		
-			//print_r($obj);	
+			// print_r($obj);	
 			
 			// convert to annotation
 			
@@ -91,7 +91,11 @@ while (!feof($file_handle))
 			
 				$annotation = new stdclass;
 
-				$annotation->{'@id'} = "urn:uuid:" . gen_uuid();
+				// $annotation->{'@id'} = "urn:uuid:" . gen_uuid();
+				
+				$annotation->{'@id'} = "urn:md5:" . md5($obj->{'Body URI'} . $obj->{'Target URI'});
+				
+				
 				$annotation->{'@type'} = 'Annotation';
 			
 				// Body 

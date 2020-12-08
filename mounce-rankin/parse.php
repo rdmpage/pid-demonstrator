@@ -43,6 +43,12 @@ function translate_quoted($string) {
 
 $filename = 'plosone-bmnh.csv';
 $filename = 'subset.csv';
+$filename = '11.csv';
+
+
+$body_uri = array();
+$target_uri = array();
+
 
 $headings = array();
 
@@ -92,6 +98,10 @@ while (!feof($file_handle))
 
 				//$annotation->{'@id'} = "https://github.com/rdmpage/pid-demonstrator/blob/master/mounce-rankin/subset.csv" . "#" . $row_count;
 				$annotation->{'@id'} = "urn:uuid:" . gen_uuid();
+				
+				$annotation->{'@id'} = "urn:md5:" . md5($obj->{'NHM Data Portal Link'} . $obj->{'Article DOI Link'});
+				
+				
 				$annotation->{'@type'} = 'Annotation';
 			
 				// Body is the specimen
@@ -102,6 +112,9 @@ while (!feof($file_handle))
 
 				// NHM is now HTTPS
 				$annotation->body = str_replace('http', 'https', $annotation->body);
+				
+				$body_uri[] = $annotation->body;
+
 			
 			
 				// Target is the article
@@ -109,6 +122,9 @@ while (!feof($file_handle))
 				
 				// Update DOI s to HTTPS
 				$doi = preg_replace('/https?:\/\/(dx\.)?doi.org\//', '', $doi);
+				
+				$target_uri[] = str_replace('https://doi.org/', '', $doi);
+				
 			
 				$annotation->target = new stdclass;
 				$annotation->target->{'@id'} = $annotation->{'@id'} . '#target';
@@ -130,5 +146,16 @@ while (!feof($file_handle))
 	}	
 	$row_count++;
 }
+
+$body_uri = array_unique($body_uri);
+$target_uri = array_unique($target_uri);
+
+if (0)
+{
+	print_r($body_uri);
+	print_r($target_uri);
+}
+
+
 ?>
 

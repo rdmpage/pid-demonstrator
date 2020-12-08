@@ -1,4 +1,4 @@
-<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:38.946973"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:14.937379"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://purl.org/dc/terms/created> "2013-03-20T11:15:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -37,11 +37,11 @@
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://rs.tdwg.org/dwc/terms/specificEpithet> "agraensis" .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://rs.tdwg.org/dwc/terms/stateProvince> "West Bengal" .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://rs.tdwg.org/dwc/terms/year> "2009" .
-<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536/1593475200000> .
+<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536/1594598400000> .
 <https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056309892> .
-<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/8449d6f3-af9d-418b-8538-671664bf9536> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:39.392435"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:15.286169"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://purl.org/dc/terms/created> "2013-03-20T12:05:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -76,11 +76,11 @@
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia agraensis" .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/specificEpithet> "agraensis" .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://rs.tdwg.org/dwc/terms/stateProvince> "Assam" .
-<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c/1593475200000> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c/1594598400000> .
 <https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055859536> .
-<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/8c5f9a32-a707-461b-a4c1-e3e74a74576c> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:39.835942"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:15.663867"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://purl.org/dc/terms/created> "2013-03-20T13:39:37"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -119,11 +119,11 @@
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/specificEpithet> "agraensis" .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/stateProvince> "West Bengal" .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://rs.tdwg.org/dwc/terms/year> "2008" .
-<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef/1593475200000> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef/1594598400000> .
 <https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055861974> .
-<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/6e8be646-486e-4193-ac46-e13e23c5daef> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:40.278669"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:16.025513"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://purl.org/dc/terms/created> "2013-03-20T13:53:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -161,11 +161,11 @@
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia macrones" .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/specificEpithet> "macrones" .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://rs.tdwg.org/dwc/terms/year> "2012" .
-<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18/1593475200000> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18/1594598400000> .
 <https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1057148055> .
-<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/038e765f-1a4a-4e9d-9c3e-86f13c07ab18> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:40.726103"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:16.410365"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://purl.org/dc/terms/created> "2013-03-20T14:04:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -201,11 +201,11 @@
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/scientificName> "Gangesia macrones" .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/specificEpithet> "macrones" .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://rs.tdwg.org/dwc/terms/year> "2010" .
-<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab/1593475200000> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab/1594598400000> .
 <https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056217368> .
-<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/3d60a244-dd7f-44b6-a823-977f4f3286ab> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:41.173989"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:16.863913"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/created> "2014-02-11T16:17:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -243,9 +243,9 @@
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Owen, 1882" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/specificEpithet> "prisca" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/stateProvince> "Queensland" .
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10/1593475200000> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10/1594598400000> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055799533> .
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
@@ -255,7 +255,7 @@
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/thumbnail> .
 
-<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:41.621991"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:17.267420"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://purl.org/dc/terms/created> "2013-03-20T13:45:24"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -294,11 +294,11 @@
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/specificEpithet> "bengalensis" .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/stateProvince> "West Bengal" .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://rs.tdwg.org/dwc/terms/year> "2008" .
-<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf/1593475200000> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf/1594598400000> .
 <https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056601091> .
-<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/b59e3747-3322-4153-9277-46cd7da0adaf> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/created> "2020-06-30T18:17:42.061582"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:17.635670"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://purl.org/dc/terms/created> "2014-02-11T16:17:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -336,9 +336,9 @@
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Owen, 1882" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/specificEpithet> "prisca" .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://rs.tdwg.org/dwc/terms/stateProvince> "Queensland" .
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10/1593475200000> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10/1594598400000> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055799533> .
-<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#versionInfo> "1593475200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
@@ -347,4 +347,483 @@
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/1a995d3f-d4c9-4ee3-a0a3-8301233f2e10> .
 <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/460cf57c524f4b263eaa72175d1eb28d3bbcb2f4/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T14:58:18.028246"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/dc/terms/created> "2007-05-27T16:35:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/dc/terms/identifier> "8c24d138-48e4-43f1-8e89-f9c871de7860" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/dc/terms/title> "Pogoniulus makawai Benson and M. P. S.  Irwin, 1965" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://purl.org/vocab/aiiso/schema#Division> "Aves" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/catalogNumber> "1964.33.1" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/class> "Aves" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/continent> "Africa" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/country> "Zambia" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/countryCode> "ZM" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/day> "6" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/decimalLatitude> "-12.7000" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/decimalLongitude> "24.2667" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationFiledAs\": \"Yes\", \"kindOfObject\": \"unknown\", \"gbifIssue\": [\"GEODETIC_DATUM_ASSUMED_WGS84\"], \"barcode\": \"012411799\", \"donorName\": \"M P. Stuart-Irwin\", \"gbifID\": \"1291533179\", \"determinationNames\": \"Pogoniulus makawai Benson and M. P. S.  Irwin, 1965\", \"subDepartment\": \"Aves\", \"registrationCode\": \"AV\", \"collectionKind\": \"Bird Group Parent\"}" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/genus> "Pogoniulus" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Chordata; Vertebrata; Aves" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/higherGeography> "Africa; Zambia; North-Western; Kabompo" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/individualCount> "1" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/lifeStage> "adult" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/locality> "Four miles north of Mayau, Kabompo  District, 12%42` S., 24%16` E., Northern Rhodesia" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/modified> "2017-12-15T18:16:18"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/month> "9" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/occurrenceID> "8c24d138-48e4-43f1-8e89-f9c871de7860" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:3431101" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/previousIdentifications> "" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/recordedBy> "M P. Stuart-Irwin, J Makawa" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/scientificName> "Pogoniulus makawai Benson and M. P. S.  Irwin, 1965" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Benson and M. P. S.  Irwin, 1965" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/sex> "male" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/specificEpithet> "makawai" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/stateProvince> "North-Western" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/typeStatus> "holotype" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/verbatimLatitude> "12 42 00 S" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/verbatimLongitude> "024 16 00 E" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://rs.tdwg.org/dwc/terms/year> "1964" .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860/1594598400000> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1291533179> .
+<https://data.nhm.ac.uk/object/8c24d138-48e4-43f1-8e89-f9c871de7860> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:34:40.269502"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/created> "2011-03-14T22:02:47"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/identifier> "c91ee228-e9ab-4010-ab22-711507f541de" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/title> "Rhinoderma darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/vocab/aiiso/schema#Division> "Reptiles & Amphibians" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/catalogNumber> "1904.10.26.109-110" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/continent> "South America" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/country> "Chile" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/countryCode> "CL" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationNames\": \"Rhinoderma darwinii\", \"barcode\": \"012964868\", \"subDepartment\": \"Reptiles & Amphibians\", \"gbifID\": \"1055903594\"}" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/family> "Leptodactylidae" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/genus> "Rhinoderma" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/higherClassification> "Leptodactylidae" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/higherGeography> "South America; Chile" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/individualCount> "0" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/locality> "Arauco" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/modified> "2018-01-19T23:15:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/occurrenceID> "c91ee228-e9ab-4010-ab22-711507f541de" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:1949860" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/recordedBy> "C S. Rud" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/scientificName> "Rhinoderma darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/sex> "Male" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/specificEpithet> "darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de/1594598400000> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055903594> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:34:40.822435"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/created> "2011-07-11T14:40:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/identifier> "dcfabcc6-bd9c-4b7f-a977-8eb20d98b847" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/title> "Temnodontosaurus eurycephalus McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/vocab/aiiso/schema#Department> "Palaeontology" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/vocab/aiiso/schema#Division> "Vertebrates" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/catalogNumber> "PV R 1157" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/class> "Reptilia" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/collectionCode> "PAL" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/continent> "Europe" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/country> "United Kingdom" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/countryCode> "GB" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"chronostratigraphy\": \"Jurassic, Early Jurassic, Sinemurian\", \"catalogueDescription\": \"Skull in right lateral aspect\", \"associatedMediaCount\": 1, \"determinationNames\": [\"Temnodontosaurus eurycephalus McGowan, 1974\", \"Temnodontosaurus eurycephalus McGowan, 1974\", \"Eurypterygius breviceps Huene 1922\", \"Ichthyosaurus breviceps Owen, 1881\"], \"subDepartment\": \"Vertebrates\", \"lithostratigraphy\": \"Lower Lias Group\", \"gbifID\": \"1056294793\"}" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage> "Sinemurian" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries> "Early Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem> "Mesozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem> "Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/family> "Temnodontosauridae" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/genus> "Temnodontosaurus" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/group> "Lias Group" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Chordata; Tetrapoda; Reptilia; Ichthyopterygia; Ichthyosauria; Merriamosauriformes; Euichthyosauria; Temnodontosauroidea; Temnodontosauridae" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/higherGeography> "Europe; United Kingdom; England; Dorset" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage> "Sinemurian" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries> "Early Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem> "Mesozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem> "Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/locality> "Lyme Regis, Broad Ledge southeast of Church Cliffs, Lyme Regis" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone> "Arietites bucklandi Zone" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/modified> "2017-04-10T01:46:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/occurrenceID> "dcfabcc6-bd9c-4b7f-a977-8eb20d98b847" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/order> "Ichthyosauria" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2228099" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/scientificName> "Temnodontosaurus eurycephalus McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/specificEpithet> "eurycephalus" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/stateProvince> "England" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/typeStatus> "Holotype" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847/1594598400000> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056294793> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/title> "NHM-UK_P_DF118_03_21_0205" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:35:34.660440"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/created> "2011-03-14T22:02:47"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/identifier> "c91ee228-e9ab-4010-ab22-711507f541de" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/title> "Rhinoderma darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://purl.org/vocab/aiiso/schema#Division> "Reptiles & Amphibians" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/catalogNumber> "1904.10.26.109-110" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/continent> "South America" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/country> "Chile" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/countryCode> "CL" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationNames\": \"Rhinoderma darwinii\", \"barcode\": \"012964868\", \"subDepartment\": \"Reptiles & Amphibians\", \"gbifID\": \"1055903594\"}" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/family> "Leptodactylidae" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/genus> "Rhinoderma" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/higherClassification> "Leptodactylidae" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/higherGeography> "South America; Chile" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/individualCount> "0" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/locality> "Arauco" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/modified> "2018-01-19T23:15:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/occurrenceID> "c91ee228-e9ab-4010-ab22-711507f541de" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:1949860" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/recordedBy> "C S. Rud" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/scientificName> "Rhinoderma darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/sex> "Male" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://rs.tdwg.org/dwc/terms/specificEpithet> "darwinii" .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de/1594598400000> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055903594> .
+<https://data.nhm.ac.uk/object/c91ee228-e9ab-4010-ab22-711507f541de> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:35:35.021273"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/created> "2011-07-11T14:40:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/identifier> "dcfabcc6-bd9c-4b7f-a977-8eb20d98b847" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/title> "Temnodontosaurus eurycephalus McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/vocab/aiiso/schema#Department> "Palaeontology" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://purl.org/vocab/aiiso/schema#Division> "Vertebrates" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/catalogNumber> "PV R 1157" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/class> "Reptilia" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/collectionCode> "PAL" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/continent> "Europe" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/country> "United Kingdom" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/countryCode> "GB" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"chronostratigraphy\": \"Jurassic, Early Jurassic, Sinemurian\", \"catalogueDescription\": \"Skull in right lateral aspect\", \"associatedMediaCount\": 1, \"determinationNames\": [\"Temnodontosaurus eurycephalus McGowan, 1974\", \"Temnodontosaurus eurycephalus McGowan, 1974\", \"Eurypterygius breviceps Huene 1922\", \"Ichthyosaurus breviceps Owen, 1881\"], \"subDepartment\": \"Vertebrates\", \"lithostratigraphy\": \"Lower Lias Group\", \"gbifID\": \"1056294793\"}" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage> "Sinemurian" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries> "Early Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem> "Mesozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem> "Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/family> "Temnodontosauridae" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/genus> "Temnodontosaurus" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/group> "Lias Group" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Chordata; Tetrapoda; Reptilia; Ichthyopterygia; Ichthyosauria; Merriamosauriformes; Euichthyosauria; Temnodontosauroidea; Temnodontosauridae" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/higherGeography> "Europe; United Kingdom; England; Dorset" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage> "Sinemurian" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> "Phanerozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries> "Early Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem> "Mesozoic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem> "Jurassic" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/locality> "Lyme Regis, Broad Ledge southeast of Church Cliffs, Lyme Regis" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone> "Arietites bucklandi Zone" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/modified> "2017-04-10T01:46:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/occurrenceID> "dcfabcc6-bd9c-4b7f-a977-8eb20d98b847" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/order> "Ichthyosauria" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:2228099" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/scientificName> "Temnodontosaurus eurycephalus McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "McGowan, 1974" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/specificEpithet> "eurycephalus" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/stateProvince> "England" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://rs.tdwg.org/dwc/terms/typeStatus> "Holotype" .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847/1594598400000> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056294793> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://purl.org/dc/terms/title> "NHM-UK_P_DF118_03_21_0205" .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/dcfabcc6-bd9c-4b7f-a977-8eb20d98b847> .
+<https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/0c3c9a2a42602acd8b6d785774ac438550ddbcfa/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:35:35.634000"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/dc/terms/created> "2011-03-22T10:24:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/dc/terms/identifier> "87866b67-e4ae-415f-bac2-6cbb493c88ac" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/dc/terms/title> "Gavialis gangeticus (Gmelin 1789)" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://purl.org/vocab/aiiso/schema#Division> "Reptiles & Amphibians" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/catalogNumber> "1935.6.4.1" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/class> "Reptilia" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationFiledAs\": \"Yes\", \"kindOfObject\": \"Skull\", \"barcode\": \"012983527\", \"donorName\": \"C E. Nicol\", \"gbifID\": \"1056165881\", \"determinationNames\": \"Gavialis gangeticus (Gmelin 1789)\", \"subDepartment\": \"Reptiles & Amphibians\"}" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/family> "Gavialidae" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/genus> "Gavialis" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/higherClassification> "Animalia; Reptilia; Crocodylia; Gavialidae" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/individualCount> "0" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/kingdom> "Animalia" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/locality> "Ramganga River, Bareilly, U.P." .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/modified> "2018-01-26T13:25:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/occurrenceID> "87866b67-e4ae-415f-bac2-6cbb493c88ac" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/order> "Crocodylia" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:1978746" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/previousIdentifications> "" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/recordedBy> "C E. Nicol" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/scientificName> "Gavialis gangeticus (Gmelin 1789)" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://rs.tdwg.org/dwc/terms/specificEpithet> "gangeticus" .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac/1594598400000> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1056165881> .
+<https://data.nhm.ac.uk/object/87866b67-e4ae-415f-bac2-6cbb493c88ac> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T15:35:35.984583"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/dc/terms/created> "2011-03-21T22:02:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/dc/terms/identifier> "8559613e-f2a3-447c-aa1a-d476600d3293" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/dc/terms/title> "Caiman latirostris" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/vocab/aiiso/schema#Department> "Zoology" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://purl.org/vocab/aiiso/schema#Division> "Reptiles & Amphibians" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview | https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/catalogNumber> "1886.10.4.2" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/collectionCode> "ZOO" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/continent> "South America" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/country> "Brazil" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/countryCode> "BR" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationFiledAs\": \"Yes\", \"barcode\": \"012978193\", \"associatedMediaCount\": 7, \"determinationNames\": \"Caiman latirostris\", \"subDepartment\": \"Reptiles & Amphibians\", \"gbifID\": \"1057504699\"}" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/family> "Alligatoridae" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/genus> "Caiman" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/higherClassification> "Alligatoridae" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/higherGeography> "South America; Brazil" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/individualCount> "0" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/lifeStage> "Adult" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/locality> "Rio Grande do Sul" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/modified> "2018-01-26T13:01:55"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/occurrenceID> "8559613e-f2a3-447c-aa1a-d476600d3293" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:1978028" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/previousIdentifications> "" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/recordedBy> "H v  Ihering" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/scientificName> "Caiman latirostris" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://rs.tdwg.org/dwc/terms/specificEpithet> "latirostris" .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293/1594598400000> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1057504699> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> .
+<https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://purl.org/dc/terms/title> "Cai_latirostris_86.10.4.2(mand1)" .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/6c50be76bd29604a657fc4e5eb1bae989042ea8a/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://purl.org/dc/terms/title> "ED_Cai_latirostris_86.10.4.2(cran)" .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/6e7f351788deb6b5210261849f4cebeb20aa2959/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://purl.org/dc/terms/title> "Cai_latirostris_86.10.4.2(mand2)" .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/6eb96c7f38ac1b246836e4c087cc98576acf0ab1/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://purl.org/dc/terms/title> "ED_Cai_latirostris_86.10.4.2(mand)" .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/806c8499758385a91747ce98862a38aaad9ff577/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://purl.org/dc/terms/title> "Cai_latirostris_86.10.4.2(cran1)" .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/dcd637df6533f359ff570c89afa5669085ba0d71/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://purl.org/dc/terms/title> "Cai_latirostris_86.10.4.2(mand3)" .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/e727b22aeb98e3b4a86a12e4fdd7b96512b2aba0/contents/thumbnail> .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://purl.org/dc/terms/title> "Cai_latirostris_86.10.4.2(mand4)" .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293> .
+<https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T22:44:27.947072"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/dc/terms/created> "2008-09-22T15:02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/dc/terms/identifier> "adbba503-eef1-44de-b7d2-fddc8b4e6275" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/dc/terms/title> "Begonia floccifera Bedd." .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/vocab/aiiso/schema#Department> "Botany" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://purl.org/vocab/aiiso/schema#Division> "Flowering Plants" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/catalogNumber> "BM000944668" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/collectionCode> "BOT" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/decimalLatitude> "22.883478" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/decimalLongitude> "79.616202" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationFiledAs\": \"Yes\", \"collectionKind\": \"Sheet\", \"gbifIssue\": [\"GEODETIC_DATUM_ASSUMED_WGS84\"], \"associatedMediaCount\": 1, \"project\": \"GPI Georeferencing\", \"determinationNames\": \"Begonia floccifera Bedd.\", \"subDepartment\": \"Flowering Plants\", \"gbifID\": \"1055785026\"}" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/family> "Begoniaceae" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/fieldNumber> "3186" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/genus> "Begonia" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/higherClassification> "Begoniaceae" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/modified> "2017-08-21T18:31:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/occurrenceID> "adbba503-eef1-44de-b7d2-fddc8b4e6275" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:440657" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/previousIdentifications> "" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/recordNumber> "3186" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/recordedBy> "Anon." .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/scientificName> "Begonia floccifera Bedd." .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Bedd." .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/specificEpithet> "floccifera" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/typeStatus> "Type" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/verbatimLatitude> "22 53 00.52 N" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://rs.tdwg.org/dwc/terms/verbatimLongitude> "079 36 58.33 E" .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275/1594598400000> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055785026> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://purl.org/dc/terms/title> "BM000944668" .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275> .
+<https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/thumbnail> .
+
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690.jsonld> <http://purl.org/dc/terms/created> "2020-07-13T22:44:28.303250"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690.jsonld> <http://purl.org/dc/terms/creator> "Natural History Museum, London" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690.jsonld> <http://purl.org/dc/terms/subject> <https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/dc/terms/created> "2008-09-22T15:07:13"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/dc/terms/identifier> "72adf3f6-2ec9-47ac-b525-5028a2be2690" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/dc/terms/publisher> <https://nhm.ac.uk> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/dc/terms/title> "Begonia floccifera Bedd." .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/dc/terms/type> "Specimen" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/vocab/aiiso/schema#Department> "Botany" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://purl.org/vocab/aiiso/schema#Division> "Flowering Plants" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rdfs.org/ns/void#inDataset> <https://data.nhm.ac.uk/dataset/56e711e6-c847-4f99-915a-6894bb5c5dea#dataset> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/associatedMedia> "https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/basisOfRecord> "Specimen" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/catalogNumber> "BM000944669" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/collectionCode> "BOT" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/continent> "Asia" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/country> "India" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/countryCode> "IN" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/decimalLatitude> "22.883478" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/decimalLongitude> "79.616202" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/dynamicProperties> "{\"determinationFiledAs\": \"Yes\", \"collectionKind\": \"Sheet\", \"gbifIssue\": [\"GEODETIC_DATUM_ASSUMED_WGS84\"], \"associatedMediaCount\": 1, \"project\": \"GPI Georeferencing\", \"determinationNames\": \"Begonia floccifera Bedd.\", \"subDepartment\": \"Flowering Plants\", \"gbifID\": \"1055864090\"}" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/family> "Begoniaceae" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/fieldNumber> "3185" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/genus> "Begonia" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/higherClassification> "Begoniaceae" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/higherGeography> "Asia; India" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/institutionCode> "NHMUK" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/modified> "2017-08-21T18:31:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/occurrenceID> "72adf3f6-2ec9-47ac-b525-5028a2be2690" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> "NHMUK:ecatalogue:440659" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/previousIdentifications> "" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/recordNumber> "3185" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/recordedBy> "Anon." .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/scientificName> "Begonia floccifera Bedd." .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> "Bedd." .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/specificEpithet> "floccifera" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/typeStatus> "Type" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/verbatimLatitude> "22 53 00.52 N" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://rs.tdwg.org/dwc/terms/verbatimLongitude> "079 36 58.33 E" .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://www.w3.org/2002/07/owl#sameAs> <https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690/1594598400000> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://www.w3.org/2002/07/owl#sameAs> <https://www.gbif.org/occurrence/1055864090> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://www.w3.org/2002/07/owl#versionInfo> "1594598400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> <http://xmlns.com/foaf/0.1/depiction> <https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://purl.org/dc/terms/Format> "image/jpeg" .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://purl.org/dc/terms/RightsStatement> "The Trustees of the Natural History Museum, London" .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://purl.org/dc/terms/title> "BM000944669" .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://xmlns.com/foaf/0.1/depicts> <https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690> .
+<https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview> <http://xmlns.com/foaf/0.1/thumbnail> <https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/thumbnail> .
 

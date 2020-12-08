@@ -42,7 +42,19 @@ function get($url, $format = 'application/json')
 
 
 $dois=array(
-"10.1371/journal.pone.0041767",
+//"10.1371/journal.pone.0041767",
+//"10.1371/journal.pone.0046421",
+
+"10.1371/journal.pone.0066957",
+"10.1371/journal.pone.0053873",
+"10.1371/journal.pone.0048145",
+"10.1371/journal.pone.0053712",
+
+"10.3897/phytokeys.94.21753",
+
+"10.1017/S0960428619000349",
+
+"10.5852/ejt.2015.126",
 );
 
 $rdf_filename = dirname(__FILE__) . '/crossref.nt';

@@ -2,6 +2,20 @@
 
 Persistent identifiers demonstrator for [Towards a National Collection - HeritagePIDs](https://tanc-ahrc.github.io/HeritagePIDs/).
 
+## Notes
+
+By default W3C annotation model seems obvious candidate, but also look at simpler things such as [bioschemas.org](https://bioschemas.org/profiles/SemanticAnnotation/0.1-DRAFT-2019_11_19/)
+
+```
+{
+“mainEntity” : “URI for entity”,
+“text” : “text corresponding to entity (e.g., highlighted in markup)” ,
+“position” : “location in publication”,
+“subjectOf” : “publication”
+}
+```
+
+
 ## Configuration
 
 When developing locally, put “secrets” in env.php (which is not in the Github repo). When running on Heroku (or elsewhere) add secret values as environmental parameters:

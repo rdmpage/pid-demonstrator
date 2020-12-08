@@ -42,6 +42,7 @@ function get($url, $format = 'application/ld+json')
 
 
 $ids = array(
+/*
 "8449d6f3-af9d-418b-8538-671664bf9536",
 "8c5f9a32-a707-461b-a4c1-e3e74a74576c",
 "6e8be646-486e-4193-ac46-e13e23c5daef",
@@ -50,6 +51,24 @@ $ids = array(
 "1a995d3f-d4c9-4ee3-a0a3-8301233f2e10",
 "b59e3747-3322-4153-9277-46cd7da0adaf",
 "1a995d3f-d4c9-4ee3-a0a3-8301233f2e10",
+"8c24d138-48e4-43f1-8e89-f9c871de7860",*/
+
+/*
+"c91ee228-e9ab-4010-ab22-711507f541de",
+"dcfabcc6-bd9c-4b7f-a977-8eb20d98b847",
+"dc03ae18-91db-42b7-914e-01a08f29c1c2",
+"87866b67-e4ae-415f-bac2-6cbb493c88ac",
+"8559613e-f2a3-447c-aa1a-d476600d3293",
+"9c283e2c-64f9-43bb-acb7-2b7ef7c52eb3",
+"a897f76b-c8f1-4848-98e3-3b401495e657",
+"a342c62a-b2de-4ec9-abb6-c319c10a3dda",
+"f3c42e7b-5601-471c-95e9-6c41975ee4a1",
+"dddf69ed-7f7b-4eb3-8577-479757e5c518",
+*/
+
+"adbba503-eef1-44de-b7d2-fddc8b4e6275",
+"72adf3f6-2ec9-47ac-b525-5028a2be2690",
+
 );
 
 
@@ -70,26 +89,29 @@ foreach ($ids as $id)
 	
 	$doc = jsonld_decode($json);
 	
-	/*
-	//print_r($doc);
+	if ($doc)
+	{
 	
-	// We can't handle the context as a URL do replace with an object
-	unset($doc->{'@context'});
+		/*
+		//print_r($doc);
 	
-	$context = new stdclass;
-	$context->{'@vocab'} = 'http://schema.org/';
-	$doc->{'@context'} = $context ;
-	*/
-	//print_r($doc);
+		// We can't handle the context as a URL do replace with an object
+		unset($doc->{'@context'});
 	
-	$expanded = jsonld_expand($doc);
+		$context = new stdclass;
+		$context->{'@vocab'} = 'http://schema.org/';
+		$doc->{'@context'} = $context ;
+		*/
+		//print_r($doc);
 	
-	print_r($expanded);
+		$expanded = jsonld_expand($doc);
 	
-	$normalized = jsonld_normalize($doc, array('algorithm' => 'URDNA2015', 'format' => 'application/nquads'));
- 	
- 	file_put_contents($rdf_filename, $normalized  . "\n", FILE_APPEND | LOCK_EX);
-
+		print_r($expanded);
+	
+		$normalized = jsonld_normalize($doc, array('algorithm' => 'URDNA2015', 'format' => 'application/nquads'));
+	
+		file_put_contents($rdf_filename, $normalized  . "\n", FILE_APPEND | LOCK_EX);
+	}
 
 }
 

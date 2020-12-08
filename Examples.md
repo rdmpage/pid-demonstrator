@@ -16,3 +16,7 @@ Linked to http://data.rbge.org.uk/herb/E00785221 (manually)
 
 - Need to get canonical identifier from PDF URL
 - Need RBGE web page to know it’s own URL
+
+## A new species of Enteromius (Actinopterygii, Cyprinidae, Smiliogastrinae) from the Awash River, Ethiopia, and the re-establishment of E. akakianus
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6978609/ Lots of nice BMNH examples.
