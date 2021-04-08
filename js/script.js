@@ -124,7 +124,7 @@ function show_bhl_annotations(uri) {
 	  	  		html += '</li>';
 	  	  	}
 	  	  	html += '</ul>';	 
-	  	  	document.getElementById(element_id).innerHTML = html; 	  
+	  	  	document.getElementById('bhl_links').innerHTML = html; 	  
 	  	  }
 	  }
 	});  
