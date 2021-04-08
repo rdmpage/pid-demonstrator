@@ -65,8 +65,8 @@ function show_annotations(uri) {
 		encodeURIComponent(uri),
 	  success: function(data) {
 	  		console.log(JSON.stringify(data,null,2));
-	  
-	  	  if (data.linkUrls.length > 0) {
+	  		
+	  	  if (data.linkUrls > 0) {
 	  	    var html = '<ul>';
 	  	  	for (var i =0; i < data.linkUrls.length; i++) {
 	  	  		html += '<li>';
@@ -109,7 +109,7 @@ function show_bhl_annotations(uri) {
 	  
 	  		console.log(JSON.stringify(data,null,2));
 	  
-	  	  if (data.linkUrls.length > 0) {
+	  	  if (data.linkUrls > 0) {
 	  	    var html = '<ul>';
 	  	  	for (var i =0; i < data.linkUrls.length; i++) {
 	  	  		html += '<li>';
@@ -514,7 +514,7 @@ function releasetheKraken() {
 
         document.getElementById('bhl_page').innerHTML = currentpageURL;
         
-        show_annotations(currentpageURL);
+        show_bhl_annotations(currentpageURL);
 
         // https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
         observer = new MutationObserver(function(mutations) {
