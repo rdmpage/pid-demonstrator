@@ -289,7 +289,18 @@ function releasetheKraken() {
         guid.uri = 'https://doi.org/' + guid.identifier;
       }
     }
+    
 
+    // Open Edition Journals--------------------------------------------------------------
+    // https://journals.openedition.org/cve/6886
+    if (metas[i].getAttribute("name") == "DC.identifier") {
+      if (metas[i].getAttribute("scheme") == "DOI") {
+        guid.namespace = 'doi';
+        guid.identifier = metas[i].getAttribute("content");
+        guid.uri = 'https://doi.org/' + guid.identifier;
+      }
+    }
+    
     // Ingenta----------------------------------------------------------------------------
     if (metas[i].getAttribute("name") == "DC.identifier") {
       if (metas[i].getAttribute("scheme") == "URI") {
@@ -300,7 +311,7 @@ function releasetheKraken() {
           guid.uri = 'https://doi.org/' + guid.identifier;
         }
       }
-    }
+    }    
 
     // OJS (e.g. EJT)---------------------------------------------------------------------
     if (metas[i].getAttribute("name") == "DC.Identifier.DOI") {
