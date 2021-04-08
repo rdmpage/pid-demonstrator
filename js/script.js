@@ -68,7 +68,7 @@ function show_annotations(uri) {
 	  
 	  	  if (data.linkUrls.length > 0) {
 	  	    var html = '<ul>';
-	  	  	for (var i in data.linkUrls) {
+	  	  	for (var i =0; i < data.linkUrls.length; i++) {
 	  	  		html += '<li>';
 	  	  		
 	  	  		html += '<a href="' + data.linkUrls[i] + '">';
@@ -111,7 +111,7 @@ function show_bhl_annotations(uri) {
 	  
 	  	  if (data.linkUrls.length > 0) {
 	  	    var html = '<ul>';
-	  	  	for (var i in data.linkUrls) {
+	  	  	for (var i =0; i < data.linkUrls.length; i++) {
 	  	  		html += '<li>';
 
 	  	  		html += '<a href="' + data.linkUrls[i] + '">';
