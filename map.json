@@ -78,12 +78,12 @@
     },
     "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f": {
         "linkUrls": [
-            "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586.1"
+            "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586"
         ],
         "name": "USNM 402322",
         "linkImages": []
     },
-    "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586.1": {
+    "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586": {
         "linkUrls": [
             "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f"
         ],
@@ -91,13 +91,13 @@
     },
     "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6": {
         "linkUrls": [
-            "http://doi.org/10.5334/dsj-2017-021"
+            "https://doi.org/10.5334/dsj-2017-021"
         ],
         "name": "Bertha's Earl. A novel Collection Item",
         "imageUrl": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg",
         "linkImages": []
     },
-    "http://doi.org/10.5334/dsj-2017-021": {
+    "https://doi.org/10.5334/dsj-2017-021": {
         "linkUrls": [
             "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6"
         ],
