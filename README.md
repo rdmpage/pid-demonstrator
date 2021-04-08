@@ -2,7 +2,16 @@
 
 Persistent identifiers demonstrator for [Towards a National Collection - HeritagePIDs](https://tanc-ahrc.github.io/HeritagePIDs/).
 
-## Notes
+## Version 2 rethink
+
+Version 1 (described below) used a triple store for the annotations, which means we need RDF and SPARQL. This means we can embed this problem in a much bigger space (e.g., the biodiversity knowledge graph) but it makes life more complicated, especially if we want to be able to easily add examples.
+
+Version 2 tackles this by dropping the triple store and just using a local table of examples, based on a spreadsheet.
+
+
+## Version 1
+
+### Notes
 
 By default W3C annotation model seems obvious candidate, but also look at simpler things such as [bioschemas.org](https://bioschemas.org/profiles/SemanticAnnotation/0.1-DRAFT-2019_11_19/)
 
@@ -16,7 +25,7 @@ By default W3C annotation model seems obvious candidate, but also look at simple
 ```
 
 
-## Configuration
+### Configuration
 
 When developing locally, put “secrets” in env.php (which is not in the Github repo). When running on Heroku (or elsewhere) add secret values as environmental parameters:
 
@@ -25,11 +34,11 @@ Key | Value
 HYPOTHESIS_API_TOKEN | 6879-06f…
 BLAZEGRAPH_URL | http://167…
 
-## Annotations
+### Annotations
 
 Discuss that we are concerned with a subset of annotations, namely those where both body and target are external entities that have stable(ish) identifiers.
 
-## Displaying annotations
+### Displaying annotations
 
 There are at least two problems to solve here. The first is displaying the actual annotations in situ in the document being annotated, as well as enabling them to be created and edit. This is the problem hypothesis.is solves.
 
@@ -38,19 +47,19 @@ The second problem arises if we are using annotations to represent links between
 One way to do this is have a bookmarklet that injects HTML into the web page for an entity, and displays annotations linked to that entity.
 
 
-## Tasks
+### Tasks
 
-### Multiple representations
+#### Multiple representations
 
 Annotations can be attached to multiple representations of the same thing, and hypothes.is doesn’t always record the DOI of a paper. Therefore we will need to call a service to convert a URL to an identifier.
 
-### Convert text to PID
+#### Convert text to PID
 
 Selected text need to be parsed and converted to an identifier, need service such as one that converts specimen code to a PID.
 
-### Add annotations to triple store
+#### Add annotations to triple store
 
-### Fetch annotations from annotation feed
+#### Fetch annotations from annotation feed
 
 Hypothes.is feed is 
 
@@ -58,11 +67,11 @@ Hypothes.is feed is
 https://hypothes.is/stream.rss?user=username
 ```
 
-### Fetch annotations related to content
+#### Fetch annotations related to content
 
 Need to be able to fetch annotations using source and body identifiers. For example, given a paper that is the ```source``` for one or more annotations, what are those annotations? Given specimen that is the body of an annotation, what papers refer to that specimen?
 
-### Fetch annotations as user changes view in document
+#### Fetch annotations as user changes view in document
 
 User can scroll through a document, so we need ways to track that movement so we can display relevant annotations. For example, the basic unit of BHL is a scanned physical book, such as a journal volume. Each page has its own unique identifier (the BHL pageID), which makes it natural to link annotations to that PageID. However, the page being viewed by the user can change as they scroll through the document, so we need a mechanism for determining which page the reader is currently viewing so that we can display the appropriate annotation.
 
@@ -70,16 +79,16 @@ In the bookmarklet I use the MutationObserver interface to track whether the Pag
 
 (What do we do with PDFs?)
 
-## Demonstration examples
+### Demonstration examples
 
 Could use [NHM specimens example](https://github.com/rossmounce/NHM-specimens) where we have data (that has a DOI http://dx.doi.org/10.5281/zenodo.34966). Need to represent links between specimens as annotations, think about how we give credit in annotation to source. See https://www.w3.org/TR/annotation-model/#lifecycle-information for ideas.
 
-### Problems
+#### Problems
 
 NHM URLs have changed since Ross and Aime did their work. For example, switched to HTTPS and replaced /specimen/ with /object/, meaning the specimen URLS no longer resolved. This has been fixed see https://github.com/NaturalHistoryMuseum/ckanext-nhm/pull/477. However, some URLS without versions (/\d+ appended to end of URL) can return 404 https://twitter.com/jrdhumphries/status/1278650609667911680
 
 
-## Examples of PIDs and data sources
+### Examples of PIDs and data sources
 
 Institution | Data type | PID | Example | RDF | URL in meta
  -- | -- | -- | -- | -- | --
@@ -90,7 +99,7 @@ KEW | specimen | http://specimens.kew.org/herbarium/ + barcode |  [K001116483](h
 See [Implementers](http://herbal.rbge.info/md.php?q=implementers) for list of CETAF sites.
 
 
-### NHM
+#### NHM
 
 NHM serves RDF in triples,turtle, and JSON-LD e.g. https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.n3 and https://data.nhm.ac.uk/object/31a84c68-6295-4e5b-aa0a-5c2844f1fb50.ttl RDF is flat Darwin Core. 
 
@@ -98,11 +107,11 @@ NHM also serves JSON-LD, e.g. https://data.nhm.ac.uk/object/f62e09d5-1ee4-4c54-8
 
 NHM added SEO-friendly tags, see https://github.com/NaturalHistoryMuseum/ckanext-nhm/pull/476
 
-### RBGE 
+#### RBGE 
 
 RBGE serves RDF (flat Darwin Core) that includes links to IIIF.
 
-### Kew
+#### Kew
 
 Kew serves RDF (flat Darwin Core). It is **broken**
 
@@ -121,7 +130,7 @@ Kew serves RDF (flat Darwin Core). It is **broken**
 ```
 
 
-### National Gallery
+#### National Gallery
 
 https://data.ng-london.org.uk/0F6J-0001-0000-0000.json
 
@@ -130,22 +139,22 @@ NG6195
 - https://books.google.co.uk/books?id=SrWbDwAAQBAJ&pg=PA102&lpg=PA102&dq=NG6195&source=bl&ots=u0vsLAN8s1&sig=ACfU3U2Ss5XwNcEONQW32Be0Z-iHQlxeCw&hl=en&sa=X&ved=2ahUKEwjmiKe0hYnqAhW0mFwKHTKqA4QQ6AEwDnoECAoQAQ#v=onepage&q=NG6195&f=false
 - https://www.nationalgalleryimages.co.uk/imagedetails.aspx?q=NG6195&ng=NG6195&view=lg&frm=1
 
-### Science Museum
+#### Science Museum
 
 https://collection.sciencemuseumgroup.org.uk/api/objects/co8084947
 
 - https://collection.sciencemuseumgroup.org.uk/objects/co8084947/stephensons-rocket-steam-locomotive
 
 
-## Related projects
+### Related projects
 
 DiSSCo e.g. https://github.com/sharifX/pid-specimen-genbank
 
-## Recommendations for PID providers
+### Recommendations for PID providers
 
 These recommendations are w.r.t. to making projects like this doable.
 
-### Make identifier discoverable within web page for item
+#### Make identifier discoverable within web page for item
 
 The web page for an entity should include the persistent identifier in a machine readable way. For example, academic publishers typically include the DOI for an article in a ```meta``` tag (see also Twitter thread https://twitter.com/rdmpage/status/1273274118293553155 )
 
@@ -155,11 +164,11 @@ The web page for an entity should include the persistent identifier in a machine
 
 
 
-### Use consistent data descriptions
+#### Use consistent data descriptions
 
 e.g. do museums serving RDF all use same approach?
 
-### Reaction
+#### Reaction
 
 
 
