@@ -64,6 +64,8 @@ function show_annotations(uri) {
 	  url: annotation_url +
 		encodeURIComponent(uri),
 	  success: function(data) {
+	  		console.log(JSON.stringify(data,null,2));
+	  
 	  	  if (data.linkUrls.length > 0) {
 	  	    var html = '<ul>';
 	  	  	for (var i in data.linkUrls) {
@@ -104,6 +106,9 @@ function show_bhl_annotations(uri) {
 	  url: annotation_url +
 		encodeURIComponent(uri),
 	  success: function(data) {
+	  
+	  		console.log(JSON.stringify(data,null,2));
+	  
 	  	  if (data.linkUrls.length > 0) {
 	  	    var html = '<ul>';
 	  	  	for (var i in data.linkUrls) {
