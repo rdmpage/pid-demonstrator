@@ -11,13 +11,6 @@ var use_citationjs = false;
 var debug = false;
 debug = true;
 
-// remote
-var annotation_url = '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=';
-
-// local
-annotation_url = '//localhost/~rpage/pid-demonstrator/api_annotations_for_page.php?uri=';
-
-
 if (use_citationjs) {
 
   // Create a script tag to load citation.js
@@ -58,74 +51,57 @@ function show_annotations(uri) {
 
 	var e = $('#pidannotate');
 	
-	
    $.ajax({
 	  type: "GET",
-	  url: annotation_url +
+	  url: '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=' +
 		encodeURIComponent(uri),
 	  success: function(data) {
-	  	  if (data.linkUrls.length > 0) {
-	  	    var html = '<ul>';
-	  	  	for (var i in data.linkUrls) {
-	  	  		html += '<li>';
-	  	  		
-	  	  		html += '<a href="' + data.linkUrls[i] + '">';
-	  	  		html += data.linkUrls[i];
-	  	  		html += '</a>';
-	  	  		
-	  	  		if (data.linkImages[data.linkUrls[i]]) {
-	  	  			html += '<div class="pidannotate-image-container">';
-	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkUrls[i] + '">';	  	  			
-	  	  			html += '</div>';
-	  	  			html += '</div>';
-	  	  		}
-	  	  		
-	  	  		html += '</li>';
-	  	  	}
-	  	  	html += '</ul>';	
-	  	  	
-	  	  	e.html(e.html() + html); 
-	  	  }
-	  }
-	});  
+			if (data['@graph'].length == 1) {
 	
-}            
+				var dataFeedElement = data['@graph'][0].dataFeedElement;
 
-//--------------------------------------------------------------------------------------------------
-// annotations?
-function show_bhl_annotations(uri) {
+				var n = dataFeedElement.length;
+				
+				var html = '<ul>';
+				for (var i = 0; i < n; i++) {
+					html += '<li>';
+					
+					// since annotations can be bidirectional, is body or target the one we want?
+					var name = '[untitled]';
+					var images = [];
 
-	var e = $('#pidannotate');
-	
-	
-   $.ajax({
-	  type: "GET",
-	  url: annotation_url +
-		encodeURIComponent(uri),
-	  success: function(data) {
-	  	  if (data.linkUrls.length > 0) {
-	  	    var html = '<ul>';
-	  	  	for (var i in data.linkUrls) {
-	  	  		html += '<li>';
+					var id = dataFeedElement[i].body.id;
+					
+					if (dataFeedElement[i].body.name) {
+						name = dataFeedElement[i].body.name;							
+					}
+					
+					if (dataFeedElement[i].body.thumbnailUrl) {
+						var m = dataFeedElement[i].body.thumbnailUrl.length;						
+						for (var j = 0; j < m; j++) {
+							images.push(dataFeedElement[i].body.thumbnailUrl[j]);
+						}														
+					}
 
-	  	  		html += '<a href="' + data.linkUrls[i] + '">';
-	  	  		html += data.linkUrls[i];
-	  	  		html += '</a>';
-	  	  		
-	  	  		if (data.linkImages[data.linkUrls[i]]) {
-	  	  			html += '<div class="pidannotate-image-container">';
-	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkUrls[i] + '">';	  	  			
-	  	  			html += '</div>';
-	  	  			html += '</div>';
-	  	  		}
+					html += '<a href="' + id + '">' + name + '</a>';
+					if (images.length > 0) {
+						html += '<div class="pidannotate-image-container">';
+						var m = images.length;
+						for (var j = 0; j < m; j++) {
+							html += '<div class="pidannotate-image-item">';
+							html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+							html += '</div>';
+						}
+					}
+					html += '</div>';
+						html += '</li>';					
+				}
+				html += '</ul>';
+				
+				document.getElementById('bhl_links').innerHTML = html;
+   
+		   }
 
-	  	  		html += '</li>';
-	  	  	}
-	  	  	html += '</ul>';	 
-	  	  	document.getElementById(element_id).innerHTML = html; 	  
-	  	  }
 	  }
 	});  
 	
@@ -142,6 +118,11 @@ function releasetheKraken() {
     const Cite = require('citation-js');
   }
   
+  // remote
+  var annotation_url = '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=';
+  
+  // local
+  annotation_url = '//localhost/~rpage/pid-demonstrator/api_annotations_for_page.php?uri=';
   
 
   var e = null;
@@ -493,6 +474,13 @@ function releasetheKraken() {
   
     switch (guid.namespace) {
     
+      case 'ark':
+      	if (debug) {
+	       e.html(e.html() + JSON.stringify(guid, null, 2));
+	    }
+      
+      	break;
+
       case 'bhl':
         // BHL pages can change as user browses content, so we use a MutationObserver
         // to track current PageID, so that we could then display annotations relevant
@@ -521,7 +509,7 @@ function releasetheKraken() {
               console.log("attributes changed")
               
               
-               show_bhl_annotations(currentpageURL);
+               show_annotations(currentpageURL);
               
             }
           });
@@ -530,9 +518,177 @@ function releasetheKraken() {
         observer.observe(currentpageURL, {
           attributes: true //configure it to listen to attribute changes
         });
+        
+  
+
         break;
 
-/*
+      case 'doi':
+      	if (debug) {
+	       e.html(e.html() + '<div>doi:' + guid.identifier + '</div>');
+	    }
+
+        // display formatted citation (helps validate that we've got the DOI)
+        /*
+        $.ajax({
+          type: "GET",
+          url: '//api.crossref.org/v1/works/' +
+            encodeURIComponent(guid.identifier),
+          success: function(data) {
+
+            var html = '<div style="padding:20px;">';
+            html += data;
+            html += '</div>';
+
+            if (use_citationjs) {
+              var formatter = new Cite(data.message);
+
+              e.html(e.html() + formatter.format('bibliography', {
+                format: 'html',
+                template: 'apa',
+                lang: 'en'
+              }));
+            }
+            else {
+              e.html(e.html() +JSON.stringify(data, null, 2));
+            }
+
+          }
+        });
+        */
+
+        // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: annotation_url +
+            encodeURIComponent(guid.uri),
+          success: function(data) {
+                // e.html(e.html() + JSON.stringify(data, null, 2));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+						
+						// since annotations can be bidirectional, is body or target the one we want?
+						var id = '';
+						var name = '[untitled]';
+						var images = [];
+						
+						if (dataFeedElement[i].body.id == guid.uri) {
+							// target
+							id = dataFeedElement[i].target.id;
+							if (dataFeedElement[i].target.canonical) {
+								id = dataFeedElement[i].target.canonical;
+							}
+							if (dataFeedElement[i].target.name) {
+								name = dataFeedElement[i].target.name;							
+							}
+						} else {
+							// body
+							id = dataFeedElement[i].body.id;
+							if (dataFeedElement[i].body.name) {
+								name = dataFeedElement[i].body.name;							
+							}
+							
+							if (dataFeedElement[i].body.thumbnailUrl) {							
+								for (var j in dataFeedElement[i].body.thumbnailUrl) {
+									images.push(dataFeedElement[i].body.thumbnailUrl[j]);
+								}														
+							}
+							
+						}
+						html += '<a href="' + id + '">' + name + '</a>';
+						if (images.length > 0) {
+							html += '<div class="pidannotate-image-container">';
+							for (var j in images) {
+								html += '<div class="pidannotate-image-item">';
+								html += '<img src="//pid-demonstrator.herokuapp.com/proxy.php?url=http://exeg5le.cloudimg.io/s/height/100/' + images[j] + '">';
+								html += '</div>';
+							}
+						}
+						html += '</div>';
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });        
+
+        break;
+        
+      case 'nhmuk':
+    	if (debug) {
+	        e.html(e.html() + JSON.stringify(guid, null, 2));
+	    }
+
+        // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: annotation_url +
+            encodeURIComponent(guid.uri),
+          success: function(data) {
+                // e.html(e.html() + JSON.stringify(data, null, 2));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+//						html += '<a href="' + dataFeedElement[i].body.id + '">' + dataFeedElement[i].body.name + '</a>';
+//						html += ' ';
+						html += '<a href="' + dataFeedElement[i].target.canonical + '">' + dataFeedElement[i].target.name + '</a>';
+						
+						/*
+						if (dataFeedElement[i].target['schema:creator']) {
+							html += '<ul style="list-style-type:none;">';
+							for (var j in dataFeedElement[i].target['schema:creator']) {
+								html += '<li style="line-height:16px;">';
+								
+								var has_orcid = false;
+								
+								if (dataFeedElement[i].target['schema:creator'][j].id.match(/orcid.org/)) {
+									has_orcid = true;
+								}
+								if (has_orcid) {
+									html += '<a href="' + dataFeedElement[i].target['schema:creator'][j].id + '">';
+									html += '<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png">';
+									html += '&nbsp;';
+								}
+								
+								html += dataFeedElement[i].target['schema:creator'][j].name;
+								
+								if (has_orcid) {
+									html += '</a>';
+								}
+								
+								html += '</li>';
+							}
+							html += '</ul>';
+						}
+						*/
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });        
+
+        break;        
+
       case 'occurrence':
         $.getJSON('//api.gbif.org/v1/occurrence/' + guid.identifier + '?callback=?',
           function(data) {
@@ -556,17 +712,59 @@ function releasetheKraken() {
             }
           });
         break;
-*/
 
-      case 'ark':
- 	  case 'doi':
-	  case 'nhmuk':
       default:
         if (debug) {
 	        e.html(e.html() + JSON.stringify(guid, null, 2));
 	    }
-        show_annotations(guid.uri);
-              
+        
+        // annotations?
+        
+       $.ajax({
+          type: "GET",
+          url: annotation_url +
+            encodeURIComponent(guid.uri),
+          success: function(data) {
+                // e.html(e.html() + JSON.stringify(data, null, 2));
+                
+          		if (data['@graph'].length == 1) {
+          		
+          			var dataFeedElement = data['@graph'][0].dataFeedElement;
+		  
+					var html = '<ul>';
+					for (var i in dataFeedElement) {
+						html += '<li>';
+						
+						// since annotations can be bidirectional, is body or target the one we want?
+						var id = '';
+						var name = '[untitled]';
+						
+						if (dataFeedElement[i].body.id == guid.uri) {
+							// target
+							id = dataFeedElement[i].target.id;
+							if (dataFeedElement[i].target.canonical) {
+								id = dataFeedElement[i].target.canonical;
+							}
+							if (dataFeedElement[i].target.name) {
+								name = dataFeedElement[i].target.name;							
+							}
+						} else {
+							// body
+							id = dataFeedElement[i].body.id;
+							if (dataFeedElement[i].body.name) {
+								name = dataFeedElement[i].body.name;							
+							}
+						}
+						html += '<a href="' + id + '">' + name + '</a>';
+						html += '</li>';
+					}
+					html += '</ul>';
+				    e.html(e.html() + html);
+               
+               }
+ 
+          }
+        });                
         break;
     }
 

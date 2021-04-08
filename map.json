@@ -1,0 +1,124 @@
+{
+    "http://specimens.kew.org/herbarium/K000037101": {
+        "linkUrls": [
+            "https://doi.org/10.3897/phytokeys.94.21753"
+        ],
+        "name": "K000037101",
+        "imageUrl": "http://www.kew.org/herbcatimg/thumbnails/169496.jpg",
+        "linkImages": []
+    },
+    "https://doi.org/10.3897/phytokeys.94.21753": {
+        "linkUrls": [
+            "http://specimens.kew.org/herbarium/K000037101"
+        ],
+        "linkImages": {
+            "http://specimens.kew.org/herbarium/K000037101": "http://www.kew.org/herbcatimg/thumbnails/169496.jpg"
+        }
+    },
+    "https://data.rbge.org.uk/herb/E00179300": {
+        "linkUrls": [
+            "https://doi.org/10.1017/S0960428619000349"
+        ],
+        "name": "E00179300",
+        "imageUrl": "https://data.rbge.org.uk/search/herbarium/scripts/getzoom3.php?path=e00179300.zip;file:TileGroup0/0-0-0.jpg",
+        "linkImages": []
+    },
+    "https://doi.org/10.1017/S0960428619000349": {
+        "linkUrls": [
+            "https://data.rbge.org.uk/herb/E00179300",
+            "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275",
+            "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690"
+        ],
+        "linkImages": {
+            "https://data.rbge.org.uk/herb/E00179300": "https://data.rbge.org.uk/search/herbarium/scripts/getzoom3.php?path=e00179300.zip;file:TileGroup0/0-0-0.jpg",
+            "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275": "https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview",
+            "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690": "https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview"
+        }
+    },
+    "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275": {
+        "linkUrls": [
+            "https://doi.org/10.1017/S0960428619000349"
+        ],
+        "name": "BM000944668",
+        "imageUrl": "https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/preview",
+        "linkImages": []
+    },
+    "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690": {
+        "linkUrls": [
+            "https://doi.org/10.1017/S0960428619000349"
+        ],
+        "name": "BM000944669",
+        "imageUrl": "https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/preview",
+        "linkImages": []
+    },
+    "https://www.botanicalcollections.be/specimen/BR0000019451688": {
+        "linkUrls": [
+            "https://www.biodiversitylibrary.org/page/56312118",
+            "https://doi.org/10.5852/ejt.2015.126"
+        ],
+        "name": "BR0000019451688",
+        "imageUrl": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg",
+        "linkImages": []
+    },
+    "https://www.biodiversitylibrary.org/page/56312118": {
+        "linkUrls": [
+            "https://www.botanicalcollections.be/specimen/BR0000019451688"
+        ],
+        "linkImages": {
+            "https://www.botanicalcollections.be/specimen/BR0000019451688": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
+        }
+    },
+    "https://doi.org/10.5852/ejt.2015.126": {
+        "linkUrls": [
+            "https://www.botanicalcollections.be/specimen/BR0000019451688"
+        ],
+        "linkImages": {
+            "https://www.botanicalcollections.be/specimen/BR0000019451688": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
+        }
+    },
+    "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f": {
+        "linkUrls": [
+            "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586.1"
+        ],
+        "name": "USNM 402322",
+        "linkImages": []
+    },
+    "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586.1": {
+        "linkUrls": [
+            "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f"
+        ],
+        "linkImages": []
+    },
+    "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6": {
+        "linkUrls": [
+            "http://doi.org/10.5334/dsj-2017-021"
+        ],
+        "name": "Bertha's Earl. A novel Collection Item",
+        "imageUrl": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg",
+        "linkImages": []
+    },
+    "http://doi.org/10.5334/dsj-2017-021": {
+        "linkUrls": [
+            "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6"
+        ],
+        "linkImages": {
+            "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg"
+        }
+    },
+    "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001": {
+        "linkUrls": [
+            "https://doi.org/10.4000/cve.6886"
+        ],
+        "name": "Italy, a poem",
+        "imageUrl": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg",
+        "linkImages": []
+    },
+    "https://doi.org/10.4000/cve.6886": {
+        "linkUrls": [
+            "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001"
+        ],
+        "linkImages": {
+            "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg"
+        }
+    }
+}
