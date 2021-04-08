@@ -76,7 +76,7 @@ function show_annotations(uri) {
 	  	  		if (data.linkImages[data.linkUrls[i]]) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkUrls[i] + '">';	  	  			
+					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkImages[data.linkUrls[i]] + '">';	  	  			
 	  	  			html += '</div>';
 	  	  			html += '</div>';
 	  	  		}
@@ -116,7 +116,7 @@ function show_bhl_annotations(uri) {
 	  	  		if (data.linkImages[data.linkUrls[i]]) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkUrls[i] + '">';	  	  			
+					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkImages[data.linkUrls[i]] + '">';	  	  			
 	  	  			html += '</div>';
 	  	  			html += '</div>';
 	  	  		}
