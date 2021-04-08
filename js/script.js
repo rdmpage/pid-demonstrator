@@ -15,7 +15,7 @@ debug = true;
 var annotation_url = '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=';
 
 // local
-annotation_url = '//localhost/~rpage/pid-demonstrator/api_annotations_for_page.php?uri=';
+// annotation_url = '//localhost/~rpage/pid-demonstrator/api_annotations_for_page.php?uri=';
 
 
 if (use_citationjs) {
