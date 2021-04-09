@@ -479,6 +479,18 @@ function releasetheKraken() {
     	
     }
     
+    // Google Books (Google are such hypocrites when it comes to web standards)
+    // [0-9A-Za-z_\-]{12}
+    
+    pattern = /google(.*)(id=|\/)([0-9A-Za-z_\-]{12})\b/;
+	pattern.exec(window.location.href);
+    if (m)
+    {
+      	guid.namespace = 'google';
+      	guid.identifier = m[3];
+      	guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
+    }    
+    
   }
 
   //--------------------------------------------------------------------------------------
