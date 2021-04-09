@@ -198,7 +198,7 @@ function releasetheKraken() {
 		
 		.pidannotate ul {
 			margin:0;
-   			padding:32px;
+   			padding-left:24px;
    			text-indent: 0;
    			list-style-type: 0;
 		}
@@ -488,7 +488,7 @@ function releasetheKraken() {
 
   if (guid.namespace) {
   
-  	e.html(e.html() + "<h2>Links</h2>");
+  	// e.html(e.html() + "<h2>Links</h2>");
   
     switch (guid.namespace) {
     
