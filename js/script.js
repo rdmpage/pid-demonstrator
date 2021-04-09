@@ -146,7 +146,7 @@ function releasetheKraken() {
 			text-align:  		left;
 			font-size:   		12px;
 			font-weight: 		normal;
-			font-family: 		sans-serif;
+			font-family: 		Helvetica, Arial, sans-serif;
 			box-shadow:  		-5px 5px 5px 0px rgba(50, 50, 50, 0.3);
 			z-index:     		200000;
 			overflow-y:			auto;
@@ -157,7 +157,7 @@ function releasetheKraken() {
     		line-height:18px;
     		font-weight:bold;
     		margin: 4px;
-    		font-family: sans-serif;
+    		font-family: Helvetica, Arial, sans-serif;
     	}
     	
     	.pidannotate h2 {
@@ -165,7 +165,7 @@ function releasetheKraken() {
     		line-height:14px;
     		font-weight:bold;
     		margin: 4px;
-    		font-family: sans-serif;
+    		font-family: Helvetica, Arial, sans-serif;
     	}
     	    	
     	.pidannotate a {
@@ -183,6 +183,7 @@ function releasetheKraken() {
 			padding: 5px;
 			justify-content: space-evenly;
 			background: rgb(228,228,228); 
+			border-radius: 12px;
 		}		
 		
 		.pidannotate-image-item {
@@ -195,7 +196,7 @@ function releasetheKraken() {
 			height:100px;
 		}	
 		
-		.pid annotate ul {
+		.pidannotate ul {
 			margin:0;
    			padding:32px;
    			text-indent: 0;
