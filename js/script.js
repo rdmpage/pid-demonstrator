@@ -9,7 +9,7 @@ var observer = null;
 var use_citationjs = false;
 
 var debug = false;
-debug = true;
+//debug = true;
 
 // remote
 var annotation_url = '//pid-demonstrator.herokuapp.com/api_annotations_for_page.php?uri=';
