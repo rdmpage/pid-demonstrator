@@ -71,6 +71,10 @@ function show_annotations(uri, is_bhl = false) {
 	  	  	for (var i =0; i < data.length; i++) {
 	  	  	
 	  	  		var list_style = 'list-style-type:circle;';
+	  	  		
+	  	  		if (data[i].favicon) {
+	  	  			list_style = 'list-style-image: url(' + data[i].favicon + ');';
+	  	  		}
 	  	  	
 	  	  		html += '<li style="' + list_style + '">';	  	  		
 	  	  		html += '<a href="' + data[i].url + '">';
