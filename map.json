@@ -69,7 +69,8 @@
         {
             "url": "https://www.biodiversitylibrary.org/page/56312118",
             "title": "European Journal of Taxonomy",
-            "image": "https://www.biodiversitylibrary.org/pagethumb/56312118,200,200"
+            "image": "https://www.biodiversitylibrary.org/pagethumb/56312118,200,200",
+            "favicon": "https://www.biodiversitylibrary.org/favicon.ico"
         },
         {
             "url": "https://doi.org/10.5852/ejt.2015.126",

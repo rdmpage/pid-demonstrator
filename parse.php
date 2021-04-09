@@ -338,6 +338,10 @@ function get_details($url)
 			{
 				$site->favicon = 'https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico';
 			}
+			if (preg_match('/biodiversitylibrary.org/', $url))
+			{
+				$site->favicon = 'https://www.biodiversitylibrary.org/favicon.ico';
+			}
 			
 		}
 		
