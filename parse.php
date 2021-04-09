@@ -342,6 +342,10 @@ function get_details($url)
 			{
 				$site->favicon = 'https://www.biodiversitylibrary.org/favicon.ico';
 			}
+			if (preg_match('/google.com/', $url))
+			{
+				$site->favicon = 'https://www.google.com/favicon.ico';
+			}
 			
 		}
 		
