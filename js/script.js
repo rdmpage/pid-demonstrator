@@ -197,7 +197,7 @@ function releasetheKraken() {
 		
 		.pid annotate ul {
 			margin:0;
-   			padding: 0;
+   			padding:32px;
    			text-indent: 0;
    			list-style-type: 0;
 		}
