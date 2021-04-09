@@ -202,6 +202,10 @@ function releasetheKraken() {
    			text-indent: 0;
    			list-style-type: 0;
 		}
+		
+		.pidannotate li {
+			background-size:16px;
+		}
 				
     `;
     
