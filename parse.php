@@ -166,7 +166,16 @@ function get_details($url)
 		
 		// Do we need to keep trying...?
 		
-		
+		if (!isset($site->image))
+		{
+			// Site-specific rules...
+			
+			// BHL
+			if (preg_match('/biodiversitylibrary.org\/page\/(?<page>\d+)/', $url, $m))
+			{
+				$site->image = 'https://www.biodiversitylibrary.org/pagethumb/' . $m['page'] . ',200,200';
+			}		
+		}
 		
 		// favicon
 		if (!isset($site->favicon))
@@ -182,9 +191,13 @@ function get_details($url)
 					{
 						case 'icon':
 						case 'shortcut icon':
-							if (!isset($site->favicon) && preg_match('/^https?/', $link->href))
+							if (!isset($site->favicon))
 							{
-								$site->favicon = $link->href;
+								// is it a relative or an absolute link?
+								if (preg_match('/^https?/', $link->href))
+								{							
+									$site->favicon = $link->href;
+								}
 							}
 							break;
 							
