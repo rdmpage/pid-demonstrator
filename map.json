@@ -28,6 +28,7 @@
     "https://doi.org/10.1017/S0960428619000349": [
         {
             "url": "https://data.rbge.org.uk/herb/E00179300",
+            "favicon": "https://data.rbge.org.uk/favicon.ico",
             "title": "Royal Botanic Garden Edinburgh - Herbarium catalogue",
             "image": "https://data.rbge.org.uk/images/71679"
         },
@@ -79,6 +80,7 @@
     "https://www.biodiversitylibrary.org/page/56312118": [
         {
             "url": "https://www.botanicalcollections.be/specimen/BR0000019451688",
+            "favicon": "https://www.botanicalcollections.be/favicon.ico",
             "title": "Botanical Collections",
             "image": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
         }
@@ -86,6 +88,7 @@
     "https://doi.org/10.5852/ejt.2015.126": [
         {
             "url": "https://www.botanicalcollections.be/specimen/BR0000019451688",
+            "favicon": "https://www.botanicalcollections.be/favicon.ico",
             "title": "Botanical Collections",
             "image": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
         }
@@ -116,7 +119,8 @@
             "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6",
             "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6",
             "title": "Bertha's Earl. A novel Collection Item",
-            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg"
+            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg",
+            "favicon": "https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico"
         }
     ],
     "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001": [
@@ -133,7 +137,8 @@
             "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001",
             "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001",
             "title": "Italy, a poem",
-            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg"
+            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg",
+            "favicon": "https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico"
         }
     ]
 }
