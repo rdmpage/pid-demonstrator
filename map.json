@@ -11,7 +11,9 @@
     "https://doi.org/10.3897/phytokeys.94.21753": [
         {
             "url": "http://specimens.kew.org/herbarium/K000037101",
-            "title": "HerbWeb - Details Page"
+            "favicon": "https://www.kew.org/themes/custom/kew_gardens/assets/favicons/favicon-32x32.png",
+            "title": "HerbWeb - Details Page",
+            "image": "http://www.kew.org/herbcatimg/169496.jpg"
         }
     ],
     "https://data.rbge.org.uk/herb/E00179300": [

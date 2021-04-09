@@ -278,6 +278,7 @@ function get_details($url)
 					{
 						case 'icon':
 						case 'shortcut icon':
+						case 'Shortcut Icon':
 						case 'SHORTCUT ICON':
 							if (!isset($site->favicon))
 							{
@@ -315,6 +316,15 @@ function get_details($url)
 					}
 				}
 		
+			}
+		}
+		
+		// hard code sites that are just fucked up
+		if (!isset($site->favicon))
+		{
+			if (preg_match('/kew.org/', $url))
+			{
+				$site->favicon = 'https://www.kew.org/themes/custom/kew_gardens/assets/favicons/favicon-32x32.png';
 			}
 		}
 		
@@ -378,6 +388,25 @@ function get_details($url)
 				$site->image = $node->firstChild->nodeValue;
 			}
 		}
+		
+		if (preg_match('/kew.org/', $url))
+		{
+			// RDF
+			
+			$rdf = get($url, 'application/rdf+xml');
+			
+			$dom= new DOMDocument;
+			$dom->loadXML($rdf);
+			$xpath = new DOMXPath($dom);
+			
+			$xpath->registerNamespace('dwc', 'http://rs.tdwg.org/dwc/terms/');
+			$xpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+
+			foreach($xpath->query('//dwc:associatedMedia/@rdf:resource') as $node)
+			{
+				$site->image = $node->firstChild->nodeValue;
+			}
+		}		
 		
 		if (preg_match('/botanicalcollections.be/', $url))
 		{
