@@ -54,7 +54,7 @@ function rdmp_close(id) {
 
 //--------------------------------------------------------------------------------------------------
 // annotations?
-function show_annotations(uri) {
+function show_annotations(uri, is_bhl = false) {
 
 	var e = $('#pidannotate');
 	
@@ -69,7 +69,10 @@ function show_annotations(uri) {
 	  	  if (data) {
 	  	    var html = '<ul>';
 	  	  	for (var i =0; i < data.length; i++) {
-	  	  		html += '<li>';	  	  		
+	  	  	
+	  	  		var list_style = 'list-style-type:circle;';
+	  	  	
+	  	  		html += '<li style="' + list_style + '">';	  	  		
 	  	  		html += '<a href="' + data[i].url + '">';
 	  	  		html += data[i].title;
 	  	  		html += '</a>';
@@ -86,54 +89,18 @@ function show_annotations(uri) {
 	  	  	}
 	  	  	html += '</ul>';	
 	  	  	
-	  	  	e.html(e.html() + html); 
-	  	  }
-	  }
-	});  
-	
-}            
-
-//--------------------------------------------------------------------------------------------------
-// annotations?
-function show_bhl_annotations(uri) {
-
-	var e = $('#pidannotate');
-	
-	
-   $.ajax({
-	  type: "GET",
-	  url: annotation_url +
-		encodeURIComponent(uri),
-	  success: function(data) {
-	  
-	  		console.log(JSON.stringify(data,null,2));
-	  
-	  	  if (data) {
-	  	    var html = '<ul>';
-	  	  	for (var i =0; i < data.length; i++) {
-	  	  		html += '<li>';	  	  		
-	  	  		html += '<a href="' + data[i].url + '">';
-	  	  		html += data[i].title;
-	  	  		html += '</a>';
-	  	  		
-	  	  		if (data[i].image) {
-	  	  			html += '<div class="pidannotate-image-container">';
-	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data[i].image + '">';	  	  			
-	  	  			html += '</div>';
-	  	  			html += '</div>';
-	  	  		}
-	  	  		
-	  	  		html += '</li>';
+	  	  	if (is_bhl) {
+	  	  		document.getElementById('bhl_links').innerHTML = html; 	
+	  	  	} else {
+	  	  		e.html(e.html() + html); 
 	  	  	}
-	  	  	html += '</ul>';	
-	  	  	 
-	  	  	document.getElementById('bhl_links').innerHTML = html; 	  
+	  	  	
+	  	  	
 	  	  }
 	  }
 	});  
 	
-}            
+}
 
 
 //--------------------------------------------------------------------------------------------------
@@ -147,7 +114,6 @@ function releasetheKraken() {
   }
   
   
-
   var e = null;
   if (!$('#pidannotate').length) {
   
@@ -524,7 +490,7 @@ function releasetheKraken() {
 
         document.getElementById('bhl_page').innerHTML = currentpageURL;
         
-        show_bhl_annotations(currentpageURL);
+        show_annotations(currentpageURL, true);
 
         // https://stackoverflow.com/questions/41424989/javascript-listen-for-attribute-change
         observer = new MutationObserver(function(mutations) {
@@ -534,9 +500,8 @@ function releasetheKraken() {
               document.getElementById('bhl_page').innerHTML = currentpageURL;
               document.getElementById('bhl_links').innerHTML = "";
               console.log("attributes changed")
-              
-              
-               show_bhl_annotations(currentpageURL);
+                            
+               show_annotations(currentpageURL, true);
               
             }
           });
