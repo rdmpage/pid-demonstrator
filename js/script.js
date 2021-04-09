@@ -73,7 +73,13 @@ function show_annotations(uri, is_bhl = false) {
 	  	  		var list_style = 'list-style-type:circle;';
 	  	  		
 	  	  		if (data[i].favicon) {
-	  	  			list_style = 'list-style-image: url(https://aipbvczbup.cloudimg.io/s/height/16/' + data[i].favicon + ');';
+	  	  			if (data[i].favicon.match(/\.ico$/)) {
+	  	  				// ICO files treated as is
+		  	  			list_style = 'list-style-image: url(' + data[i].favicon + ');';	  	  			
+	  	  			} else {
+	  	  				// could be a big image (e.g., EJT) so ensure we resize it
+		  	  			list_style = 'list-style-image: url(https://aipbvczbup.cloudimg.io/s/height/16/' + data[i].favicon + ');';
+		  	  		}
 	  	  		}
 	  	  	
 	  	  		html += '<li style="' + list_style + '">';	  	  		
