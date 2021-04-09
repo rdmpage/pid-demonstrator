@@ -326,6 +326,19 @@ function get_details($url)
 			{
 				$site->favicon = 'https://www.kew.org/themes/custom/kew_gardens/assets/favicons/favicon-32x32.png';
 			}
+			if (preg_match('/botanicalcollections.be/', $url))
+			{
+				$site->favicon = 'https://www.botanicalcollections.be/favicon.ico';
+			}
+			if (preg_match('/data.rbge.org.uk/', $url))
+			{
+				$site->favicon = 'https://data.rbge.org.uk/favicon.ico';
+			}
+			if (preg_match('/bl.uk/', $url))
+			{
+				$site->favicon = 'https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico';
+			}
+			
 		}
 		
 		// last ditch attempt to get title
