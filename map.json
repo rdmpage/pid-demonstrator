@@ -26,19 +26,22 @@
     "https://doi.org/10.1017/S0960428619000349": [
         {
             "url": "https://data.rbge.org.uk/herb/E00179300",
-            "title": "Royal Botanic Garden Edinburgh - Herbarium catalogue"
+            "title": "Royal Botanic Garden Edinburgh - Herbarium catalogue",
+            "image": "https://data.rbge.org.uk/images/71679"
         },
         {
             "url": "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275",
             "title": "Collection specimens - Specimens - BM000944668 - Data Portal",
             "site_url": "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275",
-            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico"
+            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico",
+            "image": "https://www.nhm.ac.uk/services/media-store/asset/50f67e218a9fd015b241933d00cb74a708a63cbf/contents/thumbnail"
         },
         {
             "url": "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690",
             "title": "Collection specimens - Specimens - BM000944669 - Data Portal",
             "site_url": "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690",
-            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico"
+            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico",
+            "image": "https://www.nhm.ac.uk/services/media-store/asset/2956f6db8eab6a91544c923c77476d9e5a4ed741/contents/thumbnail"
         }
     ],
     "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275": [
@@ -74,13 +77,15 @@
     "https://www.biodiversitylibrary.org/page/56312118": [
         {
             "url": "https://www.botanicalcollections.be/specimen/BR0000019451688",
-            "title": "Botanical Collections"
+            "title": "Botanical Collections",
+            "image": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
         }
     ],
     "https://doi.org/10.5852/ejt.2015.126": [
         {
             "url": "https://www.botanicalcollections.be/specimen/BR0000019451688",
-            "title": "Botanical Collections"
+            "title": "Botanical Collections",
+            "image": "http://oxalis.br.fgov.be/images/BR0/000/019/451/688/BR0000019451688.jpg"
         }
     ],
     "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f": [

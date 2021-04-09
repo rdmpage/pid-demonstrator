@@ -9,12 +9,79 @@ use Sunra\PhpSimple\HtmlDomParser;
 
 require_once (dirname(__FILE__) . '/config.inc.php');
 
+//----------------------------------------------------------------------------------------
 function base64_url_encode($input) {
  return strtr(base64_encode($input), '+/=', '._-');
 }
 
+//----------------------------------------------------------------------------------------
 function base64_url_decode($input) {
  return base64_decode(strtr($input, '._-', '+/='));
+}
+
+//----------------------------------------------------------------------------------------
+// get
+function get($url, $format = 'application/ld+json')
+{
+	global $config;
+	
+	$data = '';
+	
+	$extension = 'txt';
+	
+	switch ($format)
+	{
+		case 'application/ld+json':
+			$extension = 'json';
+			break;
+
+		case 'application/rdf+xml':
+			$extension = 'xml';
+			break;
+	
+		default:
+			break;
+	}
+	
+	$filename = $config['cache'] . '/' . base64_url_encode($url) . '.' . $extension;
+	
+	if (!file_exists($filename))
+	{
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   	
+		curl_setopt($ch, CURLOPT_HTTPHEADER, 
+			array(
+				"Accept: " . $format 
+				)
+			);
+
+		$response = curl_exec($ch);
+		if($response == FALSE) 
+		{
+			$errorText = curl_error($ch);
+			curl_close($ch);
+			die($errorText);
+		}
+	
+		$info = curl_getinfo($ch);
+		$http_code = $info['http_code'];
+		
+		
+		if ($response != '')
+		{
+			file_put_contents($filename, $response);
+	
+		}		
+	
+		curl_close($ch);
+	}
+	
+	$data = file_get_contents($filename);
+	
+	return $data;
 }
 
 //----------------------------------------------------------------------------------------
@@ -28,9 +95,6 @@ function get_html($url)
 	
 	if (!file_exists($filename))
 	{
-	
-	
-
 		$opts = array(
 		  CURLOPT_URL =>$url,
 		  CURLOPT_FOLLOWLOCATION => TRUE,
@@ -266,7 +330,74 @@ function get_details($url)
 					$site->title = $element->plaintext;
 				}
 			}
+		}
+		
+		// special handling for specimens
+		
+		if (preg_match('/data.nhm.ac.uk/', $url))
+		{
+			/*
+			// JSON-LD
+			$scripts = $dom->find('script[type=application/ld+json]');
+			foreach ($scripts as $script)
+			{
+				$json = $script->innertext;
+			}
+			*/
+			
+			$rdf = get($url, 'application/rdf+xml');
+			
+			$dom= new DOMDocument;
+			$dom->loadXML($rdf);
+			$xpath = new DOMXPath($dom);
+			
+			$xpath->registerNamespace('foaf', 'http://xmlns.com/foaf/0.1/');
+			$xpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+
+			foreach($xpath->query('//foaf:Image/foaf:thumbnail/@rdf:resource') as $node)
+			{
+				$site->image = $node->firstChild->nodeValue;
+			}
+		}
+		
+		if (preg_match('/data.rbge.org.uk/', $url))
+		{
+			// RDF
+			
+			$rdf = get($url, 'application/rdf+xml');
+			
+			$dom= new DOMDocument;
+			$dom->loadXML($rdf);
+			$xpath = new DOMXPath($dom);
+			
+			$xpath->registerNamespace('dwc', 'http://rs.tdwg.org/dwc/terms/');
+			$xpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+
+			foreach($xpath->query('//dwc:associatedMedia/@rdf:resource') as $node)
+			{
+				$site->image = $node->firstChild->nodeValue;
+			}
+		}
+		
+		if (preg_match('/botanicalcollections.be/', $url))
+		{
+			// RDF
+			
+			$rdf = get($url, 'application/rdf+xml');
+			
+			$dom= new DOMDocument;
+			$dom->loadXML($rdf);
+			$xpath = new DOMXPath($dom);
+			
+			$xpath->registerNamespace('dwc', 'http://rs.tdwg.org/dwc/terms/');
+			$xpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+
+			foreach($xpath->query('//dwc:associatedMedia/@rdf:resource') as $node)
+			{
+				$site->image = $node->firstChild->nodeValue;
+			}
 		}		
+				
 		
 	}
 	
