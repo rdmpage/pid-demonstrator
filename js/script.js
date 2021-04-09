@@ -74,7 +74,7 @@ function show_annotations(uri) {
 	  	  		html += data[i].title;
 	  	  		html += '</a>';
 	  	  		
-	  	  		if (data[i].image]) {
+	  	  		if (data[i].image) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
 					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data[i].image + '">';	  	  			
@@ -116,7 +116,7 @@ function show_bhl_annotations(uri) {
 	  	  		html += data[i].title;
 	  	  		html += '</a>';
 	  	  		
-	  	  		if (data[i].image]) {
+	  	  		if (data[i].image) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
 					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data[i].image + '">';	  	  			
