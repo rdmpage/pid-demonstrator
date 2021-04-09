@@ -64,21 +64,20 @@ function show_annotations(uri) {
 	  url: annotation_url +
 		encodeURIComponent(uri),
 	  success: function(data) {
-	  		console.log(JSON.stringify(data,null,2));
+	  	  console.log(JSON.stringify(data,null,2));
 	  		
-	  	  if (data.linkUrls) {
+	  	  if (data) {
 	  	    var html = '<ul>';
-	  	  	for (var i =0; i < data.linkUrls.length; i++) {
-	  	  		html += '<li>';
-	  	  		
-	  	  		html += '<a href="' + data.linkUrls[i] + '">';
-	  	  		html += data.linkUrls[i];
+	  	  	for (var i =0; i < data.length; i++) {
+	  	  		html += '<li>';	  	  		
+	  	  		html += '<a href="' + data[i].url + '">';
+	  	  		html += data[i].title;
 	  	  		html += '</a>';
 	  	  		
-	  	  		if (data.linkImages[data.linkUrls[i]]) {
+	  	  		if (data[i].image]) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkImages[data.linkUrls[i]] + '">';	  	  			
+					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data[i].image + '">';	  	  			
 	  	  			html += '</div>';
 	  	  			html += '</div>';
 	  	  		}
@@ -109,26 +108,26 @@ function show_bhl_annotations(uri) {
 	  
 	  		console.log(JSON.stringify(data,null,2));
 	  
-	  	  if (data.linkUrls) {
+	  	  if (data) {
 	  	    var html = '<ul>';
-	  	  	for (var i =0; i < data.linkUrls.length; i++) {
-	  	  		html += '<li>';
-
-	  	  		html += '<a href="' + data.linkUrls[i] + '">';
-	  	  		html += data.linkUrls[i];
+	  	  	for (var i =0; i < data.length; i++) {
+	  	  		html += '<li>';	  	  		
+	  	  		html += '<a href="' + data[i].url + '">';
+	  	  		html += data[i].title;
 	  	  		html += '</a>';
 	  	  		
-	  	  		if (data.linkImages[data.linkUrls[i]]) {
+	  	  		if (data[i].image]) {
 	  	  			html += '<div class="pidannotate-image-container">';
 	  	  			html += '<div class="pidannotate-image-item">';
-					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data.linkImages[data.linkUrls[i]] + '">';	  	  			
+					html += '<img src="https://aipbvczbup.cloudimg.io/s/height/100/' + data[i].image + '">';	  	  			
 	  	  			html += '</div>';
 	  	  			html += '</div>';
 	  	  		}
-
+	  	  		
 	  	  		html += '</li>';
 	  	  	}
-	  	  	html += '</ul>';	 
+	  	  	html += '</ul>';	
+	  	  	 
 	  	  	document.getElementById('bhl_links').innerHTML = html; 	  
 	  	  }
 	  }
