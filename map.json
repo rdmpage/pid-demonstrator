@@ -141,5 +141,38 @@
             "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg",
             "favicon": "https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico"
         }
+    ],
+    "https://doi.org/10.25034/ijcua.2019.v3n3-5": [
+        {
+            "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100022591634.0x000001",
+            "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100022591634.0x000001",
+            "title": "Famous persons and famous places",
+            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022591667.0x000001/full/!243,400/0/default.jpg",
+            "favicon": "https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico"
+        }
+    ],
+    "http://access.bl.uk/item/viewer/ark:/81055/vdc_100022591634.0x000001": [
+        {
+            "url": "https://doi.org/10.25034/ijcua.2019.v3n3-5",
+            "title": "Scrutinising The Production Of Space On The Example Of Regent Street and Painting A Modern Life By The Agencies Of Regency",
+            "favicon": "https://ijcua.com/public/journals/1/favicon_en_US.jpg"
+        }
+    ],
+    "https://books.google.com/books?id=URKEDwAAQBAJ": [
+        {
+            "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001",
+            "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001",
+            "title": "Catiline: a tragedy in five acts. With other poems",
+            "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100025566879.0x000001/full/!273,400/0/default.jpg",
+            "favicon": "https://www.bl.uk/britishlibrary/resources/global/images/favicon.ico"
+        }
+    ],
+    "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001": [
+        {
+            "url": "https://books.google.com/books?id=URKEDwAAQBAJ",
+            "site_url": "https://books.google.com/books/about/Reviving_Cicero_in_Drama.html?id=URKEDwAAQBAJ",
+            "title": "Reviving Cicero in Drama",
+            "image": "https://books.google.co.uk/books/publisher/content?id=URKEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;imgtk=AFLRE71HUHHV6DNgEozv7lBEOkscs_eK8RoVPtkkcPSvA4kO8GgaVisacirb14r9j7ImtuOndOsiEmMZK6UAh_Nzs5mQJnRxNclFa0y0n410mrDZV2RZxg61xQhFWoFfY4CktZRvBjTn"
+        }
     ]
 }
