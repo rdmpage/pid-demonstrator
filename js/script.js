@@ -489,7 +489,9 @@ function releasetheKraken() {
       	guid.namespace = 'google';
       	guid.identifier = m[3];
       	guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
-    }    
+    }  
+    
+    e.html(e.html() + window.location.href);  
     
   }
 
