@@ -3,7 +3,9 @@
         {
             "url": "https://doi.org/10.3897/phytokeys.94.21753",
             "image": "https://phytokeys.pensoft.net/showimg.php?filename=d200x_182177.jpg",
-            "title": "Rediscovery and amended descriptions of Begonia kingdon-wardii (Begoniaceae) from North Myanmar"
+            "title": "Rediscovery and amended descriptions of Begonia kingdon-wardii (Begoniaceae) from North Myanmar",
+            "site_url": "https://phytokeys.pensoft.net/article/21753/",
+            "favicon": "https://phytokeys.pensoft.net/i/ico/phytokeys.ico"
         }
     ],
     "https://doi.org/10.3897/phytokeys.94.21753": [
@@ -15,8 +17,10 @@
     "https://data.rbge.org.uk/herb/E00179300": [
         {
             "url": "https://doi.org/10.1017/S0960428619000349",
+            "site_url": "https://www.cambridge.org/core/journals/edinburgh-journal-of-botany/article/abs/new-section-begonia-sect-flocciferae-sect-nov-and-two-new-species-in-begoniaceae-from-the-western-ghats-of-india/0980D38ECB3C77F8D8BBEB2D85EBFAC4",
             "title": "A NEW SECTION (BEGONIA SECT. FLOCCIFERAE SECT. NOV.) AND TWO NEW SPECIES IN BEGONIACEAE FROM THE WESTERN GHATS OF INDIA | Edinburgh Journal of Botany | Cambridge Core",
-            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true"
+            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true",
+            "favicon": "https://www.cambridge.org/core/cambridge-core/public/images/favicon.ico"
         }
     ],
     "https://doi.org/10.1017/S0960428619000349": [
@@ -26,25 +30,33 @@
         },
         {
             "url": "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275",
-            "title": "Collection specimens - Specimens - BM000944668 - Data Portal"
+            "title": "Collection specimens - Specimens - BM000944668 - Data Portal",
+            "site_url": "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275",
+            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico"
         },
         {
             "url": "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690",
-            "title": "Collection specimens - Specimens - BM000944669 - Data Portal"
+            "title": "Collection specimens - Specimens - BM000944669 - Data Portal",
+            "site_url": "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690",
+            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico"
         }
     ],
     "https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275": [
         {
             "url": "https://doi.org/10.1017/S0960428619000349",
+            "site_url": "https://www.cambridge.org/core/journals/edinburgh-journal-of-botany/article/abs/new-section-begonia-sect-flocciferae-sect-nov-and-two-new-species-in-begoniaceae-from-the-western-ghats-of-india/0980D38ECB3C77F8D8BBEB2D85EBFAC4",
             "title": "A NEW SECTION (BEGONIA SECT. FLOCCIFERAE SECT. NOV.) AND TWO NEW SPECIES IN BEGONIACEAE FROM THE WESTERN GHATS OF INDIA | Edinburgh Journal of Botany | Cambridge Core",
-            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true"
+            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true",
+            "favicon": "https://www.cambridge.org/core/cambridge-core/public/images/favicon.ico"
         }
     ],
     "https://data.nhm.ac.uk/object/72adf3f6-2ec9-47ac-b525-5028a2be2690": [
         {
             "url": "https://doi.org/10.1017/S0960428619000349",
+            "site_url": "https://www.cambridge.org/core/journals/edinburgh-journal-of-botany/article/abs/new-section-begonia-sect-flocciferae-sect-nov-and-two-new-species-in-begoniaceae-from-the-western-ghats-of-india/0980D38ECB3C77F8D8BBEB2D85EBFAC4",
             "title": "A NEW SECTION (BEGONIA SECT. FLOCCIFERAE SECT. NOV.) AND TWO NEW SPECIES IN BEGONIACEAE FROM THE WESTERN GHATS OF INDIA | Edinburgh Journal of Botany | Cambridge Core",
-            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true"
+            "image": "https://static.cambridge.org/covers/EJB_0_0_0/edinburgh_journal of botany.jpg?send-full-size-image=true",
+            "favicon": "https://www.cambridge.org/core/cambridge-core/public/images/favicon.ico"
         }
     ],
     "https://www.botanicalcollections.be/specimen/BR0000019451688": [
@@ -74,6 +86,7 @@
     "http://n2t.net/ark:/65665/30b0ddb69-1153-4227-97f2-073822927f5f": [
         {
             "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ842586",
+            "favicon": "https://www.ncbi.nlm.nih.gov/favicon.ico",
             "title": "Mugil cephalus voucher SMSA7005 cytochrome oxidase subunit 1 (COI) gen - Nucleotide - NCBI"
         }
     ],
@@ -86,12 +99,15 @@
     "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6": [
         {
             "url": "https://doi.org/10.5334/dsj-2017-021",
-            "title": "Data Science Journal"
+            "title": "Data Science Journal",
+            "site_url": "http://datascience.codata.org/articles/10.5334/dsj-2017-021/",
+            "favicon": "http://datascience.codata.org/jms/public/journals/1/journalFavicon_en_US.ico"
         }
     ],
     "https://doi.org/10.5334/dsj-2017-021": [
         {
             "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6",
+            "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_0000000511E6",
             "title": "Bertha's Earl. A novel Collection Item",
             "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_0000000511E2.0x000007/full/!249,400/0/default.jpg"
         }
@@ -100,6 +116,7 @@
         {
             "url": "https://doi.org/10.4000/cve.6886",
             "title": "Proust’s Ruskin: From Illustration to Illumination",
+            "site_url": "http://journals.openedition.org/cve/6886",
             "image": "https://www.openedition.org/docannexe/image/12068/vignette_CVE.png",
             "favicon": "https://static.openedition.org/journals/images/favicon.png"
         }
@@ -107,6 +124,7 @@
     "https://doi.org/10.4000/cve.6886": [
         {
             "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001",
+            "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100024135011.0x000001",
             "title": "Italy, a poem",
             "image": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100024135018.0x000001/full/!264,400/0/default.jpg"
         }

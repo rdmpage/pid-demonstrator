@@ -124,6 +124,14 @@ function get_details($url)
 							$site->image = $meta->content;
 						}
 						break;
+						
+					case 'og:url':
+						if (!isset($site->site_url))
+						{
+							$site->site_url = $meta->content;
+						}
+						break;
+						
 					
 					default:
 						break;
@@ -177,6 +185,21 @@ function get_details($url)
 			}		
 		}
 		
+		// canonical URL
+		if (!isset($site->site_url))
+		{
+			$links = $dom->find('link');
+
+			foreach ($links as $link)
+			{
+				if (isset($link->rel) && $link->rel == "canonical")
+				{
+					$site->site_url = $link->href;
+				}
+			}
+		}
+		
+		
 		// favicon
 		if (!isset($site->favicon))
 		{
@@ -191,6 +214,7 @@ function get_details($url)
 					{
 						case 'icon':
 						case 'shortcut icon':
+						case 'SHORTCUT ICON':
 							if (!isset($site->favicon))
 							{
 								// is it a relative or an absolute link?
@@ -198,6 +222,21 @@ function get_details($url)
 								{							
 									$site->favicon = $link->href;
 								}
+								
+								if (preg_match('/^\/\//', $link->href))
+								{					
+									$parts = parse_url($url);
+										
+									$site->favicon = $parts['scheme'] . ':' . $link->href;
+								}
+
+								if (preg_match('/^\/\w/', $link->href) && isset($site->site_url))
+								{					
+									$parts = parse_url($site->site_url);
+										
+									$site->favicon = $parts['scheme'] . '://' . $parts['host'] . $link->href;
+								}
+								
 							}
 							break;
 							
