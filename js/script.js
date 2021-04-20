@@ -509,7 +509,9 @@ function releasetheKraken() {
 		{
 			guid.namespace = 'google';
 			guid.identifier = m[3];
-			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
+			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    
+			
+			guid.uri = window.location.href;	
 		}  
     }
     
@@ -523,7 +525,9 @@ function releasetheKraken() {
 		{
 			guid.namespace = 'google';
 			guid.identifier = m[2];
-			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
+			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier; 
+			
+			guid.uri = window.location.href;
 		}  
     }    
     
