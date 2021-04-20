@@ -158,7 +158,7 @@
             "favicon": "https://ijcua.com/public/journals/1/favicon_en_US.jpg"
         }
     ],
-    "https://books.google.com/books?id=URKEDwAAQBAJ": [
+    "https://www.google.co.uk/books/edition/Reviving_Cicero_in_Drama/URKEDwAAQBAJ": [
         {
             "url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001",
             "site_url": "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001",
@@ -169,11 +169,110 @@
     ],
     "http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001": [
         {
-            "url": "https://books.google.com/books?id=URKEDwAAQBAJ",
-            "site_url": "https://books.google.com/books/about/Reviving_Cicero_in_Drama.html?id=URKEDwAAQBAJ",
-            "title": "Reviving Cicero in Drama",
-            "image": "https://books.google.co.uk/books/publisher/content?id=URKEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;imgtk=AFLRE71HUHHV6DNgEozv7lBEOkscs_eK8RoVPtkkcPSvA4kO8GgaVisacirb14r9j7ImtuOndOsiEmMZK6UAh_Nzs5mQJnRxNclFa0y0n410mrDZV2RZxg61xQhFWoFfY4CktZRvBjTn",
-            "favicon": "https://www.google.com/favicon.ico"
+            "url": "https://www.google.co.uk/books/edition/Reviving_Cicero_in_Drama/URKEDwAAQBAJ",
+            "title": "Google Books"
+        }
+    ],
+    "http://n2t.net/ark:/65665/3285d4b9d-0bd0-421f-bc05-f0e82f454950": [
+        {
+            "url": "https://doi.org/10.3897/phytokeys.139.38354",
+            "image": "https://phytokeys.pensoft.net/showimg.php?filename=d200x_375491.jpg",
+            "title": "Two new species for Gochnatia Kunth (Asteraceae, Gochnatieae) and an extension of the tribal range into Ecuador",
+            "site_url": "https://phytokeys.pensoft.net/article/38354/",
+            "favicon": "https://phytokeys.pensoft.net/i/ico/phytokeys.ico"
+        }
+    ],
+    "https://doi.org/10.3897/phytokeys.139.38354": [
+        {
+            "url": "http://n2t.net/ark:/65665/3285d4b9d-0bd0-421f-bc05-f0e82f454950",
+            "title": "Botany Collections Search"
+        }
+    ],
+    "http://n2t.net/ark:/65665/3c1ac9b93-e32b-4ff5-a01e-0f783ac3299a": [
+        {
+            "url": "https://doi.org/10.7717/peerj.2964",
+            "title": "Exoskeletons of Bougainvilliidae and other Hydroidolina (Cnidaria, Hydrozoa): structure and composition",
+            "image": "https://dfzljdn9uc3pi.cloudfront.net/2017/2964/1/fig-2-1x.jpg",
+            "site_url": "https://peerj.com/articles/2964",
+            "favicon": "https://d2pdyyx74uypu5.cloudfront.net/images/favicon/peerj/android-icon-192x192.png"
+        }
+    ],
+    "https://doi.org/10.7717/peerj.2964": [
+        {
+            "url": "http://n2t.net/ark:/65665/3c1ac9b93-e32b-4ff5-a01e-0f783ac3299a",
+            "title": "Invertebrate Zoology Collections Search"
+        }
+    ],
+    "https://doi.org/10.5519/0002965 ": [
+        {
+            "url": "https://doi.org/10.1016/j.jcz.2020.06.006",
+            "title": "Redirecting"
+        }
+    ],
+    "https://doi.org/10.1016/j.jcz.2020.06.006": [
+        {
+            "url": "https://doi.org/10.5519/0002965 ",
+            "title": "Collection specimens"
+        },
+        {
+            "url": "http://n2t.net/ark:/65665/31a082229-1648-4f2a-98e0-d2b051320cdc",
+            "title": "Entomology Collections Search"
+        }
+    ],
+    "http://n2t.net/ark:/65665/31a082229-1648-4f2a-98e0-d2b051320cdc": [
+        {
+            "url": "https://doi.org/10.1016/j.jcz.2020.06.006",
+            "title": "Redirecting"
+        }
+    ],
+    "https://doi.org/10.7925/drs1.ucdlib_33546": [
+        {
+            "url": "https://doi.org/10.3390/h6030045 ",
+            "title": "Joyce’s “Force” and His Tuskers as Modern Animals",
+            "image": "https://www.mdpi.com/img/journals/humanities-logo-sq.png?f08a2b35bda2dcc3",
+            "site_url": "https://www.mdpi.com/2076-0787/6/3/45"
+        }
+    ],
+    "https://doi.org/10.3390/h6030045 ": [
+        {
+            "url": "https://doi.org/10.7925/drs1.ucdlib_33546",
+            "title": "Pat",
+            "site_url": "https://digital.ucd.ie/view/ucdlib:33546",
+            "image": "/get/ucdlib:33546/thumbnail",
+            "favicon": "https://digital.ucd.ie/favicon.ico"
+        }
+    ],
+    "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9 ": [
+        {
+            "url": "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/ ",
+            "title": "Liquid Lines: Synthesizing Perception and Precision - Association of Collegiate Schools of Architecture",
+            "site_url": "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/",
+            "image": "https://www.acsa-arch.org/wp-content/uploads/2019/07/ACSA-Featured-Social-Image.png",
+            "favicon": "https://www.acsa-arch.org/wp-content/uploads/2019/08/ACSA-Site-Icon-01.png"
+        }
+    ],
+    "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/ ": [
+        {
+            "url": "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9 ",
+            "title": "400 Bad Request"
+        }
+    ],
+    "https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293": [
+        {
+            "url": "https://doi.org/10.1371/journal.pone.0053873",
+            "title": "Why the Long Face? The Mechanics of Mandibular Symphysis Proportions in Crocodiles",
+            "site_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053873",
+            "image": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0053873.g029&size=inline",
+            "favicon": "https://journals.plos.org/plosone/resource/img/favicon.ico"
+        }
+    ],
+    "https://doi.org/10.1371/journal.pone.0053873": [
+        {
+            "url": "https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293",
+            "title": "Collection specimens - Specimens - 1886.10.4.2 - Data Portal",
+            "site_url": "https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293",
+            "favicon": "https://data.nhm.ac.uk/images/icons/nhm.ico",
+            "image": "https://www.nhm.ac.uk/services/media-store/asset/fa1416ac9796e38e0f8ff760dd6ced8384a12ae0/contents/thumbnail"
         }
     ]
 }
