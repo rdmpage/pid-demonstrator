@@ -531,6 +531,8 @@ function releasetheKraken() {
    
     
   }
+  
+  console.log(JSON.stringify(guid,null,2));
 
   //--------------------------------------------------------------------------------------
   // Now we (might) have an identifier, what can we do with it?
