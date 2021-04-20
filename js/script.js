@@ -484,7 +484,7 @@ function releasetheKraken() {
       	// 65665/3715cc0ec8f0244ba8bd700371fae6ab9
       	
       	var uuid = '';
-		uuid += guid.identifier.substring(6,15);
+		uuid += guid.identifier.substring(0,15);
 		uuid += '-' + guid.identifier.substring(15,19);	
 		uuid += '-' + guid.identifier.substring(19,23);	
 		uuid += '-' + guid.identifier.substring(23,27);	
