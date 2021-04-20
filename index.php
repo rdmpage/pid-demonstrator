@@ -17,6 +17,8 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 		}
 	</style>
 	<title><?php echo $config['site_name']; ?></title>
+	<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
 </head>
 <body>
 	<h1>PID Demonstrator</h1>
@@ -39,6 +41,28 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 	
 	</ul>
 	
+	<h2>Rationale</h2>
+	
+<h3>Citation graph as inspiration</h3>
+		
+		<p>Academic articles have a Digital Object Identifiers (DOI) (e.g., <b>10.1371/journal.pone.0053873</b>), as do the works cited by that article (mostly). This makes it easy to have a network of interconnected papers (linked by the citation relationship).</p>
+		
+		<ol>
+			<li>Reader can trace the <b>provenance</b> of ideas, data, quotes, etc. (follow the DOIs)</li>
+			<li>We get <b>metrics</b> of use (e.g., number of citations of that paper)</li>
+			<li>Enable <b>third party ecosystem</b> that link stuff to the DOI (e.g. altmetric "donut")
+			
+			<div style="padding:10px;" data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1371/journal.pone.0053873" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+			</li>
+		</ol>	
+		
+	<h3>Vision: A network of collection objects and works that use them</h3>
+	
+	<p>
+		The citation graph is nice, but it is limited to links between the same sort of things (academic papers). A <b>collection objects graph</b> would connect collection objects (specimens, objects, scanned images, etc.) with work based on those objects (e.g., academic papers, analysis of DNA or other properties, social media, Wikipedia, etc.). The PID demonstrator takes a small, manually assembled collection object graph and uses it to enrich the experience of visiting web sites for things that are in that graph.
+	</p>		
+	
 	<h2>See for yourself</h2>
 	
 	<h3>Step 1</h3>
@@ -59,6 +83,8 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 		<li><a href="https://data.nhm.ac.uk/object/adbba503-eef1-44de-b7d2-fddc8b4e6275" target="_new"><i>Begonia floccifera</i> BM000944668 (Natural History Museum)</a></li>
 
 		<li><a href="http://access.bl.uk/item/viewer/ark:/81055/vdc_100025566860.0x000001" target="_new">Catiline: a tragedy in five acts. With other poems(British Library)</a></li>
+		
+		<li><a href="http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9" target="_new">Stick Navigation Chart</a></li>
 	</ul>
 	
 	<h4>Work that cites Collection objects</h4>
@@ -69,6 +95,7 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 		
 		
 		<li><a href="https://books.google.com/books?id=URKEDwAAQBAJ" target="_new">Reviving Cicero in Drama (Google Books)</a></li>
+		<li><a href="https://doi.org/10.1016/j.jcz.2020.06.006" target="_new">The killer flies Coenosia Meigen (Diptera: Muscidae) of southern South America: Resolving the taxonomic puzzle of Coenosia inaequalis Malloch, 1934</a></li>
 	</ul>	
 
 </body>
