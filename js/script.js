@@ -237,8 +237,6 @@ function releasetheKraken() {
     e = $('#pidannotate');
   }
 
-  // ×
-
   var html = '<span style="float:right;" onclick="rdmp_close(\'pidannotate\')">Close [x]</span>';
   
   // Title
@@ -261,6 +259,10 @@ function releasetheKraken() {
     if (metas[i].getAttribute("name") == "citation_doi") {
       guid.namespace = 'doi';
       guid.identifier = metas[i].getAttribute("content");
+      
+      // NHM WTF
+      guid.identifier = guid.identifier.replace(/doi:/, '');
+      
       guid.uri = 'https://doi.org/' + guid.identifier;
     }
 
@@ -496,17 +498,37 @@ function releasetheKraken() {
     	
     }
     
-    // Google Books (Google are such hypocrites when it comes to web standards)
-    // [0-9A-Za-z_\-]{12}
+    if (!guid.namespace) {
+
+		// Google Books (Google are such hypocrites when it comes to web standards)
+		// [0-9A-Za-z_\-]{12}
+	
+		pattern = /google(.*)(id=|\/)([0-9A-Za-z_\-]{12})\b/;
+		m = pattern.exec(window.location.href);
+		if (m)
+		{
+			guid.namespace = 'google';
+			guid.identifier = m[3];
+			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
+		}  
+    }
     
-    pattern = /google(.*)(id=|\/)([0-9A-Za-z_\-]{12})\b/;
-	m = pattern.exec(window.location.href);
-    if (m)
-    {
-      	guid.namespace = 'google';
-      	guid.identifier = m[3];
-      	guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
-    }  
+   if (!guid.namespace) {
+
+		 // /URKEDwAAQBAJ?hl=en
+	
+		pattern = /google(.*)\/([0-9A-Za-z_\-]{12})\?/;
+		m = pattern.exec(window.location.href);
+		if (m)
+		{
+			guid.namespace = 'google';
+			guid.identifier = m[2];
+			guid.uri = 'https://books.google.com/books?id=' +  guid.identifier;    	
+		}  
+    }    
+    
+    
+   
     
   }
 
