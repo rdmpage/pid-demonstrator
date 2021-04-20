@@ -203,7 +203,7 @@
             "title": "Invertebrate Zoology Collections Search"
         }
     ],
-    "https://doi.org/10.5519/0002965 ": [
+    "https://doi.org/10.5519/0002965": [
         {
             "url": "https://doi.org/10.1016/j.jcz.2020.06.006",
             "title": "Redirecting"
@@ -211,7 +211,7 @@
     ],
     "https://doi.org/10.1016/j.jcz.2020.06.006": [
         {
-            "url": "https://doi.org/10.5519/0002965 ",
+            "url": "https://doi.org/10.5519/0002965",
             "title": "Collection specimens"
         },
         {
@@ -227,13 +227,13 @@
     ],
     "https://doi.org/10.7925/drs1.ucdlib_33546": [
         {
-            "url": "https://doi.org/10.3390/h6030045 ",
+            "url": "https://doi.org/10.3390/h6030045",
             "title": "Joyce’s “Force” and His Tuskers as Modern Animals",
             "image": "https://www.mdpi.com/img/journals/humanities-logo-sq.png?f08a2b35bda2dcc3",
             "site_url": "https://www.mdpi.com/2076-0787/6/3/45"
         }
     ],
-    "https://doi.org/10.3390/h6030045 ": [
+    "https://doi.org/10.3390/h6030045": [
         {
             "url": "https://doi.org/10.7925/drs1.ucdlib_33546",
             "title": "Pat",
@@ -242,19 +242,19 @@
             "favicon": "https://digital.ucd.ie/favicon.ico"
         }
     ],
-    "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9 ": [
+    "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9": [
         {
-            "url": "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/ ",
+            "url": "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/",
             "title": "Liquid Lines: Synthesizing Perception and Precision - Association of Collegiate Schools of Architecture",
             "site_url": "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/",
             "image": "https://www.acsa-arch.org/wp-content/uploads/2019/07/ACSA-Featured-Social-Image.png",
             "favicon": "https://www.acsa-arch.org/wp-content/uploads/2019/08/ACSA-Site-Icon-01.png"
         }
     ],
-    "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/ ": [
+    "https://www.acsa-arch.org/chapter/liquid-lines-synthesizing-perception-and-precision/": [
         {
-            "url": "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9 ",
-            "title": "400 Bad Request"
+            "url": "http://n2t.net/ark:/65665/3715cc0ec-8f02-44ba-8bd7-00371fae6ab9",
+            "title": "Anthropology Collections Search"
         }
     ],
     "https://data.nhm.ac.uk/object/8559613e-f2a3-447c-aa1a-d476600d3293": [
