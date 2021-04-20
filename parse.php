@@ -510,7 +510,7 @@ while (!feof($file_handle))
 			{
 				if ($v != '')
 				{
-					$obj->{$headings[$k]} = $v;
+					$obj->{$headings[$k]} = trim($v);
 				}
 			}
 		
