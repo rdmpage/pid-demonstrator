@@ -475,7 +475,22 @@ function releasetheKraken() {
     {
       	guid.namespace = 'ark';
       	guid.identifier = m[1];
-      	guid.uri = 'http://n2t.net/ark:/' +  guid.identifier;
+      	
+      	// Not actually a UUID as these are 9-4-4-4-12 and a UUID is 8-4-4-4-12 FFS
+      	
+      	// 3715cc0ec8f0244ba8bd700371fae6ab9
+      	// 3715cc0ec-8f02-44ba-8bd7-00371fae6ab9
+      	// 123e4567-e89b-12d3-a456-426614174000
+      	var uuid = '';
+      	uuid += guid.identifier.substring(0, 9);
+      	uuid += '-' + guid.identifier.substring(9, 4);
+     	uuid += '-' + guid.identifier.substring(13, 4);
+     	uuid += '-' + guid.identifier.substring(17, 4);
+     	uuid += '-' + guid.identifier.substring(21, 12);
+      	
+      	console.log(uuid);
+      	
+      	guid.uri = 'http://n2t.net/ark:/' +  uuid;
     	
     }
     
