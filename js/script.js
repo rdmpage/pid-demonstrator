@@ -547,6 +547,7 @@ function releasetheKraken() {
   if (guid.namespace) {
   
   	var h = '<p>PID ' + guid.namespace + ':' + guid.identifier + '</p>';
+  	e.html(e.html() + h);
   
   	// e.html(e.html() + "<h2>Links</h2>");
   
