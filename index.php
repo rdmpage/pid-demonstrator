@@ -12,7 +12,7 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 			margin: 0px;
 			padding:40px;
 			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-			font-size:1em;
+			font-size: 2em;
 			line-height: 1.5;
 		}
 	</style>
