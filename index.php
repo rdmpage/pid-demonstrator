@@ -23,6 +23,8 @@ require_once (dirname(__FILE__) . '/config.inc.php');
 <body>
 	<h1>PID Demonstrator</h1>
 	
+	<h2>http://bit.ly/piddemo</h2>
+	
 	<p>A proof of concept by Rod Page as part of the <a href="https://tanc-ahrc.github.io/HeritagePIDs/">Towards a National Collection - HeritagePIDs</a> project. Source on <a href="https://github.com/rdmpage/pid-demonstrator">GitHub</a>.</p>
 	
 	<p>The PID Demonstrator is a simple tool to explore links between collection objects and work based on those objects, using persistent identifiers (PIDs) as the glue.</p>
