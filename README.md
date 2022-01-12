@@ -2,6 +2,8 @@
 
 Persistent identifiers demonstrator for [Towards a National Collection - HeritagePIDs](https://tanc-ahrc.github.io/HeritagePIDs/).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4560194.svg)](https://doi.org/10.5281/zenodo.4560194)
+
 ## Version 2 rethink
 
 Version 1 (described below) used a triple store for the annotations, which means we need RDF and SPARQL. This means we can embed this problem in a much bigger space (e.g., the biodiversity knowledge graph) but it makes life more complicated, especially if we want to be able to easily add examples.
