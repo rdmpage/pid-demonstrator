@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "9a946c05f3d7c5bc77989ca0655728d8",
     "packages": [
         {
             "name": "digitalbazaar/json-ld",
-            "version": "0.4.7",
+            "version": "0.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalbazaar/php-json-ld.git",
-                "reference": "dc1bd23f0ee2efd27ccf636d32d2738dabcee182"
+                "reference": "6ee154068f244606150a67cebfa20dadd685945b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitalbazaar/php-json-ld/zipball/dc1bd23f0ee2efd27ccf636d32d2738dabcee182",
-                "reference": "dc1bd23f0ee2efd27ccf636d32d2738dabcee182",
+                "url": "https://api.github.com/repos/digitalbazaar/php-json-ld/zipball/6ee154068f244606150a67cebfa20dadd685945b",
+                "reference": "6ee154068f244606150a67cebfa20dadd685945b",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,11 @@
                 "json",
                 "jsonld"
             ],
-            "time": "2016-04-25T04:17:52+00:00"
+            "support": {
+                "issues": "https://github.com/digitalbazaar/php-json-ld/issues",
+                "source": "https://github.com/digitalbazaar/php-json-ld/tree/0.4.8"
+            },
+            "time": "2023-07-15T19:16:52+00:00"
         },
         {
             "name": "sunra/php-simple-html-dom-parser",
@@ -98,15 +102,20 @@
                 "html",
                 "parser"
             ],
+            "support": {
+                "issues": "https://github.com/sunra/php-simple-html-dom-parser/issues",
+                "source": "https://github.com/sunra/php-simple-html-dom-parser/tree/master"
+            },
             "time": "2016-11-22T22:57:47+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
